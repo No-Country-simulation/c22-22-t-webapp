@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from '../NavBar/Navbar'
-
+import './headerStyles.css'
 
 function Header() {
   return (
-    <>  
-        <div>Header</div>
+    <div className='header-container'>
+      <div>
+        Header
         <Navbar />
-    </>
+      </div>
+    </div>
   )
 }
 

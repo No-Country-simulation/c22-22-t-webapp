@@ -1,0 +1,14 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.pages-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+}

@@ -6,14 +6,14 @@ import './appLayoutStyles.css'
 
 function AppLayout() {
   return (
-    <>
+    <div className='layout-container'>
       <Header />
       {/* Pages */}
-      <div>
+      <div className='pages-container'>
         <Outlet />
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 
