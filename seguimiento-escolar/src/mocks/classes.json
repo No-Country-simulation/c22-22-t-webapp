@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "student_id": 1,
+        "total_classes": 100,
+        "classes_attended": 79,
+        "assignments_submitted": 8,
+        "total_assignments": 10
+    }
+]

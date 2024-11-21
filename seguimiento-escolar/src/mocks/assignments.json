@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "student_id": 1,
+        "subject": "Matemática",
+        "type": "Examen",
+        "date": "2024-11-13",
+        "time": "11:00-13:00"
+    },
+    {
+        "id": 2,
+        "student_id": 1,
+        "subject": "Física",
+        "type": "Entrega tp n° 7",
+        "date": "2024-11-17",
+        "time": "12:00-13:00"
+    },
+    {
+        "id": 3,
+        "student_id": 1,
+        "subject": "Literatura",
+        "type": "Examen",
+        "date": "2024-11-18",
+        "time": "08:00-10:00"
+    }
+]

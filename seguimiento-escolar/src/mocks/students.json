@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Juan Pérez",
+        "attendance": {
+            "present": 79,
+            "absent": 10,
+            "late": 11,
+            "percentage": 88
+        },
+        "average_grade": 8.69,
+        "term": "3° Trimestre",
+        "annual_performance": {
+            "Jan": 10,
+            "Feb": 20,
+            "Mar": 30,
+            "Apr": 50,
+            "May": 60,
+            "Jun": 90,
+            "Jul": 100,
+            "Aug": 85,
+            "Sep": 75,
+            "Oct": 50,
+            "Nov": 40,
+            "Dec": 10
+        }
+    }
+]
