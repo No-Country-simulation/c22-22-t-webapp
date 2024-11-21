@@ -1,9 +1,81 @@
 .footer-container {
   flex-shrink: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 40px;
   background-color: #032D6C;
   color: #ffffff;
 }
+
+.logo-footer-container {
+  height: 35px;
+}
+
+.logo-footer-container>img {
+  height: 100%;
+}
+
+.social-container {
+  display: flex;
+  gap: 30px;
+}
+
+.social-container a {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.social-container a:hover {
+  transform: scale(1.1);
+}
+
+.social-container a:visited {
+  color: inherit;
+}
+
+
+@media (320px <=width <=480px) {
+  .footer-container {
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+@media (480px <=width <=576px) {
+  .footer-container {
+    flex-direction: column;
+    height: 100%;
+    gap: 18px;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+@media (576px <=width <=768px) {
+  .footer-container {
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    padding: 20px 0;
+  }
+}
+
+@media (768px <=width <=992px) {
+  .footer-container {
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    padding: 20px 0;
+  }
+}
+
+/* @media (992px <= width <=1024px) {}
+
+@media (1024px <= width <=1200px) {}
+
+@media (1200px <= width <=1440px) {}
