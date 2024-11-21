@@ -11,5 +11,5 @@
   margin-top: 60px; 
   padding: 1rem;
   overflow-y: auto;
-  background-color: #f5f5f5;
+  background-color: var(--secondary-bg);
 }
