@@ -3,11 +3,11 @@
   height: 450px;
   padding: 25px;
   border: none !important;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .s-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(3, 45, 108, 0.5);
+  box-shadow: 5px 5px 9px rgba(5, 75, 180, 0.636);
   /* cursor: pointer; */
 }
 

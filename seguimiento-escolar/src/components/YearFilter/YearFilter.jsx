@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 
-function AgeFilter({ setFilteredSubjects, subjects }) {
+function YearFilter({ setFilteredSubjects, subjects }) {
   const [selectedYear, setSelectedYear] = useState("Todos");
   const handleYearFilter = (year) => {
     setSelectedYear(year);
@@ -43,4 +43,4 @@ function AgeFilter({ setFilteredSubjects, subjects }) {
   )
 }
 
-export default AgeFilter
+export default YearFilter

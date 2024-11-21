@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../../assets/image.png'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import './subjectCardStyles.css'
@@ -8,7 +7,7 @@ function SubjectCard({ idSubject, nameSubject, imageSubject, teacher, workload, 
   return (
     <div key={idSubject} className='col-12 col-md-6 col-lg-4 mb-4'>
       <div  className="card s-card">
-        <img src={image} className="card-img-top" alt="subject img" />
+        <img src={imageSubject} className="card-img-top" alt="subject img" />
         <div className="card-body">
           <h4 className="card-title s-card-title fw-bold">{nameSubject}</h4>
           <ul className='ul-card'>

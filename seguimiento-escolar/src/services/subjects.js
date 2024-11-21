@@ -1,4 +1,4 @@
-import subjects from '../mocks/subjects.json';
+import subjects from '../mocks/subjects/getAll.json';
 
 export const getAll =  () => {
   return subjects;
