@@ -1,47 +1,69 @@
-import React, { useEffect, useState } from 'react'
-import SubjectCard from '../components/SubjectCard/SubjectCard'
-import { getAll } from '../services/subjects';
-import YearFilter from '../components/YearFilter/YearFilter';
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.min.js"
+import React, { useState, useEffect } from "react";
+import StudentStats from "../components/Dashboard/StudentStats.jsx";
+import PieChart from "../components/Dashboard/PieChart.jsx";
+import Calendar from "../components/Dashboard/Calendar.jsx";
+import AnnualStats from "../components/Dashboard/AnnualStats.jsx";
+import UpcomingEventsCard from "../components/UpcomingEventsCard/UpcomingEventsCard.jsx";
+
+import students from "../mocks/students.json";
+import assignmentsData from "../mocks/assignments.json";
+import events from '../mocks/events.json';
 
 function Home() {
-  const [subjects, setSubjects] = useState([]);
-  const [filteredSubjects, setFilteredSubjects] = useState([]);
-  // Usamos import.meta.glob para cargar todas las imágenes
-  const images = import.meta.glob('../assets/subjects/2024/*', { eager: true });
+  const [student, setStudent] = useState(null);
+  const [filteredAssignments, setFilteredAssignments] = useState([]);
+
   useEffect(() => {
-    setSubjects(getAll());
-    setFilteredSubjects(getAll());
-  }, [])
+    const fetchData = async () => {
+      const currentStudent = students.find((s) => s.id === 1);
+      setStudent(currentStudent);
 
+      const studentAssignments = assignmentsData.filter(
+        (a) => a.student_id === 1
+      );
+      setFilteredAssignments(studentAssignments);
+    };
 
+    fetchData();
+  }, []);
+
+  if (!student) return <p>Cargando...</p>;
 
   return (
-    <div className='container-xl mt-4' >
-      <div className='d-flex justify-content-between align-items-center mb-5'>
-        <h1 className='fw-bold' style={{ color: "#032D6C" }}>Materias</h1>
-        <YearFilter
-          setFilteredSubjects={setFilteredSubjects}
-          subjects={subjects}
-        />
-      </div>
-      <div className='row'>
-        {
-          filteredSubjects.map((subject) => (
-            <SubjectCard
-              idSubject={subject.id_subject}
-              nameSubject={subject.name_subject}
-              imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
-              teacher={subject.teacher}
-              workload={subject.workload}
-              classroom={subject.classroom}
+    <div className="landing-page">
+      <h1>Mi escritorio</h1>
+      <StudentStats
+        stats={{
+          classes_attended: student.attendance.present,
+          total_classes: 100,
+          assignments_submitted: 8,
+          total_assignments: 10,
+          average_grade: student.average_grade,
+          term: student.term,
+        }}
+      />
+      <main className="main-stats-section">
+        <PieChart attendance={student.attendance} />
+        <Calendar assignments={filteredAssignments} />
+      </main>
+      <AnnualStats performance={student.annual_performance} />
+      <section className="events-section">
+        <h2>Próximos eventos</h2>
+        <div className="upcoming-events">
+          {events.map(event => (
+            <UpcomingEventsCard
+              key={event.id}
+              name={event.name}
+              description={event.description}
+              image1={event.image1}
+              image2={event.image2}
+              date={event.date}
             />
-          ))
-        }
-      </div>
+          ))}
+        </div>
+      </section>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

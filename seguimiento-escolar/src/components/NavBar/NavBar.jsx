@@ -8,7 +8,7 @@ function Navbar() {
       <Link to='/'>
         Mi escritorio
       </Link>
-      <Link to='/home'>
+      <Link to='/materias'>
         Materias
       </Link>
     </div>

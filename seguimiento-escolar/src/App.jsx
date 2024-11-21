@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Landing from './pages/Landing';
-import Home from './pages/Home';
 import AppLayout from './layouts/AppLayout';
 import './App.css'
+import Materias from './pages/Materias';
+import Home from './pages/Home';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +13,8 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<AppLayout />}>
-        <Route index element={<Landing />} />
-        <Route path='home' element={<Home />} />
+        <Route index element={<Home />} />
+        <Route path='materias' element={<Materias />} />
       </Route>
     </Routes>
   )

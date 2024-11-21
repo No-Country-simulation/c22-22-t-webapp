@@ -12,6 +12,14 @@
   justify-content: space-between;
 }
 
+.logo-container {
+  height: 60px;
+}
+
+.logo-container > img{
+  height: 100%;
+}
+
 .header-container h1{
   padding-left: 0.6em;
 }
