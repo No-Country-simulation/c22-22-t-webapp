@@ -5,10 +5,8 @@ import './headerStyles.css'
 function Header() {
   return (
     <div className='header-container'>
-      <div>
-        Header
-        <Navbar />
-      </div>
+      <h1>LOGO</h1>
+      <Navbar />
     </div>
   )
 }

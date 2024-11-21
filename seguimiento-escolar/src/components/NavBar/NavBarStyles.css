@@ -1,0 +1,9 @@
+.navbar-container a {
+    margin-right: 1em;
+    transition: border 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-container a:hover {
+    border-bottom: 1px solid var(--primary-blue);
+}
