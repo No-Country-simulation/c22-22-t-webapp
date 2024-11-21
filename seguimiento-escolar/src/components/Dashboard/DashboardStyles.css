@@ -212,7 +212,7 @@
 
 .progress-bar {
     width: 30px;
-    background-color: rgba(0, 188, 212, 1);
+    background-color: rgba(0, 188, 212, 1) !important;
     border-radius: 12px;
     margin: 0.6em 0;
     transition: height 0.3s ease;
