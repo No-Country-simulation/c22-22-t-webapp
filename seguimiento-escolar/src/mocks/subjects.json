@@ -1,0 +1,201 @@
+[
+  {
+    "id_student": "1",
+    "id_subject": "1",
+    "year": "2024",
+    "name_subject": "Historia",
+    "image_subject": "historia.jpg",
+    "teacher": "Lopez Maria Laura",
+    "workload": "Mier 11 - 13 am ",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "2",
+    "year": "2024",
+    "name_subject": "Economía",
+    "image_subject": "economia.jpg",
+    "teacher": "Fernandez Luis",
+    "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "3",
+    "year": "2024",
+    "name_subject": "Música",
+    "image_subject": "musica.jpg",
+    "teacher": "Carlos Rodríguez",
+    "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "4",
+    "year": "2024",
+    "name_subject": "Atletismo",
+    "image_subject": "atletismo.jpg",
+    "teacher": "Laura Martínez",
+    "workload": "Jue 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "5",
+    "year": "2024",
+    "name_subject": "Arte",
+    "image_subject": "arte.jpg",
+    "teacher": "Pedro Fernández",
+    "workload": "Vie 11 - 12 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "6",
+    "year": "2024",
+    "name_subject": "Matemática",
+    "image_subject": "matematica.jpg",
+    "teacher": "Ana López",
+    "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "7",
+    "year": "2024",
+    "name_subject": "Lengua y Literatura",
+    "image_subject": "literatura.jpg",
+    "teacher": "Javier Silva",
+    "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "8",
+    "year": "2024",
+    "name_subject": "Geografía",
+    "image_subject": "geografia.jpg",
+    "teacher": "Sofía Torres",
+    "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "9",
+    "year": "2024",
+    "name_subject": "Fisico Química",
+    "image_subject": "fisicoquimica.jpg",
+    "teacher": "Diego Castro",
+    "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "10",
+    "year": "2024",
+    "name_subject": "Inglés",
+    "image_subject": "ingles.jpg",
+    "teacher": "Claudia Ramírez",
+    "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
+    "classroom": "5B"
+  },{
+    "id_student": "1",
+    "id_subject": "1",
+    "year": "2023",
+    "name_subject": "Historia-2",
+    "image_subject": "historia.jpg",
+    "teacher": "Lopez Maria Laura",
+    "workload": "Mier 11 - 13 am ",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "2",
+    "year": "2023",
+    "name_subject": "Economía-2",
+    "image_subject": "economia.jpg",
+    "teacher": "Fernandez Luis",
+    "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "3",
+    "year": "2023",
+    "name_subject": "Música-2",
+    "image_subject": "musica.jpg",
+    "teacher": "Carlos Rodríguez",
+    "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "4",
+    "year": "2023",
+    "name_subject": "Atletismo-2",
+    "image_subject": "atletismo.jpg",
+    "teacher": "Laura Martínez",
+    "workload": "Jue 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "5",
+    "year": "2023",
+    "name_subject": "Arte-2",
+    "image_subject": "arte.jpg",
+    "teacher": "Pedro Fernández",
+    "workload": "Vie 11 - 12 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "6",
+    "year": "2023",
+    "name_subject": "Matemática-2",
+    "image_subject": "matematica.jpg",
+    "teacher": "Ana López",
+    "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "7",
+    "year": "2023",
+    "name_subject": "Lengua y Literatura-2",
+    "image_subject": "literatura.jpg",
+    "teacher": "Javier Silva",
+    "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "8",
+    "year": "2023",
+    "name_subject": "Geografía-2",
+    "image_subject": "geografia.jpg",
+    "teacher": "Sofía Torres",
+    "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "9",
+    "year": "2023",
+    "name_subject": "Fisico Química-2",
+    "image_subject": "fisicoquimica.jpg",
+    "teacher": "Diego Castro",
+    "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
+    "classroom": "5B"
+  },
+  {
+    "id_student": "1",
+    "id_subject": "10",
+    "year": "2023",
+    "name_subject": "Inglés-2",
+    "image_subject": "ingles.jpg",
+    "teacher": "Claudia Ramírez",
+    "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
+    "classroom": "5B"
+  }
+]

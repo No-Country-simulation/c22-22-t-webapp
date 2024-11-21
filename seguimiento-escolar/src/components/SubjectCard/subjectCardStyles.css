@@ -1,0 +1,26 @@
+.s-card {
+  width: 360px;
+  height: 450px;
+  padding: 25px;
+  border: none !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.s-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(3, 45, 108, 0.5);
+  /* cursor: pointer; */
+}
+
+.s-card-title {
+  color: #032D6C !important;
+  text-align: center;
+}
+
+.ul-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
