@@ -6,7 +6,7 @@ import './headerStyles.css'
 function Header() {
   return (
     <div className='header-container'>
-      <h1>Logo</h1>
+      {/* <h1>Logo</h1> */}
       {/* <div className='logo-container'>
         <img src={logo} alt="logo" />
       </div> */}

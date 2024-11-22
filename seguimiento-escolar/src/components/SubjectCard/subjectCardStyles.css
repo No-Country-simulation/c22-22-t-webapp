@@ -1,17 +1,22 @@
-.s-card {
+.card__custom {
   width: 360px;
   height: 450px;
   padding: 25px;
   border: none !important;
+  border-radius: 12px;
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.s-card:hover {
+.card__custom:hover {
   box-shadow: 5px 5px 9px rgba(5, 75, 180, 0.636);
   /* cursor: pointer; */
 }
 
-.s-card-title {
+.card-img-top {
+  border-radius: 10px;
+}
+
+.card-title__custom {
   color: #032D6C !important;
   text-align: center;
 }

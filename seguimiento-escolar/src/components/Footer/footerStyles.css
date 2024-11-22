@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   height: 40px;
-  background-color: #032D6C;
+  background-color: var(--primary-blue);
   color: #ffffff;
 }
 

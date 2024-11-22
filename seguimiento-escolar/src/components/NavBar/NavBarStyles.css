@@ -1,4 +1,4 @@
-.navbar-container a {
+/* .navbar-container a {
     margin-right: 1em;
     transition: border 0.3s ease;
     border-bottom: 1px solid transparent;
@@ -6,4 +6,70 @@
 
 .navbar-container a:hover {
     border-bottom: 1px solid var(--primary-blue);
+} */
+
+.navbar-nav__mobile {
+  display: block !important;
+}
+
+.navbar-toggler__custom {
+  border: none !important;
+  font-size: 1.25rem !important;
+}
+
+.navbar-toggler__custom:focus,
+.btn-close:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.nav-link {
+  color: #375F8F !important;
+  position: relative !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-blue) !important;
+}
+
+
+@media (320px <=width <=992px) {
+  .navbar-nav__mobile {
+    display: none !important;
+  }
+
+  .nav-link {
+    color: #375f8ff6 !important;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--primary-blue) !important;
+  }
+}
+
+@media (width >=992px) {
+  .nav-item__desktop {
+    display: none !important;
+  }
+
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-blue);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+  }
 }
