@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../NavBar/Navbar'
 import logo from '../../assets/logo-footer.png'
 import './headerStyles.css'
+import NavBar from '../NavBar/NavBar'
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
       {/* <div className='logo-container'>
         <img src={logo} alt="logo" />
       </div> */}
-      <Navbar />
+      <NavBar />
     </div>
   )
 }
