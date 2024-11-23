@@ -3,6 +3,18 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'Poppins', sans-serif !important;
+  background-color: var(--secondary-bg);
+
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #032d6c4f;
+  --sb-size: 8px;
+}
+
+@media (width < 1080px) {
+  .events-section h2{
+      text-align: center;
+      padding: 1em 0 0;
+  }
 }
 
 :root {
@@ -23,11 +35,6 @@ h1 {
 }
 
 /* SCROLLBAR STYLES */
-body {
-  --sb-track-color: #ffffff;
-  --sb-thumb-color: #032d6c4f;
-  --sb-size: 8px;
-}
 
 body::-webkit-scrollbar {
   width: var(--sb-size);
