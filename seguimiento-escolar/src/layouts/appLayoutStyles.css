@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 100%;
 }
 
 .pages-container {
@@ -10,7 +11,7 @@
   flex-grow: 1;
   min-width: 80%;
   max-width: 80%;
-  margin: 2rem auto 0;
+  margin: 4rem auto 0;
   padding: 1rem;
 }
 
