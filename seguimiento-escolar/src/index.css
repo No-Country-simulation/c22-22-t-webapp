@@ -5,7 +5,7 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
-:root{
+:root {
   --primary-bg: #ffffff;
   --secondary-bg: #F5F5FA;
 
@@ -18,8 +18,35 @@ a {
   text-decoration: inherit;
 }
 
-h1{
+h1 {
   color: var(--primary-blue);
+}
+
+/* SCROLLBAR STYLES */
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #032d6c4f;
+  --sb-size: 8px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 4px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
 
 /* :root {
