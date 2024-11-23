@@ -23,11 +23,11 @@ function StudentStats({ stats }) {
                     <h3>{`${classes_attended}/${total_classes}`}</h3>
                     <p>Clases</p>
                     <div>
-                        <i className={`icon ${attendancePercentage >= 75 ? 'green up' : 'orange down'}`} />
+                        <i className={`icon ${attendancePercentage >= 75 ? 'green up bi bi-arrow-up-circle' : 'orange down bi bi-arrow-down-left-circle'}`} />
                         <p>{attendancePercentage >= 75 ? 'Muy bien!' : 'Mejorable'}</p>
                     </div>
                 </div>
-                <i className="books-icon" />
+                <i className="bi bi-backpack special" />
             </div>
 
             {/* Entregas */}
@@ -36,24 +36,24 @@ function StudentStats({ stats }) {
                     <h3>{`${assignments_submitted}/${total_assignments}`}</h3>
                     <p>Entregas</p>
                     <div>
-                        <i className={`icon ${assignmentsPercentage >= 75 ? 'green up' : 'orange down'}`} />
+                        <i className={`icon ${assignmentsPercentage >= 75 ? 'green up bi bi-arrow-up-circle' : 'orange down bi bi-arrow-down-left-circle'}`} />
                         <p>{assignmentsPercentage >= 75 ? 'Muy bien!' : 'Mejorable'}</p>
                     </div>
                 </div>
-                <i className="backpack-icon" />
+                <i class="bi bi-easel2 special"></i>
             </div>
 
             {/* Promedio total */}
             <div className="stat-container">
                 <div>
                     <h3>{average_grade.toFixed(2)}</h3>
-                    <p>Promedio total</p>
+                    <p>Promedio</p>
                     <div>
-                        <i className={`icon ${average_grade >= 7 ? 'green up' : 'orange down'}`} />
+                        <i className={`icon ${average_grade >= 7 ? 'green up bi bi-arrow-up-circle' : 'orange down bi bi-arrow-down-left-circle'}`} />
                         <p>{average_grade >= 7 ? 'Muy bien!' : 'A mejorar'}</p>
                     </div>
                 </div>
-                <i className="check-magnifying-glass-icon" />
+                <i className="bi bi-award special" />
             </div>
 
             {/* Libreta de calificaciones */}
@@ -62,7 +62,7 @@ function StudentStats({ stats }) {
                     <h3>{term}</h3>
                     <p>Libreta de calificaciones</p>
                     <div>
-                        <i className="icon green up" />
+                        <i className="icon green up bi bi-arrow-up-circle" />
                         <p>Ver</p>
                     </div>
                 </div>

@@ -27,7 +27,7 @@ function Home() {
     fetchData();
   }, []);
 
-  if (!student) return <p>Cargando...</p>;
+  if (!student) return <p>Lo sentimos, aún no hay datos vinculados al usuario</p>;
 
   return (
     <div className="landing-page">

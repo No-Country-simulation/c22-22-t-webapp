@@ -19,7 +19,7 @@
 }
 
 .event-images img {
-    width: 100%;
+    min-width: 100%;
     margin-bottom: 10px;
 }
 
@@ -49,5 +49,13 @@ strong {
 
 .upcoming-events{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+@media (width < 1080px) {
+    .events-section h2{
+        text-align: center;
+        padding: 1em 0 0;
+    }
 }
