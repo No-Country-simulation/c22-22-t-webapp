@@ -10,7 +10,7 @@ function ProtectedRoute({ children }) {
   if (loading) return  (<h1>Loading...</h1>)
     // <LoadingPage/>
 
-  if (!user) return <Navigate to={'/login'} />
+  if (!user) return <Navigate to={'/'} />
 
   return <>{children}</>
 }

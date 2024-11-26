@@ -23,6 +23,10 @@
   outline: none !important;
 }
 
+.nav-items__hide {
+  display: none !important;
+}
+
 .nav-link {
   color: #375F8F !important;
   position: relative !important;
@@ -33,6 +37,15 @@
   color: var(--primary-blue) !important;
 }
 
+.btn__custom {
+  background-color: var(--primary-blue) !important;
+  border-radius: 30px !important;
+  font-size: 0.9rem !important;
+}
+
+.btn__custom:hover {
+  background-color: #084A9E !important;
+}
 
 @media (320px <=width <=992px) {
   .navbar-nav__mobile {
