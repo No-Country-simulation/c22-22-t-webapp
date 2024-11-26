@@ -4,8 +4,10 @@ import { getAll } from '../services/subjects';
 import YearFilter from '../components/YearFilter/YearFilter';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
+import { useAuth } from '../context/authContext'
 
 function Materias() {
+  const {user} = useAuth();
   const [subjects, setSubjects] = useState([]);
   const [filteredSubjects, setFilteredSubjects] = useState([]);
   const [isLoaded, setIsLoaded] = useState(true);
@@ -22,7 +24,8 @@ function Materias() {
   }, [isLoaded])
 
 
-
+  console.log(user.uid);
+  
   return (
     <div className='container mt-4' >
       <div className='d-flex justify-content-between align-items-center mb-5'>

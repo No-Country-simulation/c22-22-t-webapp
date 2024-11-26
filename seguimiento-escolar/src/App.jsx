@@ -7,20 +7,37 @@ import Materias from './pages/Materias';
 import Home from './pages/Home';
 import SubjectDetails from './pages/SubjectDetails';
 import './App.css'
+import Login from './pages/Login';
+import { AuthProvider } from './context/authContext';
+import ProtectedRoute from './routes/ProtectedRoute';
+import PasswordRecovery from './pages/PasswordRecovery';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Routes>
-      <Route path='/' element={<AppLayout />}>
-        <Route index element={<Home />} />
-        <Route path='materias' >
-          <Route index element={<Materias />} />
-          <Route path=':idSubject' element={<SubjectDetails />} />
+    <AuthProvider>
+      <Routes>
+        <Route path='/estudiante' element={
+          <ProtectedRoute>
+            <AppLayout />
+          </ProtectedRoute>}
+        >
+          <Route path='home' element={<Home />} />
+          <Route path='materias' >
+            <Route index element={<Materias />} />
+            <Route path=':idSubject' element={<SubjectDetails />} />
+          </Route>
         </Route>
-      </Route>
-    </Routes>
+        <Route path='/login'>
+          <Route index element={<Login />} />
+        </Route>
+        <Route path='/reestablecercontraseña'>
+          <Route index element={<PasswordRecovery />} />
+        </Route>
+      </Routes>
+    </AuthProvider>
   )
 }
 

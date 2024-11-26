@@ -1,14 +1,20 @@
 import React from 'react'
 import './NavBarStyles.css'
 import { Link, useLocation } from 'react-router-dom'
+import { useAuth } from '../../context/authContext';
 
 function NavBar() {
   const location = useLocation();
+  const { user, logout, loading } = useAuth();
+  const handleLogOut = async () => {
+    await logout();
+  }
+  if (loading) return <h1>Loading...</h1>
   return (
     <div className='navbar-container'>
       <nav className="navbar navbar-expand-lg fixed-top container">
         <div className="container-fluid">
-          <Link className="navbar-brand flex-grow-0" to="/">
+          <Link className="navbar-brand flex-grow-0" to={user ? '/estudiante/home' : '/'}>
             Logo
           </Link>
           <button
@@ -42,16 +48,16 @@ function NavBar() {
               <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li className="nav-item">
                   <Link
-                    className={`nav-link mx-lg-2 ${location.pathname === '/' ? 'active' : ''}`}
-                    to='/'
+                    className={`nav-link mx-lg-2 ${location.pathname === '/estudiante/home' ? 'active' : ''}`}
+                    to='/estudiante/home'
                   >
                     Mi escritorio
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={`nav-link mx-lg-2 ${location.pathname === '/materias' ? 'active' : ''}`}
-                    to='/materias'
+                    className={`nav-link mx-lg-2 ${location.pathname === '/estudiante/materias' ? 'active' : ''}`}
+                    to='/estudiante/materias'
                   >
                     Materias
                   </Link>
@@ -84,9 +90,9 @@ function NavBar() {
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <button className="dropdown-item" onClick={handleLogOut}>
                         Cerrar Sesión
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </li>
@@ -122,9 +128,9 @@ function NavBar() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <button className="dropdown-item" onClick={handleLogOut}>
                     Cerrar Sesión
-                  </Link>
+                  </button>
                 </li>
               </ul>
             </li>
