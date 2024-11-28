@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react'
-import { /* createUserWithEmailAndPassword, */ signInWithEmailAndPassword, onAuthStateChanged, signOut, updateProfile, GoogleAuthProvider, signInWithPopup, sendPasswordResetEmail, fetchSignInMethodsForEmail } from 'firebase/auth';
+import { signInWithEmailAndPassword, onAuthStateChanged, signOut, sendPasswordResetEmail, fetchSignInMethodsForEmail } from 'firebase/auth';
 import { auth } from '../firebase';
 
 const authContext = createContext();
@@ -14,27 +14,21 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  /* const register = async (email, password, fullname, photo) => {
-    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-    const user = userCredential.user;
-    await updateProfile(user, {
-      displayName: fullname,
-      photoURL: photo
-    });
-    return userCredential.user;
-  }  */
-
-  const login = async (email, password) => {
-    const userCredentials = await signInWithEmailAndPassword(auth, email, password);
-    return userCredentials
+  const login = async (dni, password) => {
+    try {
+      const userCredentials = await signInWithEmailAndPassword(auth, `${dni}@gmail.com`, password);
+      return userCredentials;
+    } catch (error) {
+      throw new Error("Contraseña incorrecta");
+    }
   }
 
-  const verifyDni = async (dni) => {
+  const checkDni = async (dni) => {
     try {
       if (!dni) {
         throw new Error("Por favor, ingresa tu documento");
       }
-      // Verifica existencia de email
+      // Verify if the email exists
       const email = `${dni}@gmail.com`;
       const signInMethods = await fetchSignInMethodsForEmail(auth, email);
 
@@ -45,6 +39,14 @@ export function AuthProvider({ children }) {
     }
   };
 
+  const logout = async () => {
+    await signOut(auth)
+  }
+
+  const sendResetPassword = async (email) => {
+    await sendPasswordResetEmail(auth, email);
+  }
+
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, currentUser => {
       setUser(currentUser);
@@ -54,13 +56,18 @@ export function AuthProvider({ children }) {
     return () => unsubscribe();
   }, []);
 
-  const logout = async () => {
-    await signOut(auth)
-  }
-
-  const sendResetPassword = async (email) => {
-    await sendPasswordResetEmail(auth, email);
-  }
-
-  return <authContext.Provider value={{ /* register, */ login, user, logout, loading, sendResetPassword, verifyDni }}>{children}</authContext.Provider>
+  return (
+    <authContext.Provider
+      value={{
+        login,
+        user,
+        logout,
+        loading,
+        sendResetPassword,
+        checkDni
+      }}
+    >
+      {children}
+    </authContext.Provider>
+  )
 }
