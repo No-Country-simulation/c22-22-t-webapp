@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './loginFormStyles.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function LoginForm({ handleSubmit, handleChange, step, user, error }) {
+function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef }) {
   return (
     <div>
       <form
@@ -18,8 +20,9 @@ function LoginForm({ handleSubmit, handleChange, step, user, error }) {
               value={step == 1 ? user.dni : user.password}
               className="form-control"
               placeholder=' '
-              autoFocus={true}
               onChange={handleChange}
+              autoFocus
+              ref={step === 2 ? inputRef : null} // Asign the reference to the paswd input
             />
             <label htmlFor={step == 1 ? 'dni' : 'password'} className="col-sm-12 col-form-label text-body-tertiary">{step == 1 ? 'Documento' : "Contraseña"}</label>
             <p className='text-danger'>{error}</p>

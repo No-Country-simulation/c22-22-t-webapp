@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from "../context/authContext";
-
+import "bootstrap/dist/js/bootstrap.min.js"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function PasswordRecovery() {
   const { sendResetPassword } = useAuth();
@@ -21,7 +22,7 @@ function PasswordRecovery() {
     }
 
     try {
-      // Enviar el correo para restablecer la contraseña
+      // Send email
       await sendResetPassword(email);
       setSuccess(true);
       setEmail("El correo electrónico no está registrado");

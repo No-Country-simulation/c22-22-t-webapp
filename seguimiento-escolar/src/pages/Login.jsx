@@ -1,51 +1,24 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authContext";
 import LoginForm from '../components/LoginForm/LoginForm';
 import logo from '../assets/logo-footer.png';
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.min.js"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import LoginImgSection from '../components/LoginImgSection/LoginImgSection';
+
 
 function Login() {
   const [user, setUser] = useState({
     dni: "",
     password: "",
   });
-  const { login, verifyDni, sendResetPassword } = useAuth();
+  const { login, checkDni } = useAuth();
   const [error, setError] = useState("");
   const [step, setStep] = useState(1);
   const navigate = useNavigate();
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
-
-    if (step === 1) {
-      try {
-        const response = await verifyDni(user.dni);
-        if (response.length === 0) {
-          setError("El Documento no se encuentra registrado.");
-        } else if (response.includes("password")) {
-          setStep(2);
-        } else {
-          setError("Método de inicio de sesión no soportado.");
-        }
-      } catch (error) {
-        setError(error.message);
-      }
-    } else if (step === 2) {
-      try {
-        await login(`${user.dni}@gmail.com`, user.password);
-        console.log("Usuario autenticado correctamente");
-        navigate("/estudiante/home");
-      } catch (error) {
-        setError("Contraseña incorrecta. ");
-      }
-    }
-  };
-
-
+  const inputRef = useRef(null); // useRef allow to create a reference for input element. Allow us manipulate DOM directly
 
   const handleChange = ({ target: { value, name } }) => {
     setUser((prevUser) => ({
@@ -54,33 +27,46 @@ function Login() {
     }));
   };
 
-  const handleClick = () => {
-    navigate('/');
-  }
-
-  useEffect(() => {
-    // Verifica si window.bootstrap está disponible
-    if (window.bootstrap) {
-      const tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      );
-      tooltipTriggerList.forEach((tooltipTriggerEl) => {
-        new window.bootstrap.Tooltip(tooltipTriggerEl);
-      });
-    } else {
-      console.error('Bootstrap no está cargado correctamente.');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    if (step === 1) {
+      try {
+        const response = await checkDni(user.dni);
+        if (response.length === 0) {
+          setError("El Documento no se encuentra registrado.");
+        } else if (response.includes("password")) {
+          setStep(2);
+        }
+      } catch (error) {
+        setError(error.message);
+      }
+    } else if (step === 2) {
+      try {
+        if (user.password !== "") {
+          await login(user.dni, user.password);
+          navigate("/estudiante/home");
+        } else {
+          setError("Por favor, ingresa tu contraseña")
+        }
+      } catch (error) {
+        setError(`${error.message}`);
+      }
     }
-  }, []);
+  };
+
 
   useEffect(() => {
     if (step === 2) {
-      // Restablecer el password al pasar al paso 2
+      // Restore password when user moves step 2
       setUser((prevState) => ({
         ...prevState,
         password: "",
       }));
+      inputRef.current.focus(); // Manual focus for passwd input, because we are using the same form, it doesn't mount again
     }
   }, [step]);
+
 
   return (
     <div className="container-fluid vh-100">
@@ -94,31 +80,20 @@ function Login() {
           <h1>Inicio de Sesión</h1>
           <p>Ingresa tus datos</p>
           {/* Form */}
-          <LoginForm handleSubmit={handleSubmit} handleChange={handleChange} step={step} user={user} error={error}/>
-        </div>
-        {/* Image */}
-        <div
-          className="col-12 col-md-8 d-none d-md-flex align-items-center justify-content-center bg-primary p-0"
-          onClick={handleClick}
-        >
-          <img
-            src="https://images.unsplash.com/photo-1555453337-32dff9bb054d?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="login-image"
-            className="w-100"
-            style={{
-              height: "100vh",
-              maxHeight: "100vh",
-              objectFit: "cover",
-              cursor: "pointer"
-            }}
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="Acerca de nosotros"
+          <LoginForm
+            handleSubmit={handleSubmit}
+            handleChange={handleChange}
+            step={step} user={user}
+            error={error}
+            inputRef={inputRef}
           />
         </div>
+        {/* Image */}
+        <LoginImgSection />
       </div>
     </div>
   )
 }
+
 
 export default Login
