@@ -4,6 +4,7 @@ body {
   padding: 0 !important;
   font-family: 'Poppins', sans-serif !important;
   background-color: var(--secondary-bg);
+  overflow-x: hidden;
 
   --sb-track-color: #ffffff;
   --sb-thumb-color: #032d6c4f;
@@ -22,6 +23,7 @@ body {
   --secondary-bg: #F5F5FA;
 
   --primary-blue: #032D6C;
+  --secondary-blue: #80b3ff3b;
 }
 
 a {
