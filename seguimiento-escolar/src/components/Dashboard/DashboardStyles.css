@@ -283,7 +283,6 @@
 .annual-stats-container {
     background-color: var(--primary-bg);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 1em auto;
     padding: 1em;
     border-radius: 8px;
     min-height: 300px;
@@ -430,6 +429,11 @@
     .stat-container {
         border-bottom: 1px solid #cfcfcf;
         padding: 1.4em 2em;
+    }
+
+    .stat-container:nth-child(2) {
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
     }
 
     .stat-container i.special {

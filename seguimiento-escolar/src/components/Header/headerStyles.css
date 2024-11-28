@@ -24,3 +24,8 @@
 .header-container h1{
   padding-left: 0.6em;
 }
+
+.invisible-nav-container{
+  height: 60px;
+  width: 100%;
+}
