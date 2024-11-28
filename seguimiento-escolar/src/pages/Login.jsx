@@ -83,7 +83,8 @@ function Login() {
           <LoginForm
             handleSubmit={handleSubmit}
             handleChange={handleChange}
-            step={step} user={user}
+            step={step} 
+            user={user}
             error={error}
             inputRef={inputRef}
           />
