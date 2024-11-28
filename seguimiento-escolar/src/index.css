@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body {
   box-sizing: border-box !important;
   margin: 0 !important;
@@ -12,9 +14,9 @@ body {
 }
 
 @media (width < 1080px) {
-  .events-section h2{
-      text-align: center;
-      padding: 1em 0 0;
+  .events-section h2 {
+    text-align: center;
+    padding: 1em 0 0;
   }
 }
 
@@ -56,6 +58,34 @@ body::-webkit-scrollbar-thumb {
   body {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
+}
+
+.logo-nav-container {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-blue);
+}
+
+.logo-nav-container h2,
+h1 {
+  margin: 0;
+}
+
+.logo-nav-container h2 {
+  font-size: 0.6em;
+  padding-left: 0.4em;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+.logo-nav-container h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 0;
 }
 
 /* :root {

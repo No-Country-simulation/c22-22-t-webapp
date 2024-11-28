@@ -17,7 +17,10 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg fixed-top container">
         <div className="container-fluid">
           <Link className="navbar-brand flex-grow-0" to={user ? '/estudiante/home' : '/'}>
-            Logo
+            <div className='logo-nav-container'>
+              <h2>Conexión</h2>
+              <h1>Académica</h1>
+            </div>
           </Link>
 
           {/* Burguer button */}
