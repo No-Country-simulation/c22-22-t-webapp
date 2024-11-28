@@ -29,7 +29,7 @@ function App() {
         <Route path='/login'>
           <Route index element={<Login />} />
         </Route>
-        <Route path='/reestablecercontraseña'>
+        <Route path='/restablecercontraseña'>
           <Route index element={<PasswordRecovery />} />
         </Route>
 

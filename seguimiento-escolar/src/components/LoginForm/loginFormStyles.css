@@ -1,0 +1,13 @@
+div.form-floating>input.form-control:focus {
+  border-color: #007bff;
+  /* Cambia el color del borde cuando el input está enfocado */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Sombra para un enfoque más visible */
+}
+
+/* Cambiar color del label cuando el input tiene foco */
+div.form-floating>input.form-control:focus~label,
+div.form-floating>input.form-control:not(:placeholder-shown)~label {
+  color: #007bff !important;
+  /* Cambia el color del texto del label cuando el input tiene foco o contiene texto */
+}

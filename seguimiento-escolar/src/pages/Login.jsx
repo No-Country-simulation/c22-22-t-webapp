@@ -1,102 +1,121 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/authContext";
+import LoginForm from '../components/LoginForm/LoginForm';
+import logo from '../assets/logo-footer.png';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
-import { useAuth } from "../context/authContext";
 
 function Login() {
   const [user, setUser] = useState({
     dni: "",
     password: "",
   });
-  const { login, loginWithGoogle, resetPassword } = useAuth();
+  const { login, verifyDni, sendResetPassword } = useAuth();
   const [error, setError] = useState("");
+  const [step, setStep] = useState(1);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
-    try {
-      await login(`${user.dni}@gmail.com`, user.password);
-      navigate("/estudiante/home");
-    } catch (error) {
-      setError(error.message);
-    }
-  };
 
-  const handleChange = ({ target: { value, name } }) =>
-    setUser({ ...user, [name]: value });
-
-
-  /*   const handleResetPassword = async (e) => {
-      e.preventDefault();
-      if (!user.email) return setError("Write an email to reset password");
+    if (step === 1) {
       try {
-        await resetPassword(user.email);
-        setError('We sent you an email. Check your inbox')
+        const response = await verifyDni(user.dni);
+        if (response.length === 0) {
+          setError("El Documento no se encuentra registrado.");
+        } else if (response.includes("password")) {
+          setStep(2);
+        } else {
+          setError("Método de inicio de sesión no soportado.");
+        }
       } catch (error) {
         setError(error.message);
       }
-    }; */
-  return (
-    <div className='d-flex flex-column align-items-center justify-content-center vh-100'>
-      <p>{error}</p>
-      <div>
-        <form
-          onSubmit={handleSubmit}
-          autoComplete="off"
-        >
-          <h1>Login</h1>
-          <p>Ingresa tus credenciales</p>
-          <div className="mb-3 row">
-            <label htmlFor="text" className="col-sm-2 col-form-label">
-              DNI
-            </label>
-            <div className="col-sm-12">
-              <input
-                type="text"
-                name='dni'
-                id="dni"
-                className="form-control"
-                placeholder='XXXXXXXXXXXX'
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="mb-3 row">
-            <label htmlFor="password" className="col-sm-2 col-form-label">
-              Contraseña
-            </label>
-            <div className="col-sm-12">
-              <input
-                type="password"
-                name='password'
-                id="password"
-                className="form-control"
-                placeholder='************'
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="mb-3 text-end">
-            <Link
-              to="/reestablecercontraseña"
-              className="text-decoration-none small text-primary"
-            >
-              ¿Olvidaste tu contraseña?
-            </Link>
-          </div>
+    } else if (step === 2) {
+      try {
+        await login(`${user.dni}@gmail.com`, user.password);
+        console.log("Usuario autenticado correctamente");
+        navigate("/estudiante/home");
+      } catch (error) {
+        setError("Contraseña incorrecta. ");
+      }
+    }
+  };
 
-          <div>
-            <button
-              type="submit"
-              className='btn btn-primary'
-            >
-              Ingresar
-            </button>
+
+
+  const handleChange = ({ target: { value, name } }) => {
+    setUser((prevUser) => ({
+      ...prevUser,
+      [name]: value,
+    }));
+  };
+
+  const handleClick = () => {
+    navigate('/');
+  }
+
+  useEffect(() => {
+    // Verifica si window.bootstrap está disponible
+    if (window.bootstrap) {
+      const tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      tooltipTriggerList.forEach((tooltipTriggerEl) => {
+        new window.bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    } else {
+      console.error('Bootstrap no está cargado correctamente.');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (step === 2) {
+      // Restablecer el password al pasar al paso 2
+      setUser((prevState) => ({
+        ...prevState,
+        password: "",
+      }));
+    }
+  }, [step]);
+
+  return (
+    <div className="container-fluid vh-100">
+      <div className="row h-100">
+        <div className="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center">
+          {/* Logo */}
+          <div className='w-50'>
+            <img src={logo} alt="logo" className='w-100' />
           </div>
-        </form>
+          {/* Title */}
+          <h1>Inicio de Sesión</h1>
+          <p>Ingresa tus datos</p>
+          {/* Form */}
+          <LoginForm handleSubmit={handleSubmit} handleChange={handleChange} step={step} user={user} error={error}/>
+        </div>
+        {/* Image */}
+        <div
+          className="col-12 col-md-8 d-none d-md-flex align-items-center justify-content-center bg-primary p-0"
+          onClick={handleClick}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1555453337-32dff9bb054d?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="login-image"
+            className="w-100"
+            style={{
+              height: "100vh",
+              maxHeight: "100vh",
+              objectFit: "cover",
+              cursor: "pointer"
+            }}
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Acerca de nosotros"
+          />
+        </div>
       </div>
     </div>
   )
