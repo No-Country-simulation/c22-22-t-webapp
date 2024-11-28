@@ -7,7 +7,7 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import { useAuth } from '../context/authContext'
 
 function Materias() {
-  const {user} = useAuth();
+  const { user } = useAuth();
   const [subjects, setSubjects] = useState([]);
   const [filteredSubjects, setFilteredSubjects] = useState([]);
   const [isLoaded, setIsLoaded] = useState(true);
@@ -25,7 +25,7 @@ function Materias() {
 
 
   console.log(user.uid);
-  
+
   return (
     <div className='container mt-4' >
       <div className='d-flex justify-content-between align-items-center mb-5'>
@@ -39,16 +39,19 @@ function Materias() {
       {!isLoaded ?
         <div className='row'>
           {
-            filteredSubjects.map((subject) => (
-              <SubjectCard
-                idSubject={subject.id_subject}
-                nameSubject={subject.name_subject}
-                imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
-                teacher={subject.teacher}
-                workload={subject.workload}
-                classroom={subject.classroom}
-              />
-            ))
+            filteredSubjects
+              .filter((subject) => subject.id_student === user.uid) // Filtrar por usuario autenticado
+              .map((subject) => (
+                <SubjectCard
+                  key={subject.id_subject} // Asegúrate de incluir una key única
+                  idSubject={subject.id_subject}
+                  nameSubject={subject.name_subject}
+                  imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
+                  teacher={subject.teacher}
+                  workload={subject.workload}
+                  classroom={subject.classroom}
+                />
+              ))
           }
         </div>
         :
