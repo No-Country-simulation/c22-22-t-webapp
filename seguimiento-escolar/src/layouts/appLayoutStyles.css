@@ -1,8 +1,8 @@
 .layout-container {
-  display: grid;
-  grid-template-rows: 60px 1fr auto;
-  min-height: 100dvh;
-  min-width: 100%;
+  display: grid !important;
+  grid-template-rows: 60px 1fr auto !important;
+  min-height: 100vh !important;
+  min-width: 100% !important;
 }
 
 .landing-page h1 {
