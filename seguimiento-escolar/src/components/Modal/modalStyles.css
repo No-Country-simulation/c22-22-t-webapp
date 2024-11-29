@@ -1,0 +1,8 @@
+.modal-header {
+  border-bottom: none; /* Quita la línea divisoria */
+}
+
+.modal-title {
+  font-size: 1.5rem; /* Ajusta el tamaño del título */
+  font-weight: bold; /* Hace el título más llamativo */
+}

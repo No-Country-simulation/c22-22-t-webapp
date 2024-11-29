@@ -4,9 +4,11 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authContext";
 import LoginForm from '../components/LoginForm/LoginForm';
 import logo from '../assets/logo-footer.png';
+import LoginImgSection from '../components/LoginImgSection/LoginImgSection';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import LoginImgSection from '../components/LoginImgSection/LoginImgSection';
+import Modal from '../components/Modal/Modal';
+import RestorePasswdForm from '../components/RestorePasswdForm/RestorePasswdForm';
 
 
 function Login() {
@@ -14,9 +16,12 @@ function Login() {
     dni: "",
     password: "",
   });
-  const { login, checkDni } = useAuth();
+  const { login, checkDni, sendResetPassword } = useAuth();
   const [error, setError] = useState("");
   const [step, setStep] = useState(1);
+  const [showModal, setShowModal] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [email, setEmail] = useState("");
   const navigate = useNavigate();
   const inputRef = useRef(null); // useRef allow to create a reference for input element. Allow us manipulate DOM directly
 
@@ -27,34 +32,60 @@ function Login() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e, action) => {
     e.preventDefault();
     setError("");
-    if (step === 1) {
-      try {
-        const response = await checkDni(user.dni);
-        if (response.length === 0) {
-          setError("El Documento no se encuentra registrado.");
-        } else if (response.includes("password")) {
-          setStep(2);
+    if (action == "login") {
+      if (step === 1) {
+        try {
+          const response = await checkDni(user.dni);
+          if (response.length === 0) {
+            setError("El Documento no se encuentra registrado.");
+          } else if (response.includes("password")) {
+            setStep(2);
+          }
+        } catch (error) {
+          setError(error.message);
         }
-      } catch (error) {
-        setError(error.message);
+      } else if (step === 2) {
+        try {
+          if (user.password !== "") {
+            await login(user.dni, user.password);
+            navigate("/estudiante/home");
+          } else {
+            setError("Por favor, ingresa tu contraseña")
+          }
+        } catch (error) {
+          setError(`${error.message}`);
+        }
       }
-    } else if (step === 2) {
+    } else if (action == "resetPasswd") {
+      setSuccess(false);
+
+      if (!email) {
+        setError("Por favor ingrese un correo electrónico.");
+        return;
+      }
+
       try {
-        if (user.password !== "") {
-          await login(user.dni, user.password);
-          navigate("/estudiante/home");
-        } else {
-          setError("Por favor, ingresa tu contraseña")
-        }
+        // Send email
+        console.log(email);
+        await sendResetPassword(email);
+        setSuccess(true);
       } catch (error) {
-        setError(`${error.message}`);
+        setError("El correo electrónico no está registrado");
       }
     }
   };
 
+
+  const handleOpenModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   useEffect(() => {
     if (step === 2) {
@@ -67,6 +98,11 @@ function Login() {
     }
   }, [step]);
 
+  useEffect(() => {
+    if (success) {
+      setEmail(""); // Restablece el correo solo si hay éxito
+    }
+  }, [success]);
 
   return (
     <div className="container-fluid vh-100">
@@ -83,14 +119,28 @@ function Login() {
           <LoginForm
             handleSubmit={handleSubmit}
             handleChange={handleChange}
-            step={step} 
+            step={step}
             user={user}
             error={error}
             inputRef={inputRef}
+            handleOpenModal={handleOpenModal}
           />
         </div>
         {/* Image */}
         <LoginImgSection />
+        <Modal
+          show={showModal}
+          onClose={handleCloseModal}
+          title="Restablece tu contraseña"
+        >
+          <RestorePasswdForm
+            handleSubmit={handleSubmit}
+            success={success}
+            error={error}
+            email={email}
+            setEmail={setEmail}
+          />
+        </Modal>
       </div>
     </div>
   )

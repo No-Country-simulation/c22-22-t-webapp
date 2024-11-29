@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import './loginFormStyles.css'
+import Modal from '../Modal/Modal';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef, handleOpenModal }) {
 
-function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef }) {
   return (
     <div>
       <form
-        onSubmit={handleSubmit}
+        onSubmit={(e) => handleSubmit(e, "login")}
         autoComplete="off"
       >
         <div className="mb-3">
@@ -30,14 +31,20 @@ function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef }) 
         </div>
         {
           step == 2 && (
-            <div className="mb-3 text-end">
-              <Link
-                to="/restablecercontraseña"
-                className="text-decoration-none small text-primary"
-              >
-                ¿Olvidaste tu contraseña?
-              </Link>
-            </div>
+            <>
+              <div className="mb-3 text-end">
+                <button
+                  href=''
+                  onClick={(event) => {
+                    event.preventDefault(); // Previene el envío del formulario
+                    handleOpenModal(); // Abre el modal
+                  }}
+                  className="btn btn-link text-decoration-none p-0 m-0"
+                >
+                  ¿Olvidaste tu contraseña?
+                </button>
+              </div>
+            </>
           )
         }
 
