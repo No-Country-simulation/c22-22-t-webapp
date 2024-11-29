@@ -6,7 +6,7 @@ import './appLayoutStyles.css'
 
 function AppLayout() {
   return (
-    <div className='layout-container'>
+    <div className="d-grid" style={{ gridTemplateRows: '60px 1fr auto', minHeight: '100vh', minWidth:'100%' }}>
       <Header />
       {/* Pages */}
       <div className='pages-container'>

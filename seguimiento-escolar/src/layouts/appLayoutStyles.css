@@ -1,10 +1,10 @@
-.layout-container {
-  display: grid !important;
-  grid-template-rows: 60px 1fr auto !important;
-  min-height: 100vh !important;
-  min-width: 100% !important;
+/* .layout-container {
+  display: grid;
+  grid-template-rows: 60px 1fr auto;
+  min-height: 100vh;
+  min-width: 100%;
 }
-
+ */
 .landing-page h1 {
   margin: 0.8em 0 0;
 }
