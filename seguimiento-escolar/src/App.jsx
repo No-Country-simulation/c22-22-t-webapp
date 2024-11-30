@@ -1,21 +1,17 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { AuthProvider } from './context/authContext';
 import AppLayout from './layouts/AppLayout';
-import Materias from './pages/Materias';
+import AboutUs from './pages/AboutUs';
+import Login from './pages/Login';
+import ProtectedRoute from './routes/ProtectedRoute';
 import Home from './pages/Home';
+import Materias from './pages/Materias';
 import SubjectDetails from './pages/SubjectDetails';
 import './App.css'
-import Login from './pages/Login';
-import { AuthProvider } from './context/authContext';
-import ProtectedRoute from './routes/ProtectedRoute';
-import PasswordRecovery from './pages/PasswordRecovery'
-import AboutUs from './pages/AboutUs';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <AuthProvider>
@@ -29,9 +25,7 @@ function App() {
         <Route path='/login'>
           <Route index element={<Login />} />
         </Route>
-        <Route path='/restablecercontraseña'>
-          <Route index element={<PasswordRecovery />} />
-        </Route>
+       
 
         {/* Protected routes with layout*/}
         <Route path='/estudiante' element={<ProtectedRoute> <AppLayout /> </ProtectedRoute>}>

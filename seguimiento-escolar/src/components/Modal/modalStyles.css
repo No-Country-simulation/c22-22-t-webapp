@@ -1,8 +1,14 @@
 .modal-header {
-  border-bottom: none; /* Quita la línea divisoria */
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .modal-title {
-  font-size: 1.5rem; /* Ajusta el tamaño del título */
-  font-weight: bold; /* Hace el título más llamativo */
+  font-size: 1.4rem; 
+  font-weight: bold;
+}
+
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6) !important; 
 }

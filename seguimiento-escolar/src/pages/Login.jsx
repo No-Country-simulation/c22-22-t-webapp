@@ -17,7 +17,8 @@ function Login() {
     password: "",
   });
   const { login, checkDni, sendResetPassword } = useAuth();
-  const [error, setError] = useState("");
+  const [loginError, setLoginError] = useState("");
+  const [resetPasswdError, setResetPasswdError] = useState("");
   const [step, setStep] = useState(1);
   const [showModal, setShowModal] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -34,18 +35,18 @@ function Login() {
 
   const handleSubmit = async (e, action) => {
     e.preventDefault();
-    setError("");
     if (action == "login") {
+      setLoginError("");
       if (step === 1) {
         try {
           const response = await checkDni(user.dni);
           if (response.length === 0) {
-            setError("El Documento no se encuentra registrado.");
+            setLoginError("El Documento no se encuentra registrado.");
           } else if (response.includes("password")) {
             setStep(2);
           }
         } catch (error) {
-          setError(error.message);
+          setLoginError(error.message);
         }
       } else if (step === 2) {
         try {
@@ -53,17 +54,18 @@ function Login() {
             await login(user.dni, user.password);
             navigate("/estudiante/home");
           } else {
-            setError("Por favor, ingresa tu contraseña")
+            setLoginError("Por favor, ingresa tu contraseña")
           }
         } catch (error) {
-          setError(`${error.message}`);
+          setLoginError(`${error.message}`);
         }
       }
     } else if (action == "resetPasswd") {
+      setResetPasswdError("");
       setSuccess(false);
 
       if (!email) {
-        setError("Por favor ingrese un correo electrónico.");
+        setResetPasswdError("Por favor ingrese un correo electrónico.");
         return;
       }
 
@@ -73,7 +75,7 @@ function Login() {
         await sendResetPassword(email);
         setSuccess(true);
       } catch (error) {
-        setError("El correo electrónico no está registrado");
+        setResetPasswdError("El correo electrónico no está registrado");
       }
     }
   };
@@ -84,6 +86,9 @@ function Login() {
   };
 
   const handleCloseModal = () => {
+    setEmail("");
+    setResetPasswdError("");
+    setSuccess(false);
     setShowModal(false);
   };
 
@@ -121,7 +126,7 @@ function Login() {
             handleChange={handleChange}
             step={step}
             user={user}
-            error={error}
+            error={loginError}
             inputRef={inputRef}
             handleOpenModal={handleOpenModal}
           />
@@ -136,7 +141,7 @@ function Login() {
           <RestorePasswdForm
             handleSubmit={handleSubmit}
             success={success}
-            error={error}
+            error={resetPasswdError}
             email={email}
             setEmail={setEmail}
           />

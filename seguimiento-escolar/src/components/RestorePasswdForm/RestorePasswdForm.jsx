@@ -33,14 +33,14 @@ function RestorePasswdForm({ handleSubmit, success, error, email, setEmail }) {
     <div className="container d-flex justify-content-center align-items-center">
       <div className="row w-100">
         <div className="col-12 mx-auto">
-          <div className="card shadow-sm p-4">
-            <p className="text-center mb-4">Ingresa la dirección de correo electrónico que utilizas en Conexión Academica. Te enviaremos un enlace para restablecer tu contraseña.</p>
+          <div className="card shadow-sm p-3">
             {success ? (
-              <div className="alert alert-success">
+              <div className="alert alert-success text-center" role="alert">
+                
                 ¡Correo de restablecimiento enviado! Revisa tu bandeja de entrada.
               </div>
             ) : null}
-            {error && <div className="alert alert-danger">{error}</div>}
+            <p className="text-center mb-4">Ingresa la dirección de correo electrónico que utilizas en Conexión Academica. Te enviaremos un enlace para restablecer tu contraseña.</p>
             <form onSubmit={(e) => handleSubmit(e, "resetPasswd")} autoComplete='off'>
               <div className="form-floating mb-3">
                 <input
@@ -50,11 +50,12 @@ function RestorePasswdForm({ handleSubmit, success, error, email, setEmail }) {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder=" "
-                  autoFocus={true}
+                  autoFocus
                 />
                 <label htmlFor="email" className="form-label text-body-tertiary">documento@gmail.com </label>
+              {error && <p className='text-danger'>{error}</p>}
               </div>
-              <button type="submit" className="btn btn-primary btn__custom w-100 mb-3">
+              <button type="submit" className="btn btn-primary btn__custom w-100 mb-2">
                 Enviar
               </button>
             </form>

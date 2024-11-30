@@ -31,9 +31,9 @@ const Modal = ({ show, onClose, title, children }) => {
       style={{ display: show ? 'block' : 'none', backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
       aria-hidden={!show}
     >
-      <div className="modal-dialog" ref={modalRef}>
+      <div className="modal-dialog modal-dialog-centered" ref={modalRef}>
         <div className="modal-content">
-          <div className="modal-header bg-light text-center">
+          <div className="modal-header text-center">
             <h5 className="modal-title w-100">{title}</h5>
             <button
               type="button"
@@ -42,7 +42,7 @@ const Modal = ({ show, onClose, title, children }) => {
               aria-label="Close"
             ></button>
           </div>
-          <div className="modal-body">{children}</div>
+          <div className="modal-body mb-3">{children}</div>
         </div>
       </div>
     </div>
