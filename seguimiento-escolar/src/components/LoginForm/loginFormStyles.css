@@ -11,3 +11,4 @@ div.form-floating>input.form-control:not(:placeholder-shown)~label {
   color: #007bff !important;
   /* Cambia el color del texto del label cuando el input tiene foco o contiene texto */
 }
+

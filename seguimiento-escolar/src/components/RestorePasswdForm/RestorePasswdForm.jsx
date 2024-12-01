@@ -42,7 +42,7 @@ function RestorePasswdForm({ handleSubmit, success, error, email, setEmail }) {
             ) : null}
             <p className="text-center mb-4">Ingresa la dirección de correo electrónico que utilizas en Conexión Academica. Te enviaremos un enlace para restablecer tu contraseña.</p>
             <form onSubmit={(e) => handleSubmit(e, "resetPasswd")} autoComplete='off'>
-              <div className="form-floating mb-3">
+              <div className="form-floating mb-4">
                 <input
                   type="email"
                   className="form-control"

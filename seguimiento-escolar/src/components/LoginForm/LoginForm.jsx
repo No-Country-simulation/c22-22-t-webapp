@@ -29,20 +29,18 @@ function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef, ha
         </div>
         {
           step == 2 && (
-            <>
-              <div className="mb-3 text-end">
-                <button
-                  href=''
-                  onClick={(event) => {
-                    event.preventDefault(); // Previene el envío del formulario
-                    handleOpenModal(); // Abre el modal
-                  }}
-                  className="btn btn-link text-decoration-none p-0 m-0"
-                >
-                  ¿Olvidaste tu contraseña?
-                </button>
-              </div>
-            </>
+            <div className="mb-4 text-end">
+              <button
+                href=''
+                onClick={(event) => {
+                  event.preventDefault(); // Previene el envío del formulario
+                  handleOpenModal(); // Abre el modal
+                }}
+                className="btn btn-link text-decoration-none p-0 m-0"
+              >
+                <small>¿Olvidaste tu contraseña?</small>
+              </button>
+            </div>
           )
         }
 

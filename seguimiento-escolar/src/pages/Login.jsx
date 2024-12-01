@@ -65,7 +65,7 @@ function Login() {
       setSuccess(false);
 
       if (!email) {
-        setResetPasswdError("Por favor ingrese un correo electrónico.");
+        setResetPasswdError("Por favor, ingresa un correo electrónico.");
         return;
       }
 

@@ -1,22 +1,10 @@
-import React, { useEffect } from 'react'
-import { Link, useNavigate } from "react-router-dom";
-import './loginImgSection.css';
+import React from 'react'
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './loginImgSection.css';
 
 function LoginImgSection() {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate('/');
-  }
-
-  // Tooltip
-  useEffect(() => {
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    [...tooltipTriggerList].forEach((tooltipTriggerEl) => {
-      new window.bootstrap.Tooltip(tooltipTriggerEl);
-    });
-  }, []);
   return (
     <>
       <div className="hero-section col-12 col-md-8 d-none d-md-flex align-items-center justify-content-center p-0">
