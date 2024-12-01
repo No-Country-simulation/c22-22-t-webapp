@@ -3,6 +3,7 @@ import SubjectCard from '../components/SubjectCard/SubjectCard'
 import { getAll } from '../services/subjects';
 import { useAuth } from '../context/authContext'
 import YearFilter from '../components/YearFilter/YearFilter';
+import Loader from '../components/Loader/Loader';
 import "bootstrap/dist/js/bootstrap.min.js"
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -54,9 +55,7 @@ function Materias() {
         </div>
         :
         //Loader
-        <div className='d-flex h-100 justify-content-center align-items-center'>
-          <div className="loader"></div>
-        </div>
+        <Loader />
       }
 
     </div>

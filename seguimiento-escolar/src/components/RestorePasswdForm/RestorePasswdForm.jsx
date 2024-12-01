@@ -5,30 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Modal from '../Modal/Modal';
 
 function RestorePasswdForm({ handleSubmit, success, error, email, setEmail }) {
-  const { sendResetPassword } = useAuth();
-  // const [error, setError] = useState("");
-  // const [success, setSuccess] = useState(false);
-
-  /* const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
-    setSuccess(false);
-
-    if (!email) {
-      setError("Por favor ingrese un correo electrónico.");
-      return;
-    }
-
-    try {
-      // Send email
-
-      await sendResetPassword(email);
-      setSuccess(true);
-      setError("El correo electrónico no está registrado");
-    } catch (error) {
-      setError("Correo electrónico no válido");
-    }
-  }; */
   return (
     <div className="container d-flex justify-content-center align-items-center">
       <div className="row w-100">

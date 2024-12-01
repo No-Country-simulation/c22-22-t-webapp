@@ -11,7 +11,7 @@ function SubjectCard({ idSubject, nameSubject, imageSubject, teacher, workload, 
         to={`/estudiante/materias/${idSubject}`}
         className="card card__custom"
       >
-        <img src={imageSubject} className="card-img-top" alt="subject img" />
+        <img src={imageSubject} className="card-img-top" alt="img materia" />
         <div className="card-body">
           <h4 className="card-title card-title__custom fw-bold">{nameSubject}</h4>
           <ul className='ul-card'>
