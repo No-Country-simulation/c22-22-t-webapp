@@ -7,11 +7,10 @@ import './NavBarStyles.css'
 
 function NavBar() {
   const location = useLocation();
-  const { user, logout, loading } = useAuth();
+  const { user, logout } = useAuth();
   const handleLogOut = async () => {
     await logout();
   }
-  if (loading) return <h1>Loading...</h1>
   return (
     <nav className="navbar navbar-expand-lg container p-0 ">
       <div className="container-fluid">

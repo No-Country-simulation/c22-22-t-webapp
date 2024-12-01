@@ -6,7 +6,7 @@ import AboutUs from './pages/AboutUs';
 import Login from './pages/Login';
 import ProtectedRoute from './routes/ProtectedRoute';
 import Home from './pages/Home';
-import Materias from './pages/Materias';
+import Subjects from './pages/Subjects';
 import SubjectDetails from './pages/SubjectDetails';
 import './App.css'
 
@@ -25,13 +25,13 @@ function App() {
         <Route path='/login'>
           <Route index element={<Login />} />
         </Route>
-       
+
 
         {/* Protected routes with layout*/}
         <Route path='/estudiante' element={<ProtectedRoute> <AppLayout /> </ProtectedRoute>}>
           <Route path='home' element={<Home />} />
           <Route path='materias' >
-            <Route index element={<Materias />} />
+            <Route index element={<Subjects />} />
             <Route path=':idSubject' element={<SubjectDetails />} />
           </Route>
         </Route>

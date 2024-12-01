@@ -7,7 +7,7 @@ import Loader from '../components/Loader/Loader';
 import "bootstrap/dist/js/bootstrap.min.js"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-function Materias() {
+function Subjects() {
   const { user } = useAuth();
   const [subjects, setSubjects] = useState([]);
   const [filteredSubjects, setFilteredSubjects] = useState([]);
@@ -62,4 +62,4 @@ function Materias() {
   )
 }
 
-export default Materias
+export default Subjects
