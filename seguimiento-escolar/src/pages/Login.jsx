@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authContext";
 import LoginForm from '../components/LoginForm/LoginForm';
 import logo from '../assets/logo-footer.png';
@@ -114,12 +114,15 @@ function Login() {
       <div className="row h-100">
         <div className="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center">
           {/* Logo */}
-          <div className='w-50'>
-            <img src={logo} alt="logo" className='w-100' />
-          </div>
+          <Link to={'/'}>
+            <div className='logo-login-container mb-5'>
+              <h2>Conexión</h2>
+              <h1>Académica</h1>
+            </div>
+          </Link>
           {/* Title */}
-          <h1>Inicio de Sesión</h1>
-          <p>Ingresa tus datos</p>
+          <h1 className='fs-3 fw-normal'>Inicio de Sesión</h1>
+          <p className='fw-light'>Ingresa tus datos</p>
           {/* Form */}
           <LoginForm
             handleSubmit={handleSubmit}

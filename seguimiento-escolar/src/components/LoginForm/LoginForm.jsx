@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import './loginFormStyles.css'
-import Modal from '../Modal/Modal';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef, handleOpenModal }) {
