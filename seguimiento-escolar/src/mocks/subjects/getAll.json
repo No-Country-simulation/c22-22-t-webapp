@@ -1,402 +1,346 @@
 [
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "1",
     "year": "2023",
-    "name_subject": "Historia I",
-    "image_subject": "historia.webp",
-    "teacher": "Lopez Maria Laura",
-    "workload": "Mier 11 - 13 am ",
-    "classroom": "5B"
+    "subjects": [
+      {
+        "id_subject": "1",
+        "name_subject": "Historia I",
+        "image_subject": "historia.webp",
+        "teacher": "Lopez Maria Laura",
+        "workload": "Mier 11 - 13 am ",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "2",
+        "name_subject": "Economía I",
+        "image_subject": "economia.webp",
+        "teacher": "Fernandez Luis",
+        "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "3",
+        "name_subject": "Música I",
+        "image_subject": "musica.webp",
+        "teacher": "Carlos Rodríguez",
+        "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "4",
+        "name_subject": "Atletismo I",
+        "image_subject": "atletismo.webp",
+        "teacher": "Laura Martínez",
+        "workload": "Jue 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "5",
+        "name_subject": "Arte I",
+        "image_subject": "arte.webp",
+        "teacher": "Pedro Fernández",
+        "workload": "Vie 11 - 12 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "6",
+        "name_subject": "Matemática I",
+        "image_subject": "matematica.webp",
+        "teacher": "Ana López",
+        "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "7",
+        "name_subject": "Lengua y Literatura I",
+        "image_subject": "literatura.webp",
+        "teacher": "Javier Silva",
+        "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "8",
+        "name_subject": "Geografía I",
+        "image_subject": "geografia.webp",
+        "teacher": "Sofía Torres",
+        "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "9",
+        "name_subject": "Fisico Química I",
+        "image_subject": "fisicoquimica.webp",
+        "teacher": "Diego Castro",
+        "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "10",
+        "name_subject": "Inglés I",
+        "image_subject": "ingles.webp",
+        "teacher": "Claudia Ramírez",
+        "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
+        "classroom": "5B"
+      }
+    ]
   },
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "2",
-    "year": "2023",
-    "name_subject": "Economía I",
-    "image_subject": "economia.webp",
-    "teacher": "Fernandez Luis",
-    "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "3",
-    "year": "2023",
-    "name_subject": "Música I",
-    "image_subject": "musica.webp",
-    "teacher": "Carlos Rodríguez",
-    "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "4",
-    "year": "2023",
-    "name_subject": "Atletismo I",
-    "image_subject": "atletismo.webp",
-    "teacher": "Laura Martínez",
-    "workload": "Jue 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "5",
-    "year": "2023",
-    "name_subject": "Arte I",
-    "image_subject": "arte.webp",
-    "teacher": "Pedro Fernández",
-    "workload": "Vie 11 - 12 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "6",
-    "year": "2023",
-    "name_subject": "Matemática I",
-    "image_subject": "matematica.webp",
-    "teacher": "Ana López",
-    "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "7",
-    "year": "2023",
-    "name_subject": "Lengua y Literatura I",
-    "image_subject": "literatura.webp",
-    "teacher": "Javier Silva",
-    "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "8",
-    "year": "2023",
-    "name_subject": "Geografía I",
-    "image_subject": "geografia.webp",
-    "teacher": "Sofía Torres",
-    "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "9",
-    "year": "2023",
-    "name_subject": "Fisico Química I",
-    "image_subject": "fisicoquimica.webp",
-    "teacher": "Diego Castro",
-    "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "10",
-    "year": "2023",
-    "name_subject": "Inglés I",
-    "image_subject": "ingles.webp",
-    "teacher": "Claudia Ramírez",
-    "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "11",
     "year": "2024",
-    "name_subject": "Historia II",
-    "image_subject": "historia.webp",
-    "teacher": "Lopez Maria Laura",
-    "workload": "Mier 11 - 13 am ",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "12",
-    "year": "2024",
-    "name_subject": "Economía II",
-    "image_subject": "economia.webp",
-    "teacher": "Fernandez Luis",
-    "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "13",
-    "year": "2024",
-    "name_subject": "Música II",
-    "image_subject": "musica.webp",
-    "teacher": "Carlos Rodríguez",
-    "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "14",
-    "year": "2024",
-    "name_subject": "Atletismo II",
-    "image_subject": "atletismo.webp",
-    "teacher": "Laura Martínez",
-    "workload": "Jue 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "15",
-    "year": "2024",
-    "name_subject": "Arte II",
-    "image_subject": "arte.webp",
-    "teacher": "Pedro Fernández",
-    "workload": "Vie 11 - 12 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "16",
-    "year": "2024",
-    "name_subject": "Matemática II",
-    "image_subject": "matematica.webp",
-    "teacher": "Ana López",
-    "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "17",
-    "year": "2024",
-    "name_subject": "Lengua y Literatura II",
-    "image_subject": "literatura.webp",
-    "teacher": "Javier Silva",
-    "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "18",
-    "year": "2024",
-    "name_subject": "Geografía II",
-    "image_subject": "geografia.webp",
-    "teacher": "Sofía Torres",
-    "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "19",
-    "year": "2024",
-    "name_subject": "Fisico Química II",
-    "image_subject": "fisicoquimica.webp",
-    "teacher": "Diego Castro",
-    "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
-    "id_subject": "20",
-    "year": "2024",
-    "name_subject": "Inglés II",
-    "image_subject": "ingles.webp",
-    "teacher": "Claudia Ramírez",
-    "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
-    "classroom": "6C"
+    "subjects": [
+      {
+        "id_subject": "11",
+        "name_subject": "Historia II",
+        "image_subject": "historia.webp",
+        "teacher": "Lopez Maria Laura",
+        "workload": "Mier 11 - 13 am ",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "12",
+        "name_subject": "Economía II",
+        "image_subject": "economia.webp",
+        "teacher": "Fernandez Luis",
+        "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "13",
+        "name_subject": "Música II",
+        "image_subject": "musica.webp",
+        "teacher": "Carlos Rodríguez",
+        "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "14",
+        "name_subject": "Atletismo II",
+        "image_subject": "atletismo.webp",
+        "teacher": "Laura Martínez",
+        "workload": "Jue 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "15",
+        "name_subject": "Arte II",
+        "image_subject": "arte.webp",
+        "teacher": "Pedro Fernández",
+        "workload": "Vie 11 - 12 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "16",
+        "name_subject": "Matemática II",
+        "image_subject": "matematica.webp",
+        "teacher": "Ana López",
+        "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "17",
+        "name_subject": "Lengua y Literatura II",
+        "image_subject": "literatura.webp",
+        "teacher": "Javier Silva",
+        "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "18",
+        "name_subject": "Geografía II",
+        "image_subject": "geografia.webp",
+        "teacher": "Sofía Torres",
+        "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "19",
+        "name_subject": "Fisico Química II",
+        "image_subject": "fisicoquimica.webp",
+        "teacher": "Diego Castro",
+        "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "20",
+        "name_subject": "Inglés II",
+        "image_subject": "ingles.webp",
+        "teacher": "Claudia Ramírez",
+        "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
+        "classroom": "6C"
+      }
+    ]
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "1",
     "year": "2023",
-    "name_subject": "Historia III",
-    "image_subject": "historia.webp",
-    "teacher": "Lopez Maria Laura",
-    "workload": "Mier 11 - 13 am ",
-    "classroom": "5B"
+    "subjects": [
+      {
+        "id_subject": "1",
+        "name_subject": "Historia III",
+        "image_subject": "historia.webp",
+        "teacher": "Lopez Maria Laura",
+        "workload": "Mier 11 - 13 am ",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "2",
+        "name_subject": "Economía III",
+        "image_subject": "economia.webp",
+        "teacher": "Fernandez Luis",
+        "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "3",
+        "name_subject": "Música III",
+        "image_subject": "musica.webp",
+        "teacher": "Carlos Rodríguez",
+        "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "4",
+        "name_subject": "Atletismo III",
+        "image_subject": "atletismo.webp",
+        "teacher": "Laura Martínez",
+        "workload": "Jue 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "5",
+        "name_subject": "Arte III",
+        "image_subject": "arte.webp",
+        "teacher": "Pedro Fernández",
+        "workload": "Vie 11 - 12 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "6",
+        "name_subject": "Matemática III",
+        "image_subject": "matematica.webp",
+        "teacher": "Ana López",
+        "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "7",
+        "name_subject": "Lengua y Literatura III",
+        "image_subject": "literatura.webp",
+        "teacher": "Javier Silva",
+        "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "8",
+        "name_subject": "Geografía III",
+        "image_subject": "geografia.webp",
+        "teacher": "Sofía Torres",
+        "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "9",
+        "name_subject": "Fisico Química III",
+        "image_subject": "fisicoquimica.webp",
+        "teacher": "Diego Castro",
+        "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
+        "classroom": "5B"
+      },
+      {
+        "id_subject": "10",
+        "name_subject": "Inglés III",
+        "image_subject": "ingles.webp",
+        "teacher": "Claudia Ramírez",
+        "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
+        "classroom": "5B"
+      }
+    ]
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "2",
-    "year": "2023",
-    "name_subject": "Economía III",
-    "image_subject": "economia.webp",
-    "teacher": "Fernandez Luis",
-    "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "3",
-    "year": "2023",
-    "name_subject": "Música III",
-    "image_subject": "musica.webp",
-    "teacher": "Carlos Rodríguez",
-    "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "4",
-    "year": "2023",
-    "name_subject": "Atletismo III",
-    "image_subject": "atletismo.webp",
-    "teacher": "Laura Martínez",
-    "workload": "Jue 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "5",
-    "year": "2023",
-    "name_subject": "Arte III",
-    "image_subject": "arte.webp",
-    "teacher": "Pedro Fernández",
-    "workload": "Vie 11 - 12 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "6",
-    "year": "2023",
-    "name_subject": "Matemática III",
-    "image_subject": "matematica.webp",
-    "teacher": "Ana López",
-    "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "7",
-    "year": "2023",
-    "name_subject": "Lengua y Literatura III",
-    "image_subject": "literatura.webp",
-    "teacher": "Javier Silva",
-    "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "8",
-    "year": "2023",
-    "name_subject": "Geografía III",
-    "image_subject": "geografia.webp",
-    "teacher": "Sofía Torres",
-    "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "9",
-    "year": "2023",
-    "name_subject": "Fisico Química III",
-    "image_subject": "fisicoquimica.webp",
-    "teacher": "Diego Castro",
-    "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "",
-    "id_subject": "10",
-    "year": "2023",
-    "name_subject": "Inglés III",
-    "image_subject": "ingles.webp",
-    "teacher": "Claudia Ramírez",
-    "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
-    "classroom": "5B"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "11",
     "year": "2024",
-    "name_subject": "Historia IV",
-    "image_subject": "historia.webp",
-    "teacher": "Lopez Maria Laura",
-    "workload": "Mier 11 - 13 am ",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "12",
-    "year": "2024",
-    "name_subject": "Economía IV",
-    "image_subject": "economia.webp",
-    "teacher": "Fernandez Luis",
-    "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "13",
-    "year": "2024",
-    "name_subject": "Música IV",
-    "image_subject": "musica.webp",
-    "teacher": "Carlos Rodríguez",
-    "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "14",
-    "year": "2024",
-    "name_subject": "Atletismo IV",
-    "image_subject": "atletismo.webp",
-    "teacher": "Laura Martínez",
-    "workload": "Jue 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "15",
-    "year": "2024",
-    "name_subject": "Arte IV",
-    "image_subject": "arte.webp",
-    "teacher": "Pedro Fernández",
-    "workload": "Vie 11 - 12 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "16",
-    "year": "2024",
-    "name_subject": "Matemática IV",
-    "image_subject": "matematica.webp",
-    "teacher": "Ana López",
-    "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "17",
-    "year": "2024",
-    "name_subject": "Lengua y Literatura IV",
-    "image_subject": "literatura.webp",
-    "teacher": "Javier Silva",
-    "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "18",
-    "year": "2024",
-    "name_subject": "Geografía IV",
-    "image_subject": "geografia.webp",
-    "teacher": "Sofía Torres",
-    "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "19",
-    "year": "2024",
-    "name_subject": "Fisico Química IV",
-    "image_subject": "fisicoquimica.webp",
-    "teacher": "Diego Castro",
-    "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
-    "classroom": "6C"
-  },
-  {
-    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
-    "id_subject": "20",
-    "year": "2024",
-    "name_subject": "Inglés IV",
-    "image_subject": "ingles.webp",
-    "teacher": "Claudia Ramírez",
-    "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
-    "classroom": "6C"
+    "subjects": [
+      {
+        "id_subject": "11",
+        "name_subject": "Historia IV",
+        "image_subject": "historia.webp",
+        "teacher": "Lopez Maria Laura",
+        "workload": "Mier 11 - 13 am ",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "12",
+        "name_subject": "Economía IV",
+        "image_subject": "economia.webp",
+        "teacher": "Fernandez Luis",
+        "workload": "Lun 8 - 9 am | Mier 10 - 11 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "13",
+        "name_subject": "Música IV",
+        "image_subject": "musica.webp",
+        "teacher": "Carlos Rodríguez",
+        "workload": "Lunes 9 - 10 am | Mier 11 - 12 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "14",
+        "name_subject": "Atletismo IV",
+        "image_subject": "atletismo.webp",
+        "teacher": "Laura Martínez",
+        "workload": "Jue 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "15",
+        "name_subject": "Arte IV",
+        "image_subject": "arte.webp",
+        "teacher": "Pedro Fernández",
+        "workload": "Vie 11 - 12 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "16",
+        "name_subject": "Matemática IV",
+        "image_subject": "matematica.webp",
+        "teacher": "Ana López",
+        "workload": "Lun 10 - 11 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "17",
+        "name_subject": "Lengua y Literatura IV",
+        "image_subject": "literatura.webp",
+        "teacher": "Javier Silva",
+        "workload": "Mar 9 - 10 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "18",
+        "name_subject": "Geografía IV",
+        "image_subject": "geografia.webp",
+        "teacher": "Sofía Torres",
+        "workload": "Mar 11 - 12 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "19",
+        "name_subject": "Fisico Química IV",
+        "image_subject": "fisicoquimica.webp",
+        "teacher": "Diego Castro",
+        "workload": "Lun 11 - 13 am | Mier 9 - 10 am",
+        "classroom": "6C"
+      },
+      {
+        "id_subject": "20",
+        "name_subject": "Inglés IV",
+        "image_subject": "ingles.webp",
+        "teacher": "Claudia Ramírez",
+        "workload": "Mier 11 - 13 am | Vier 9 - 10 am",
+        "classroom": "6C"
+      }
+    ]
   }
 ]

@@ -32,6 +32,7 @@ function Subjects() {
         <YearFilter
           setFilteredSubjects={setFilteredSubjects}
           subjects={subjects}
+          userId = {user.uid}
         />
       </div>
       {!isLoaded ?
@@ -39,18 +40,18 @@ function Subjects() {
         <div className='row'>
           {
             filteredSubjects
-              .filter((subject) => subject.id_student === user.uid) // Filter by user autenticated
-              .map((subject) => (
-                <SubjectCard
-                  key={subject.id_subject}
-                  idSubject={subject.id_subject}
-                  nameSubject={subject.name_subject}
-                  imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
-                  teacher={subject.teacher}
-                  workload={subject.workload}
-                  classroom={subject.classroom}
-                />
-              ))
+            .filter((item) => item.id_student === user.uid) // Filter by authenticated user
+            .flatMap((item) => item.subjects) // Flatten subjects into a single array
+            .map((subject) => (
+              <SubjectCard
+                idSubject={subject.id_subject}
+                nameSubject={subject.name_subject}
+                imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
+                teacher={subject.teacher}
+                workload={subject.workload}
+                classroom={subject.classroom}
+              />
+            ))
           }
         </div>
         :

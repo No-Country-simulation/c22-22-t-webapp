@@ -3,24 +3,21 @@
         "id": 1,
         "name": "Día del deporte",
         "description": "Marcá en tu calendario el Día Anual del Deporte el 10/12 ¡un día de competencia y trabajo en equipo que nadie querrá perderse!",
-        "image1": "../../public/sports-day.jpeg",
-        "image2": "ej2.jpg",
+        "image": "sports-day.jpeg",
         "date": "10/12"
     },
     {
         "id": 2,
         "name": "Muestra anual",
         "description": "El 15/12 es la muestra anual donde todos los alumnos expondrán los proyectos que fueron preparando durante todo el año. Un evento para toda la familia.",
-        "image1": "../../public/muestra.jpg",
-        "image2": "muestra_2.jpg",
+        "image": "muestra.jpg",
         "date": "15/12"
     },
     {
         "id": 3,
         "name": "Evento de graduación",
         "description": "El 20/12 celebraremos la graduación de los alumnos de sexto año donde se vivirá un día de alegría y emociones. Los esperamos a todos!",
-        "image1": "../../public/graduados.jpg",
-        "image2": "graduacion_2.jpg",
+        "image": "graduados.jpg",
         "date": "20/12"
     }
 ]

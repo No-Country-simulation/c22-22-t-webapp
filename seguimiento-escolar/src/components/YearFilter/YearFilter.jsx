@@ -1,17 +1,34 @@
-import React, { useState } from 'react'
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.min.js"
+import React, { useState, useEffect } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 
-function YearFilter({ setFilteredSubjects, subjects }) {
+function YearFilter({ setFilteredSubjects, subjects, userId }) {
   const [selectedYear, setSelectedYear] = useState("Todos");
+  const [availableYears, setAvailableYears] = useState([]);
+
+  // Extract unique years dynamically for the specific student
+  useEffect(() => {
+    const studentSubjects = subjects.filter(
+      (subject) => subject.id_student === userId
+    );
+    const years = [...new Set(studentSubjects.map((subject) => subject.year))];
+    setAvailableYears(years.sort()); // Sort years in ascending order
+  }, [subjects, userId]);
+
   const handleYearFilter = (year) => {
     setSelectedYear(year);
+    const studentSubjects = subjects.filter(
+      (subject) => subject.id_student === userId
+    );
     if (year === "Todos") {
-      setFilteredSubjects(subjects);
+      setFilteredSubjects(studentSubjects);
     } else {
-      setFilteredSubjects(subjects.filter(subject => subject.year == year));
+      setFilteredSubjects(
+        studentSubjects.filter((subject) => subject.year == year)
+      );
     }
   };
+
   return (
     <div className="dropdown">
       <button
@@ -23,24 +40,30 @@ function YearFilter({ setFilteredSubjects, subjects }) {
         {selectedYear}
       </button>
       <ul className="dropdown-menu">
+        {/* Static option for 'Todos' */}
         <li>
-          <button className="dropdown-item" onClick={() => handleYearFilter("Todos")}>
+          <button
+            className="dropdown-item"
+            onClick={() => handleYearFilter("Todos")}
+          >
             Todos
           </button>
         </li>
-        <li>
-          <button className="dropdown-item" onClick={() => handleYearFilter(2023)}>
-            2023
-          </button>
-        </li>
-        <li>
-          <button className="dropdown-item" onClick={() => handleYearFilter(2024)}>
-            2024
-          </button>
-        </li>
+
+        {/* Dynamically generated options */}
+        {availableYears.map((year) => (
+          <li key={year}>
+            <button
+              className="dropdown-item"
+              onClick={() => handleYearFilter(year)}
+            >
+              {year}
+            </button>
+          </li>
+        ))}
       </ul>
     </div>
-  )
+  );
 }
 
-export default YearFilter
+export default YearFilter;

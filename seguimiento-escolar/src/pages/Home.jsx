@@ -12,7 +12,9 @@ import events from '../mocks/events.json';
 function Home() {
   const [student, setStudent] = useState(null);
   const [filteredAssignments, setFilteredAssignments] = useState([]);
-
+  // We use import.meta.glob to load all images  
+  const images = import.meta.glob('../assets/upcomingEvents/*', { eager: true });
+  
   useEffect(() => {
     const fetchData = async () => {
       const currentStudent = students.find((s) => s.id === 1);
@@ -55,8 +57,7 @@ function Home() {
               key={event.id}
               name={event.name}
               description={event.description}
-              image1={event.image1}
-              image2={event.image2}
+              image={images[`../assets/upcomingEvents/${event.image}`]?.default}
               date={event.date}
             />
           ))}
