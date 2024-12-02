@@ -20,6 +20,7 @@ function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef, ha
               className="form-control"
               placeholder=' '
               onChange={handleChange}
+              maxLength={step == 1 ? 12 : 20}
               autoFocus
               ref={step === 2 ? inputRef : null} // Asign the reference to the paswd input
             />

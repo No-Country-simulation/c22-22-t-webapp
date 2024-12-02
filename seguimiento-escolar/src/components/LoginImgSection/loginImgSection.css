@@ -7,7 +7,7 @@
 .hero-section {
   position: relative;
   height: 100vh;
-  background: url('https://images.pexels.com/photos/7972512/pexels-photo-7972512.jpeg') center/cover no-repeat;
+  background: url('../../assets/login-img.webp') center/cover no-repeat;
   overflow: hidden;
 }
 
