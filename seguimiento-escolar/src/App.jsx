@@ -8,6 +8,11 @@ import ProtectedRoute from './routes/ProtectedRoute';
 import Home from './pages/Home';
 import Subjects from './pages/Subjects';
 import SubjectDetails from './pages/SubjectDetails';
+import AnualSyllabus from './pages/AnualSyllabus';
+import Tests from './pages/Tests';
+import AcademicPerformance from './pages/AcademicPerformance';
+import Community from './pages/Community';
+import Grades from './pages/Grades';
 import './App.css'
 
 
@@ -33,6 +38,11 @@ function App() {
           <Route path='materias' >
             <Route index element={<Subjects />} />
             <Route path=':idSubject' element={<SubjectDetails />} />
+            <Route path=':idSubject/programa-anual' element={<AnualSyllabus />} />
+            <Route path=':idSubject/examenes' element={<Tests />} />
+            <Route path=':idSubject/rendimiento-academico' element={<AcademicPerformance />} />
+            <Route path=':idSubject/comunidad' element={<Community />} />
+            <Route path=':idSubject/calificaciones' element={<Grades />} />
           </Route>
         </Route>
 

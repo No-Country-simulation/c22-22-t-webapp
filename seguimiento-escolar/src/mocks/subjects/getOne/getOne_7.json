@@ -1,0 +1,44 @@
+[
+  {
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2023",
+    "subject": "Lengua y Literatura",
+    "subject_stats": {
+      "assitance": "79/100",
+      "deliveries": "8/10",
+      "behavior": "7/10"
+    },
+    "teacher": "Maria Lopez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Números enteros",
+        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+      },
+      {
+        "unit_number": 2,
+        "title": "Álgebra",
+        "content": "Expresiones Algebraicas. Operaciones. Ecuaciones. Resolución de problemas."
+      },
+      {
+        "unit_number": 3,
+        "title": "Geometría",
+        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  }
+]

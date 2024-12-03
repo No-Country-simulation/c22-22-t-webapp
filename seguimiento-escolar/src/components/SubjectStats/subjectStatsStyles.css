@@ -1,0 +1,176 @@
+.student-stats-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-bg);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.stat-container {
+  padding: 1em 2em;
+  flex: 1 1 calc(30% - 20px);
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.stat-container:nth-child(2) {
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+}
+
+.stat-container:last-child {
+  border-top: 1px solid #cfcfcf;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.stat-container>div>div {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 12px;
+}
+
+.stat-container h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.stat-container p {
+  margin: 4px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.stat-container p:last-child {
+  font-weight: 400;
+  color: #666;
+}
+
+.stat-container .icon {
+  margin-top: 8px;
+  font-size: 1.2rem;
+}
+
+.icon.green.up {
+  color: #4caf50;
+}
+
+.icon.orange.down {
+  color: #ff9800;
+}
+
+.stat-container i {
+  font-size: 2rem;
+  color: #826bd5;
+  margin-top: 10px;
+}
+
+.stat-container i.special {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  font-size: 1.4rem;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.main-stats-section {
+  display: flex;
+}
+
+/* _______________________________ */
+
+@media (width < 940px) {
+  .stat-container {
+      padding: 2em;
+      margin: 0.4em 1em;
+  }
+
+  .stat-container:last-child {
+      padding-top: 2em;
+      padding: 2em;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .main-stats-section {
+      flex-direction: column;
+  }
+}
+
+@media (width < 800px) {
+  .stat-container {
+      padding: 1.4em;
+      margin: 0;
+  }
+
+  .stat-container:last-child {
+      padding: 1em;
+      padding-top: 2em;
+  }
+
+  .stat-container i.special {
+      width: 38px;
+      height: 38px;
+      font-size: 1.4rem;
+      margin: auto 0;
+  }
+}
+
+@media (width < 768px) {
+  .stat-container {
+      padding: 1.2em;
+  }
+
+  .stat-container:last-child {
+      padding: 1em 0;
+  }
+
+  .stat-container h3 {
+      font-size: 1.2rem;
+  }
+
+  .stat-container p {
+      margin: 4px 0;
+  }
+
+  .stat-container .icon {
+      margin-top: 0;
+      font-size: 1.2rem;
+  }
+}
+
+@media (width < 632px) {
+  .student-stats-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+  .stat-container {
+      border-bottom: 1px solid #cfcfcf;
+      padding: 1.4em 2em;
+  }
+
+  .stat-container:nth-child(2) {
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+  }
+
+  .stat-container i.special {
+      width: 44px;
+      height: 44px;
+      font-size: 1.4rem;
+      margin: auto 1em;
+  }
+}
+
