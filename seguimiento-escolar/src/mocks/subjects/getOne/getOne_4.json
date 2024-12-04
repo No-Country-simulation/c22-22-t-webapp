@@ -2,28 +2,94 @@
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2023",
-    "subject": "Atletismo",
+    "subject": "Atletismo I",
     "subject_stats": {
-      "assitance": "79/100",
-      "deliveries": "8/10",
-      "behavior": "7/10"
+      "attendance": {
+        "present": 140,
+        "absent": 20,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 7,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 0,
+        "negative_points": 1,
+        "total_behavior": 10
+      }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Laura Martínez",
     "units": [
       {
         "unit_number": 1,
-        "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "title": "Participacion en Maratones",
+        "content": "Maratón, en esta actividad participan todos los alumnos del establecimiento (participando o ayudando en la coordinación y organización del evento el equipo directivo, asistentes escolares, docentes, MET y todo el personal) Es un proyecto que integra a la comunidad educativa."
       },
       {
         "unit_number": 2,
-        "title": "Álgebra",
-        "content": "Expresiones Algebraicas. Operaciones. Ecuaciones. Resolución de problemas."
+        "title": "Importancia del calentamiento muscular",
+        "content": "Jornadas con nuestros alumnos y la invitación a especialistas; donde se trabajarán el esqueleto, sistema articular, muscular y principalmente el sistema cardiorrespiratorio. El objetivo es que nuestros alumnos conozcan su cuerpo, sus características y funciones, como nos movemos, los cuidados que debemos tener al realizar actividad física y mantener saludable nuestro cuerpo como un todo."
       },
       {
         "unit_number": 3,
-        "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "title": "Apoyo activiades deportivas",
+        "content": "Participación en Jornadas Deportivas Escolares. Organización y acompañamiento de los alumnos egresados en los actos de colación"
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2023",
+    "subject": "Atletismo III",
+    "subject_stats": {
+      "attendance": {
+        "present": 140,
+        "absent": 20,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 7,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 0,
+        "negative_points": 1,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Laura Martínez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Participacion en Maratones",
+        "content": "Maratón, en esta actividad participan todos los alumnos del establecimiento (participando o ayudando en la coordinación y organización del evento el equipo directivo, asistentes escolares, docentes, MET y todo el personal) Es un proyecto que integra a la comunidad educativa."
+      },
+      {
+        "unit_number": 2,
+        "title": "Importancia del calentamiento muscular",
+        "content": "Jornadas con nuestros alumnos y la invitación a especialistas; donde se trabajarán el esqueleto, sistema articular, muscular y principalmente el sistema cardiorrespiratorio. El objetivo es que nuestros alumnos conozcan su cuerpo, sus características y funciones, como nos movemos, los cuidados que debemos tener al realizar actividad física y mantener saludable nuestro cuerpo como un todo."
+      },
+      {
+        "unit_number": 3,
+        "title": "Apoyo activiades deportivas",
+        "content": "Participación en Jornadas Deportivas Escolares. Organización y acompañamiento de los alumnos egresados en los actos de colación"
       }
     ],
     "grades": [

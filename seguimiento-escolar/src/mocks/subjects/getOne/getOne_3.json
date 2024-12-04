@@ -2,28 +2,84 @@
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2023",
-    "subject": "Musica",
+    "subject": "Música I",
     "subject_stats": {
-      "assitance": "79/100",
-      "deliveries": "8/10",
-      "behavior": "7/10"
+      "attendance": {
+        "present": 140,
+        "absent": 20,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 7,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 0,
+        "negative_points": 1,
+        "total_behavior": 10
+      }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Carlos Rodríguez",
     "units": [
       {
         "unit_number": 1,
-        "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "title": "Las prácticas musicales en relación a su producción",
+        "content": "La interpretación vocal colectiva, individual y coral tendiente a profundizar una relación natural con el uso de la voz. La ampliación de la capacidad de coordinación implicada en la interpretación musical al cantar y acompañarse ya sea con el uso de claves rítmicas y/o bases armónicas sencillas. El trabajo con los parámetros del sonido (duración-altura, timbre e intensidad), la forma y la textura en el desarrollo y realización de sus propias ideas musicales. El abordaje de los modos actuales de producción y circulación musicales, considerando las tecnologías de la información y la conectividad, así como el software de audio digital accesible"
       },
       {
         "unit_number": 2,
-        "title": "Álgebra",
-        "content": "Expresiones Algebraicas. Operaciones. Ecuaciones. Resolución de problemas."
+        "title": "Las prácticas musicales en relación a su contexto",
+        "content": "El análisis de los circuitos de divulgación de la obra (radio, TV, Internet, conciertos). La transmisión oral. La escritura. La grabación.El desarrollo de la capacidad de opinar en relación a lo visto y escuchado, fundamentado, enmarcado en el respeto e incorporando progresivamente criterios propios del lenguaje musical. La reflexión crítica sobre la música en la actualidad, sus prácticas y funciones sociales, tanto en sus manifestaciones autónomas como en su relación con otros lenguajes/disciplinas artísticas. El desarrollo del pensamiento divergente y el respeto por la diversidad estética a partir de prácticas grupales de composición, realización y análisis musical"
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
       },
       {
-        "unit_number": 3,
-        "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2023",
+    "subject": "Música III",
+    "subject_stats": {
+      "attendance": {
+        "present": 130,
+        "absent": 40,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 3,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 2,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Carlos Rodríguez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Las prácticas musicales en relación a su producción",
+        "content": "La interpretación vocal colectiva, individual y coral tendiente a profundizar una relación natural con el uso de la voz. La ampliación de la capacidad de coordinación implicada en la interpretación musical al cantar y acompañarse ya sea con el uso de claves rítmicas y/o bases armónicas sencillas. El trabajo con los parámetros del sonido (duración-altura, timbre e intensidad), la forma y la textura en el desarrollo y realización de sus propias ideas musicales. El abordaje de los modos actuales de producción y circulación musicales, considerando las tecnologías de la información y la conectividad, así como el software de audio digital accesible"
+      },
+      {
+        "unit_number": 2,
+        "title": "Las prácticas musicales en relación a su contexto",
+        "content": "El análisis de los circuitos de divulgación de la obra (radio, TV, Internet, conciertos). La transmisión oral. La escritura. La grabación.El desarrollo de la capacidad de opinar en relación a lo visto y escuchado, fundamentado, enmarcado en el respeto e incorporando progresivamente criterios propios del lenguaje musical. La reflexión crítica sobre la música en la actualidad, sus prácticas y funciones sociales, tanto en sus manifestaciones autónomas como en su relación con otros lenguajes/disciplinas artísticas. El desarrollo del pensamiento divergente y el respeto por la diversidad estética a partir de prácticas grupales de composición, realización y análisis musical"
       }
     ],
     "grades": [

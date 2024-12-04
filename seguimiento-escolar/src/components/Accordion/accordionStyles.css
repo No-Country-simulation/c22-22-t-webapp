@@ -1,0 +1,24 @@
+.accordion__custom {
+  background-color: var(--primary-bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Contraido */
+.accordion-button {
+  background-color: var(--primary-bg);
+  border: none;
+}
+
+/* Enfocado */
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* Expandido */
+.accordion-button:not(.collapsed) {
+  color: var(--bs-primary);
+  background-color: #E7F1FF;
+}
+
