@@ -2,28 +2,94 @@
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2023",
-    "subject": "Fisico Química",
+    "subject": "Fisico Química I",
     "subject_stats": {
-      "assitance": "79/100",
-      "deliveries": "8/10",
-      "behavior": "7/10"
+      "attendance": {
+        "present": 170,
+        "absent": 5,
+        "late": 5,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 8,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 2,
+        "total_behavior": 10
+      }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Diego Castro",
     "units": [
       {
         "unit_number": 1,
-        "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "title": "La construcción del conocimiento científico en Física y Química",
+        "content": "Características del conocimiento científico. Fenómenos físicos y químicos. La naturaleza del estudio de las ciencias Física y Química. Métodos de la ciencia. Sistemas de magnitudes. El sistema internacional (SI), unidades fundamentales y derivadas. Notación científica. Mediciones y errores, interpretación gráfica de datos experimentales. Magnitudes escalares y vectoriales. El vector como elemento matemático necesario para caracterizar algunas magnitudes.  La materia, sus estados y las mezclas Los materiales en la vida cotidiana. Estados de agregación de la materia. Cambios de estado de agregación. Propiedades de los materiales. Propiedades generales y específicas. Propiedades de los sólidos, líquidos y gases. Sistemas materiales. Clasificación de sistemas materiales. Métodos de separación de fases y métodos de fraccionamiento más apropiados para separar componentes de soluciones, por ejemplo, en procesos industriales y/o artesanales. Consecuencias ambientales de la solubilidad de las sustancias en distintos medios y su aplicación en medidas de cuidado ambiental."
       },
       {
         "unit_number": 2,
-        "title": "Álgebra",
-        "content": "Expresiones Algebraicas. Operaciones. Ecuaciones. Resolución de problemas."
+        "title": "Los materiales, su composición y los cambios",
+        "content": "Estructura atómica: modelos. Modelo atómico mecánico-cuántico. Reconocimiento de símbolos de elementos. Clasificación periódica de los elementos. Uso de Tabla periódica. Configuración electrónica. Uniones químicas para la formación de moléculas de compuestos de uso frecuente en la vida cotidiana y de impacto en el medioambiente. Estructura molecular. Fórmulas y nomenclaturas. El reconocimiento de las reacciones químicas. Coeficientes estequiométricos. Representación a través de fórmulas químicas de reacciones que puedan tener relevancia en la vida cotidiana involucradas en acciones preventivas y reparadoras del deterioro ambiental. "
       },
       {
         "unit_number": 3,
-        "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "title": "Los fenómenos del mundo físico ",
+        "content": "Introducción a la noción de campos de fuerzas. Interacciones de diferente naturaleza: gravitatoria, eléctrica, magnética. Las Leyes de Newton. Cambio de velocidad de un cuerpo, estiramiento de un resorte. Energía potencial asociada a campos gravitatorio y eléctrico. Trabajo mecánico como transferencia de energía. Energía cinética. Energía mecánica. Conservación de la energía mecánica. Fuerzas en fluidos. Temperatura. Termómetros. Dilatación térmica. Calor como transferencia de energía. Conducción y convección. El calor y los cambios de estado de agregación de la materia. Ondas mecánicas y electromagnéticas. Característica de las ondas. Característica de las ondas. La luz. Propagación. Fenómenos: reflexión y refracción. El espectro electromagnético. La radiación como transferencia de energía."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2023",
+    "subject": "Fisico Química III",
+    "subject_stats": {
+      "attendance": {
+        "present": 95,
+        "absent": 45,
+        "late": 40,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 5,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 5,
+        "negative_points": 10,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Diego Castro",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "La construcción del conocimiento científico en Física y Química",
+        "content": "Características del conocimiento científico. Fenómenos físicos y químicos. La naturaleza del estudio de las ciencias Física y Química. Métodos de la ciencia. Sistemas de magnitudes. El sistema internacional (SI), unidades fundamentales y derivadas. Notación científica. Mediciones y errores, interpretación gráfica de datos experimentales. Magnitudes escalares y vectoriales. El vector como elemento matemático necesario para caracterizar algunas magnitudes.  La materia, sus estados y las mezclas Los materiales en la vida cotidiana. Estados de agregación de la materia. Cambios de estado de agregación. Propiedades de los materiales. Propiedades generales y específicas. Propiedades de los sólidos, líquidos y gases. Sistemas materiales. Clasificación de sistemas materiales. Métodos de separación de fases y métodos de fraccionamiento más apropiados para separar componentes de soluciones, por ejemplo, en procesos industriales y/o artesanales. Consecuencias ambientales de la solubilidad de las sustancias en distintos medios y su aplicación en medidas de cuidado ambiental."
+      },
+      {
+        "unit_number": 2,
+        "title": "Los materiales, su composición y los cambios",
+        "content": "Estructura atómica: modelos. Modelo atómico mecánico-cuántico. Reconocimiento de símbolos de elementos. Clasificación periódica de los elementos. Uso de Tabla periódica. Configuración electrónica. Uniones químicas para la formación de moléculas de compuestos de uso frecuente en la vida cotidiana y de impacto en el medioambiente. Estructura molecular. Fórmulas y nomenclaturas. El reconocimiento de las reacciones químicas. Coeficientes estequiométricos. Representación a través de fórmulas químicas de reacciones que puedan tener relevancia en la vida cotidiana involucradas en acciones preventivas y reparadoras del deterioro ambiental. "
+      },
+      {
+        "unit_number": 3,
+        "title": "Los fenómenos del mundo físico ",
+        "content": "Introducción a la noción de campos de fuerzas. Interacciones de diferente naturaleza: gravitatoria, eléctrica, magnética. Las Leyes de Newton. Cambio de velocidad de un cuerpo, estiramiento de un resorte. Energía potencial asociada a campos gravitatorio y eléctrico. Trabajo mecánico como transferencia de energía. Energía cinética. Energía mecánica. Conservación de la energía mecánica. Fuerzas en fluidos. Temperatura. Termómetros. Dilatación térmica. Calor como transferencia de energía. Conducción y convección. El calor y los cambios de estado de agregación de la materia. Ondas mecánicas y electromagnéticas. Característica de las ondas. Característica de las ondas. La luz. Propagación. Fenómenos: reflexión y refracción. El espectro electromagnético. La radiación como transferencia de energía."
       }
     ],
     "grades": [

@@ -39,10 +39,22 @@ function AnualSyllabus() {
     return null;
   };
 
+  // Getting only the prop name from getOne_id.json
+  const getSubjectNameByStudent = () => {
+    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid);
+
+    if (loggedStudentSubjectData) {
+      const { subject: subjectName } = loggedStudentSubjectData;
+
+      return subjectName;
+    }
+    return null;
+  };
+
 
   return (
     <div className="container-lg mt-4">
-      <h1 className='fw-bold mb-3' style={{ color: "#032D6C" }}>{subject.length > 0 && subject[0].subject}</h1>
+      <h1 className='fw-bold mb-3' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
       <div className='mb-5'>
         <SubjectFeature
           feature={"Programa Anual"}

@@ -2,28 +2,104 @@
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2023",
-    "subject": "Inglés",
+    "subject": "Inglés I",
     "subject_stats": {
-      "assitance": "79/100",
-      "deliveries": "8/10",
-      "behavior": "7/10"
+      "attendance": {
+        "present": 160,
+        "absent": 10,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 9,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 3,
+        "total_behavior": 10
+      }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Claudia Ramírez",
     "units": [
       {
         "unit_number": 1,
-        "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "title": "Práctica social de comprensión oral ",
+        "content": "Escuchar textos orales de diferentes géneros, relacionados a las áreas de experiencia: diálogos cortos, entrevistas, anuncios, consignas de clase, publicidades, poesías, canciones, etc. Esta práctica implica:  anticipar y hacer hipótesis sobre el sentido del texto, a partir de pistas lingüísticodiscursivas y paraverbales,  identificar interlocutores y tema abordado,  identificar el uso de marcadores propios de la oralidad como interjecciones,  comenzar a identificar registros formales e informales,  comenzar a apreciar el ritmo y la musicalidad de la LCE."
       },
       {
         "unit_number": 2,
-        "title": "Álgebra",
-        "content": "Expresiones Algebraicas. Operaciones. Ecuaciones. Resolución de problemas."
+        "title": "Práctica social de comprensión escrita",
+        "content": "Leer textos verbales y no verbales (visuales y audiovisuales) descriptivos e instruccionales breves: formularios básicos, invitaciones, diálogos cara a cara, conversaciones cortas en 27 chat, mensajes de texto, correos electrónicos, entradas en blogs, avisos publicitarios, cartas, mensajes en redes sociales, folletos. Esta práctica implica:  anticipar y hacer hipótesis sobre el sentido del texto a partir del paratexto y el título,  comprender consignas en la LCE,  desarrollar lectura global o focalizada de acuerdo a la tarea comunicativa,  reconocer la LCE como recurso para buscar información y adquirir nuevos conocimientos,  reconocer la LCE como posibilidad de apertura a otras realidades en el mundo,  comprender y reflexionar acerca el uso de los indicadores de la puntuación y entonación."
       },
       {
         "unit_number": 3,
-        "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "title": "Práctica social de producción oral",
+        "content": "Hablar en intercambios propios del contexto escolar (saludar, pedir permiso, disculparse, solicitar repeticiones) e intercambios orales breves a partir de disparadores verbales o no verbales (hacer y responder preguntas, describir personas, animales y objetos, manifestar preferencias y gustos), relatos breves de experiencias personales, adivinanzas, chistes. Esta práctica implica:  comenzar a adquirir pronunciación inteligible,  comenzar a usar componentes lingüístico-discursivos adecuados al propósito de la interacción,  adecuar gestos, posturas, volumen de voz al destinatario, al tema y al propósito,  comenzar a usar estrategias de consulta y reparación de la producción."
+      },
+      {
+        "unit_number": 4,
+        "title": "Práctica social de producción escrita",
+        "content": "Escribir textos breves verbales y no verbales (visuales y audiovisuales) acorde a los tipos textuales trabajados en el eje comprensión escrita: invitaciones, mensajes de texto, correos electrónicos, entradas de blogs, entradas y comentarios en redes sociales, conversaciones en chat, pósters digitales. Esta práctica implica:  identificar el destinatario, tema y propósito con ayuda del docente,  planificar con ayuda del docente lo que se va a escribir,  elaborar versiones mejoradas en base a devoluciones del docente,  escribir para uno mismo: para fijar conocimientos, para recordar, para repasar,  publicar y compartir las producciones."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2023",
+    "subject": "Inglés III",
+    "subject_stats": {
+      "attendance": {
+        "present": 170,
+        "absent": 5,
+        "late": 5,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 8,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 2,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Claudia Ramírez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Práctica social de comprensión oral ",
+        "content": "Escuchar textos orales de diferentes géneros, relacionados a las áreas de experiencia: diálogos cortos, entrevistas, anuncios, consignas de clase, publicidades, poesías, canciones, etc. Esta práctica implica:  anticipar y hacer hipótesis sobre el sentido del texto, a partir de pistas lingüísticodiscursivas y paraverbales,  identificar interlocutores y tema abordado,  identificar el uso de marcadores propios de la oralidad como interjecciones,  comenzar a identificar registros formales e informales,  comenzar a apreciar el ritmo y la musicalidad de la LCE."
+      },
+      {
+        "unit_number": 2,
+        "title": "Práctica social de comprensión escrita",
+        "content": "Leer textos verbales y no verbales (visuales y audiovisuales) descriptivos e instruccionales breves: formularios básicos, invitaciones, diálogos cara a cara, conversaciones cortas en 27 chat, mensajes de texto, correos electrónicos, entradas en blogs, avisos publicitarios, cartas, mensajes en redes sociales, folletos. Esta práctica implica:  anticipar y hacer hipótesis sobre el sentido del texto a partir del paratexto y el título,  comprender consignas en la LCE,  desarrollar lectura global o focalizada de acuerdo a la tarea comunicativa,  reconocer la LCE como recurso para buscar información y adquirir nuevos conocimientos,  reconocer la LCE como posibilidad de apertura a otras realidades en el mundo,  comprender y reflexionar acerca el uso de los indicadores de la puntuación y entonación."
+      },
+      {
+        "unit_number": 3,
+        "title": "Práctica social de producción oral",
+        "content": "Hablar en intercambios propios del contexto escolar (saludar, pedir permiso, disculparse, solicitar repeticiones) e intercambios orales breves a partir de disparadores verbales o no verbales (hacer y responder preguntas, describir personas, animales y objetos, manifestar preferencias y gustos), relatos breves de experiencias personales, adivinanzas, chistes. Esta práctica implica:  comenzar a adquirir pronunciación inteligible,  comenzar a usar componentes lingüístico-discursivos adecuados al propósito de la interacción,  adecuar gestos, posturas, volumen de voz al destinatario, al tema y al propósito,  comenzar a usar estrategias de consulta y reparación de la producción."
+      },
+      {
+        "unit_number": 4,
+        "title": "Práctica social de producción escrita",
+        "content": "Escribir textos breves verbales y no verbales (visuales y audiovisuales) acorde a los tipos textuales trabajados en el eje comprensión escrita: invitaciones, mensajes de texto, correos electrónicos, entradas de blogs, entradas y comentarios en redes sociales, conversaciones en chat, pósters digitales. Esta práctica implica:  identificar el destinatario, tema y propósito con ayuda del docente,  planificar con ayuda del docente lo que se va a escribir,  elaborar versiones mejoradas en base a devoluciones del docente,  escribir para uno mismo: para fijar conocimientos, para recordar, para repasar,  publicar y compartir las producciones."
       }
     ],
     "grades": [

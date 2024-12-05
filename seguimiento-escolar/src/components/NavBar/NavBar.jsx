@@ -86,7 +86,7 @@ function NavBar() {
                         Perfil
                       </a>
                       <ul className="dropdown-menu">
-                        <li>
+                        {/* <li>
                           <a className="dropdown-item" href="#">
                             Ver Perfil
                           </a>
@@ -98,7 +98,7 @@ function NavBar() {
                         </li>
                         <li>
                           <hr className="dropdown-divider" />
-                        </li>
+                        </li> */}
                         <li>
                           <button className="dropdown-item" onClick={handleLogOut}>
                             Cerrar Sesión
@@ -126,7 +126,7 @@ function NavBar() {
                     Perfil
                   </a>
                   <ul className="dropdown-menu">
-                    <li>
+                    {/* <li>
                       <Link className="dropdown-item" to="#">
                         Ver Perfil
                       </Link>
@@ -138,7 +138,7 @@ function NavBar() {
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
-                    </li>
+                    </li> */}
                     <li>
                       <button className="dropdown-item" onClick={handleLogOut}>
                         Cerrar Sesión

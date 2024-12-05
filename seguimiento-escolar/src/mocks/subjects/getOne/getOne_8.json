@@ -2,28 +2,114 @@
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2023",
-    "subject": "Geografia",
+    "subject": "Geografía I",
     "subject_stats": {
-      "assitance": "79/100",
-      "deliveries": "8/10",
-      "behavior": "7/10"
+      "attendance": {
+        "present": 95,
+        "absent": 45,
+        "late": 40,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 5,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 5,
+        "negative_points": 10,
+        "total_behavior": 10
+      }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Sofia Torres",
     "units": [
       {
         "unit_number": 1,
-        "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "title": "Los Estados y la construcción de territorios ",
+        "content": "El conocimiento y explicación de los procesos histórico-políticos en la construcción de los territorios americanos, la fragmentación e integración, la nueva configuración del mapa político y sus permanentes transformaciones,  el análisis y reflexión sobre el rol de los Estados nacionales en la construcción del territorio, en la movilidad de los límites internacionales, las principales áreas de conflicto y tensión y las características de las áreas fronterizas, problematizando los conceptos de soberanía e identidad. La comprensión de las relaciones entre Estados y el papel de las organizaciones supranacionales (interamericanas e internacionales), los nuevos actores y movimientos 69 sociales americanos, que a partir de conflictos y consensos conforman sociedades plurales, democráticas y participativas."
       },
       {
         "unit_number": 2,
-        "title": "Álgebra",
-        "content": "Expresiones Algebraicas. Operaciones. Ecuaciones. Resolución de problemas."
+        "title": "El ambiente, resultado de las relaciones entre sociedad y naturaleza",
+        "content": "El conocimiento de distintos ambientes del continente americano, los diversos modos de valoración que las sociedades hacen de los mismos a lo largo de la historia en los procesos de construcción del territorio y la identificación de los principales recursos naturales, los tipos de manejo y sus implicancias sociales, económicas, tecnológicas y ambientales,   la interpretación de los problemas ambientales en América como resultado de las tensiones entre la sociedad y el medio físico, profundizando los problemas políticos y éticos en la búsqueda de prácticas y consensos que lleven a la construcción de sociedades ambientales sustentables,  el conocimiento y reflexión entre riesgo y vulnerabilidad frente a eventos de desastres y catástrofes naturales en América, identificando el carácter social y político de la gestión ambiental en materia de prevención y mitigación de los daños."
       },
       {
         "unit_number": 3,
-        "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "title": "El ambiente, resultado de las relaciones entre sociedad y naturaleza",
+        "content": "El conocimiento de distintos ambientes del continente americano, los diversos modos de valoración que las sociedades hacen de los mismos a lo largo de la historia en los procesos de construcción del territorio y la identificación de los principales recursos naturales, los tipos de manejo y sus implicancias sociales, económicas, tecnológicas y ambientales,   la interpretación de los problemas ambientales en América como resultado de las tensiones entre la sociedad y el medio físico, profundizando los problemas políticos y éticos en la búsqueda de prácticas y consensos que lleven a la construcción de sociedades ambientales sustentables,  el conocimiento y reflexión entre riesgo y vulnerabilidad frente a eventos de desastres y catástrofes naturales en América, identificando el carácter social y político de la gestión ambiental en materia de prevención y mitigación de los daños."
+      },
+      {
+        "unit_number": 4,
+        "title": "Territorios urbanizados",
+        "content": "El conocimiento de las configuraciones urbanas en América y sus recientes transformaciones, junto a los procesos de urbanización y conformación de redes urbanas, 70  el reconocimiento de las desigualdades en las condiciones de vida de la población urbana en América, promoviendo el compromiso frente a las problemáticas sociales y ambientales a las que está asociada, desde una perspectiva multidimensional,  la comprensión de las tendencias actuales de movilidad espacial de la población en territorio americano, analizando las motivaciones, políticas e impactos socio-territoriales que provocan."
+      },
+      {
+        "unit_number": 5,
+        "title": "Culturas que se territorializan",
+        "content": "El respeto y valoración de la diversidad cultural atendiendo a los múltiples sistemas de prácticas, conocimientos y cosmovisiones de los distintos grupos humanos en América, junto a los procesos de producción y consumo cultural (redes materiales e inmateriales), que provocan nuevas formas de socialización y subjetivación, sentidos de pertenencia e identidad, el reconocimiento de símbolos, bienes patrimoniales y lugares de memoria en distintos espacios urbanos y rurales,  la comprensión y reflexión crítica sobre las nuevas manifestaciones territoriales que surgen a partir de las prácticas y formas de participación de los movimientos sociales americanos,  la interpretación crítica de las tensiones entre nacionalismos, regionalismos y localismos, considerando las políticas de construcción de los Estados en América en relación con los procesos de diferenciación y homogeneización cultural."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2023",
+    "subject": "Geografía III",
+    "subject_stats": {
+      "attendance": {
+        "present": 110,
+        "absent": 40,
+        "late": 30,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 9,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 4,
+        "negative_points": 6,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Sofia Torres",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Los Estados y la construcción de territorios ",
+        "content": "El conocimiento y explicación de los procesos histórico-políticos en la construcción de los territorios americanos, la fragmentación e integración, la nueva configuración del mapa político y sus permanentes transformaciones,  el análisis y reflexión sobre el rol de los Estados nacionales en la construcción del territorio, en la movilidad de los límites internacionales, las principales áreas de conflicto y tensión y las características de las áreas fronterizas, problematizando los conceptos de soberanía e identidad. La comprensión de las relaciones entre Estados y el papel de las organizaciones supranacionales (interamericanas e internacionales), los nuevos actores y movimientos 69 sociales americanos, que a partir de conflictos y consensos conforman sociedades plurales, democráticas y participativas."
+      },
+      {
+        "unit_number": 2,
+        "title": "El ambiente, resultado de las relaciones entre sociedad y naturaleza",
+        "content": "El conocimiento de distintos ambientes del continente americano, los diversos modos de valoración que las sociedades hacen de los mismos a lo largo de la historia en los procesos de construcción del territorio y la identificación de los principales recursos naturales, los tipos de manejo y sus implicancias sociales, económicas, tecnológicas y ambientales,   la interpretación de los problemas ambientales en América como resultado de las tensiones entre la sociedad y el medio físico, profundizando los problemas políticos y éticos en la búsqueda de prácticas y consensos que lleven a la construcción de sociedades ambientales sustentables,  el conocimiento y reflexión entre riesgo y vulnerabilidad frente a eventos de desastres y catástrofes naturales en América, identificando el carácter social y político de la gestión ambiental en materia de prevención y mitigación de los daños."
+      },
+      {
+        "unit_number": 3,
+        "title": "El ambiente, resultado de las relaciones entre sociedad y naturaleza",
+        "content": "El conocimiento de distintos ambientes del continente americano, los diversos modos de valoración que las sociedades hacen de los mismos a lo largo de la historia en los procesos de construcción del territorio y la identificación de los principales recursos naturales, los tipos de manejo y sus implicancias sociales, económicas, tecnológicas y ambientales,   la interpretación de los problemas ambientales en América como resultado de las tensiones entre la sociedad y el medio físico, profundizando los problemas políticos y éticos en la búsqueda de prácticas y consensos que lleven a la construcción de sociedades ambientales sustentables,  el conocimiento y reflexión entre riesgo y vulnerabilidad frente a eventos de desastres y catástrofes naturales en América, identificando el carácter social y político de la gestión ambiental en materia de prevención y mitigación de los daños."
+      },
+      {
+        "unit_number": 4,
+        "title": "Territorios urbanizados",
+        "content": "El conocimiento de las configuraciones urbanas en América y sus recientes transformaciones, junto a los procesos de urbanización y conformación de redes urbanas, 70  el reconocimiento de las desigualdades en las condiciones de vida de la población urbana en América, promoviendo el compromiso frente a las problemáticas sociales y ambientales a las que está asociada, desde una perspectiva multidimensional,  la comprensión de las tendencias actuales de movilidad espacial de la población en territorio americano, analizando las motivaciones, políticas e impactos socio-territoriales que provocan."
+      },
+      {
+        "unit_number": 5,
+        "title": "Culturas que se territorializan",
+        "content": "El respeto y valoración de la diversidad cultural atendiendo a los múltiples sistemas de prácticas, conocimientos y cosmovisiones de los distintos grupos humanos en América, junto a los procesos de producción y consumo cultural (redes materiales e inmateriales), que provocan nuevas formas de socialización y subjetivación, sentidos de pertenencia e identidad, el reconocimiento de símbolos, bienes patrimoniales y lugares de memoria en distintos espacios urbanos y rurales,  la comprensión y reflexión crítica sobre las nuevas manifestaciones territoriales que surgen a partir de las prácticas y formas de participación de los movimientos sociales americanos,  la interpretación crítica de las tensiones entre nacionalismos, regionalismos y localismos, considerando las políticas de construcción de los Estados en América en relación con los procesos de diferenciación y homogeneización cultural."
       }
     ],
     "grades": [

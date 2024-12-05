@@ -2,7 +2,7 @@
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2023",
-    "subject": "Matematica I",
+    "subject": "Matemática I",
     "subject_stats": {
       "attendance": {
         "present": 150,
@@ -20,12 +20,12 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Ana López",
     "units": [
       {
         "unit_number": 1,
         "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas."
       },
       {
         "unit_number": 2,
@@ -35,7 +35,17 @@
       {
         "unit_number": 3,
         "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice).  Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas. "
+      },
+      {
+        "unit_number": 4,
+        "title": "Números racionales y reales",
+        "content": "El conjunto de los números reales. El numero racional. El conjunto Q de los números racionales. Definición. Operaciones. Propiedades. Números racionales periódicos y mixtos. Representación en la recta. Propiedades de la potencia y radicación. Notación científica. El número Irracional: Definición,representación en la recta. Aplicaciones. Densidad y Completitud. El número Real: Definición. Intervalos Reales. Ecuaciones e Inecuaciones."
+      },
+      {
+        "unit_number": 5,
+        "title": "Funciones",
+        "content": "Sistemas de referencia para la ubicación de puntos en el plano. Interpretación del gráfico de una función. Dominio e imagen. Ceros de una función. Intérvalos de crecimiento y decrecimiento. Intérvalos de positividad y negatividad. Función de proporcionalidad directa e inversa. Cálcilo de la constante de proporcionalidad. Representación gráfica"
       }
     ],
     "grades": [
@@ -58,16 +68,28 @@
     "year": "2023",
     "subject": "Matemática III",
     "subject_stats": {
-      "assitance": "79/100",
-      "deliveries": "8/10",
-      "behavior": "7/10"
+      "attendance": {
+        "present": 150,
+        "absent": 20,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 8,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 5,
+        "total_behavior": 10
+      }
     },
-    "teacher": "Maria Lopez",
+    "teacher": "Ana López",
     "units": [
       {
         "unit_number": 1,
         "title": "Números enteros",
-        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas"
+        "content": "Números Enteros. Representación en la recta numérica. Orden y Valor absoluto. Operaciones: suma, resta, multiplicación, división, potenciación y radicación en el conjunto de los números enteros. Propiedades. Resolución de problemas."
       },
       {
         "unit_number": 2,
@@ -77,7 +99,17 @@
       {
         "unit_number": 3,
         "title": "Geometría",
-        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice). Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas."
+        "content": "Polígonos. Propiedades. Perímetro y Área. Triángulos. Elementos. Clasificación. Propiedades de lados y ángulos del triángulo (interiores y exteriores). Teorema de Pitágoras. Cuadriláteros y sus propiedades. Circunferencia y Círculo. Elementos. Longitud y Área. Problemas. Posiciones de rectas. Relación entre dos ángulos (opuestos por el vértice).  Ángulos entre rectas cortadas por una transversal. Propiedades cuando las rectas son paralelas. Problemas. "
+      },
+      {
+        "unit_number": 4,
+        "title": "Números racionales y reales",
+        "content": "El conjunto de los números reales. El numero racional. El conjunto Q de los números racionales. Definición. Operaciones. Propiedades. Números racionales periódicos y mixtos. Representación en la recta. Propiedades de la potencia y radicación. Notación científica. El número Irracional: Definición,representación en la recta. Aplicaciones. Densidad y Completitud. El número Real: Definición. Intervalos Reales. Ecuaciones e Inecuaciones."
+      },
+      {
+        "unit_number": 5,
+        "title": "Funciones",
+        "content": "Sistemas de referencia para la ubicación de puntos en el plano. Interpretación del gráfico de una función. Dominio e imagen. Ceros de una función. Intérvalos de crecimiento y decrecimiento. Intérvalos de positividad y negatividad. Función de proporcionalidad directa e inversa. Cálcilo de la constante de proporcionalidad. Representación gráfica"
       }
     ],
     "grades": [
