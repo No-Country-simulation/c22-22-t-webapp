@@ -1,0 +1,196 @@
+.academic-performance-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.academic-performance-container h1 {
+    align-self: flex-start;
+    margin: 1rem 0 3rem;
+}
+
+.academic-performance-container header {
+    background: var(--primary-bg);
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+}
+
+.academic-performance-container header i {
+    background: var(--secondary-blue);
+    color: var(--primary-blue);
+    display: grid;
+    place-items: center;
+    font-size: 2em;
+    min-height: 100%;
+    min-width: 100px;
+    border-radius: 20px;
+}
+
+.academic-performance-container header p {
+    color: var(--primary-blue);
+    margin: 0;
+    padding: 1em 2em;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.academic-performance-container .first-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Theme Component Styles */
+.academic-performance-container .theme-container {
+    background: var(--primary-bg);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 30%;
+}
+
+.academic-performance-container .u-performance-theme {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.academic-performance-container .u-performance-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4px;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.academic-performance-container .progress-bar {
+    width: 30px;
+    background-color: var(--primary-blue);
+    border-radius: 4px 4px 0 0;
+    transition: height 0.3s ease;
+}
+
+/* Improvements Component Styles */
+.academic-performance-container .improvements-container {
+    background: var(--primary-bg);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 40%;
+    color: var(--primary-blue);
+}
+
+.academic-performance-container .improvements-container .status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.academic-performance-container .improvements-container .status p {
+    margin-bottom: 8px;
+    padding: 0.4em 0.8em;
+    background: rgba(104, 167, 11, 0.603);
+    border-radius: 50px;
+    color: var(--primary-bg);
+}
+
+.academic-performance-container .improvements-container .comments {
+    margin-bottom: 1rem;
+}
+
+.academic-performance-container .improvements-container ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+/* Quarterly Component Styles */
+.academic-performance-container .annual-stats-container {
+    background: var(--primary-bg);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+    width: 70%;
+}
+
+.academic-performance-container .monthly-performance-list {
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.academic-performance-container .monthly-performance-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+/* Folder Component Styles */
+.academic-performance-container .student-stats-container {
+    background: var(--primary-bg);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.student-stats-container ul {
+    padding: 0;
+    margin: auto 0;
+}
+
+.academic-performance-container .assignment-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.assignment-item .left {
+    max-width: 50%;
+    min-width: 20%;
+}
+
+.assignment-item .left h4 {
+    width: 100%;
+}
+
+.assignment-item .right {
+    max-width: 50%;
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.academic-performance-container .assignment-item:last-child {
+    border-bottom: none;
+}
+
+@media (width < 1120px) {
+    .academic-performance-container .theme-container,
+    .academic-performance-container .improvements-container,
+    .academic-performance-container .annual-stats-container,
+    .academic-performance-container .student-stats-container {
+        min-width: 90%;
+    }
+}

@@ -61,8 +61,73 @@
         "practical_assignment": "A",
         "homework": "B"
       }
+    ],
+    "performance": [
+      {
+        "theme": {
+          "u1": 9,
+          "u2": 4,
+          "u3": 3,
+          "u4": 5,
+          "u5": 2,
+          "u6": 6,
+          "u7": 7,
+          "u8": 8
+        }
+      },
+      {
+        "improvements": {
+          "title": "Recibido",
+          "comments_summary": "El alumno demostró progreso en la interpretación histórica y argumentación crítica.",
+          "general_comments": [
+            "Buena organización de ideas",
+            "Análisis coherente en entregas",
+            "Necesidad de mejorar la ortografía"
+          ]
+        }
+      },
+      {
+        "quarterly": {
+          "Feb": 5,
+          "Mar": 6,
+          "Abr": 7,
+          "May": 4,
+          "Jun": 5,
+          "Jul": 7,
+          "Ago": 6,
+          "Sep": 8,
+          "Oct": 5,
+          "Nov": 6,
+          "Dic": 7
+        }
+      },
+      {
+        "folder": [
+          {
+            "title": "Economía regional",
+            "class": "I"
+          },
+          {
+            "title": "Factores productivos",
+            "class": "II"
+          },
+          {
+            "title": "Análisis de factores políticos, ético, cultural, económico",
+            "class": "III"
+          },
+          {
+            "title": "Operaciones básicas de organización",
+            "class": "IV"
+          },
+          {
+            "title": "Interpretación de datos",
+            "class": "V"
+          }
+        ]
+      }
     ]
-  },{
+  },
+  {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
     "year": "2024",
     "subject": "Historia II",
@@ -189,7 +254,8 @@
         "homework": "B"
       }
     ]
-  },{
+  },
+  {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2024",
     "subject": "Historia IV",
