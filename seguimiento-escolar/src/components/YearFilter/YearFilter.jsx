@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import './yearFilterStyles.css'
+import { useNavigate } from "react-router-dom";
 
 function YearFilter({ setFilteredSubjects, subjects, userId }) {
   // const currentYear = new Date().getFullYear();
   const [selectedYear, setSelectedYear] = useState(2024/* currentYear.toString() */);
   const [availableYears, setAvailableYears] = useState([]);
+  const navigate = useNavigate();
 
   // Extract unique years dynamically for the specific student
   useEffect(() => {
@@ -23,6 +26,7 @@ function YearFilter({ setFilteredSubjects, subjects, userId }) {
 
   // Apply the filter action to change the year
   const handleYearFilter = (year) => {
+    navigate(`/estudiante/materias/${year}`);
     setSelectedYear(year);
     const studentSubjects = subjects.filter(
       (subject) => subject.id_student === userId
@@ -35,7 +39,7 @@ function YearFilter({ setFilteredSubjects, subjects, userId }) {
   return (
     <div className="dropdown">
       <button
-        className="btn dropdown-toggle"
+        className="btn dropdown-toggle dropdown-toggle__custom "
         type="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"
@@ -47,7 +51,7 @@ function YearFilter({ setFilteredSubjects, subjects, userId }) {
         {availableYears.map((year) => (
           <li key={year}>
             <button
-              className="dropdown-item"
+              className="dropdown-item dropdown-item__custom"
               onClick={() => handleYearFilter(year)}
             >
               {year}

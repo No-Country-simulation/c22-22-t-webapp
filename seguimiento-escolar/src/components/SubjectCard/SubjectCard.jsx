@@ -4,11 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import './subjectCardStyles.css'
 
-function SubjectCard({ idSubject, nameSubject, imageSubject, teacher, workload, classroom }) {
+function SubjectCard({ idSubject, year, nameSubject, imageSubject, teacher, workload, classroom }) {
+
   return (
     <div key={idSubject} className='col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center align-items-center'>
       <Link
-        to={`/estudiante/materias/${idSubject}`}
+        to={`/estudiante/materias/${year}/${idSubject}`}
         className="card card__custom"
       >
         <img src={imageSubject} className="card-img-top" alt="img materia" />

@@ -90,7 +90,7 @@
     "year": "2024",
     "subjects": [
       {
-        "id_subject": "11",
+        "id_subject": "1",
         "name_subject": "Historia II",
         "image_subject": "historia.webp",
         "teacher": "Lopez Maria Laura",
@@ -98,7 +98,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "12",
+        "id_subject": "2",
         "name_subject": "Economía II",
         "image_subject": "economia.webp",
         "teacher": "Fernandez Luis",
@@ -106,7 +106,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "13",
+        "id_subject": "3",
         "name_subject": "Música II",
         "image_subject": "musica.webp",
         "teacher": "Carlos Rodríguez",
@@ -114,7 +114,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "14",
+        "id_subject": "4",
         "name_subject": "Atletismo II",
         "image_subject": "atletismo.webp",
         "teacher": "Laura Martínez",
@@ -122,7 +122,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "15",
+        "id_subject": "5",
         "name_subject": "Arte II",
         "image_subject": "arte.webp",
         "teacher": "Pedro Fernández",
@@ -130,7 +130,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "16",
+        "id_subject": "6",
         "name_subject": "Matemática II",
         "image_subject": "matematica.webp",
         "teacher": "Ana López",
@@ -138,7 +138,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "17",
+        "id_subject": "7",
         "name_subject": "Lengua y Literatura II",
         "image_subject": "literatura.webp",
         "teacher": "Javier Silva",
@@ -146,7 +146,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "18",
+        "id_subject": "8",
         "name_subject": "Geografía II",
         "image_subject": "geografia.webp",
         "teacher": "Sofía Torres",
@@ -154,7 +154,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "19",
+        "id_subject": "9",
         "name_subject": "Fisico Química II",
         "image_subject": "fisicoquimica.webp",
         "teacher": "Diego Castro",
@@ -162,7 +162,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "20",
+        "id_subject": "10",
         "name_subject": "Inglés II",
         "image_subject": "ingles.webp",
         "teacher": "Claudia Ramírez",
@@ -262,7 +262,7 @@
     "year": "2024",
     "subjects": [
       {
-        "id_subject": "11",
+        "id_subject": "1",
         "name_subject": "Historia IV",
         "image_subject": "historia.webp",
         "teacher": "Lopez Maria Laura",
@@ -270,7 +270,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "12",
+        "id_subject": "2",
         "name_subject": "Economía IV",
         "image_subject": "economia.webp",
         "teacher": "Fernandez Luis",
@@ -278,7 +278,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "13",
+        "id_subject": "3",
         "name_subject": "Música IV",
         "image_subject": "musica.webp",
         "teacher": "Carlos Rodríguez",
@@ -286,7 +286,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "14",
+        "id_subject": "4",
         "name_subject": "Atletismo IV",
         "image_subject": "atletismo.webp",
         "teacher": "Laura Martínez",
@@ -294,7 +294,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "15",
+        "id_subject": "5",
         "name_subject": "Arte IV",
         "image_subject": "arte.webp",
         "teacher": "Pedro Fernández",
@@ -302,7 +302,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "16",
+        "id_subject": "6",
         "name_subject": "Matemática IV",
         "image_subject": "matematica.webp",
         "teacher": "Ana López",
@@ -310,7 +310,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "17",
+        "id_subject": "7",
         "name_subject": "Lengua y Literatura IV",
         "image_subject": "literatura.webp",
         "teacher": "Javier Silva",
@@ -318,7 +318,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "18",
+        "id_subject": "8",
         "name_subject": "Geografía IV",
         "image_subject": "geografia.webp",
         "teacher": "Sofía Torres",
@@ -326,7 +326,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "19",
+        "id_subject": "9",
         "name_subject": "Fisico Química IV",
         "image_subject": "fisicoquimica.webp",
         "teacher": "Diego Castro",
@@ -334,7 +334,7 @@
         "classroom": "6C"
       },
       {
-        "id_subject": "20",
+        "id_subject": "10",
         "name_subject": "Inglés IV",
         "image_subject": "ingles.webp",
         "teacher": "Claudia Ramírez",

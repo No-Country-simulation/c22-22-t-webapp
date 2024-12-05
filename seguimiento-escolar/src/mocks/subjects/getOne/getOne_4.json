@@ -54,9 +54,117 @@
     ]
   },
   {
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2024",
+    "subject": "Atletismo II",
+    "subject_stats": {
+      "attendance": {
+        "present": 140,
+        "absent": 20,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 7,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 0,
+        "negative_points": 1,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Laura Martínez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Participacion en Maratones",
+        "content": "Maratón, en esta actividad participan todos los alumnos del establecimiento (participando o ayudando en la coordinación y organización del evento el equipo directivo, asistentes escolares, docentes, MET y todo el personal) Es un proyecto que integra a la comunidad educativa."
+      },
+      {
+        "unit_number": 2,
+        "title": "Importancia del calentamiento muscular",
+        "content": "Jornadas con nuestros alumnos y la invitación a especialistas; donde se trabajarán el esqueleto, sistema articular, muscular y principalmente el sistema cardiorrespiratorio. El objetivo es que nuestros alumnos conozcan su cuerpo, sus características y funciones, como nos movemos, los cuidados que debemos tener al realizar actividad física y mantener saludable nuestro cuerpo como un todo."
+      },
+      {
+        "unit_number": 3,
+        "title": "Apoyo activiades deportivas",
+        "content": "Participación en Jornadas Deportivas Escolares. Organización y acompañamiento de los alumnos egresados en los actos de colación"
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2023",
     "subject": "Atletismo III",
+    "subject_stats": {
+      "attendance": {
+        "present": 140,
+        "absent": 20,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 7,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 0,
+        "negative_points": 1,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Laura Martínez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Participacion en Maratones",
+        "content": "Maratón, en esta actividad participan todos los alumnos del establecimiento (participando o ayudando en la coordinación y organización del evento el equipo directivo, asistentes escolares, docentes, MET y todo el personal) Es un proyecto que integra a la comunidad educativa."
+      },
+      {
+        "unit_number": 2,
+        "title": "Importancia del calentamiento muscular",
+        "content": "Jornadas con nuestros alumnos y la invitación a especialistas; donde se trabajarán el esqueleto, sistema articular, muscular y principalmente el sistema cardiorrespiratorio. El objetivo es que nuestros alumnos conozcan su cuerpo, sus características y funciones, como nos movemos, los cuidados que debemos tener al realizar actividad física y mantener saludable nuestro cuerpo como un todo."
+      },
+      {
+        "unit_number": 3,
+        "title": "Apoyo activiades deportivas",
+        "content": "Participación en Jornadas Deportivas Escolares. Organización y acompañamiento de los alumnos egresados en los actos de colación"
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2024",
+    "subject": "Atletismo IV",
     "subject_stats": {
       "attendance": {
         "present": 140,

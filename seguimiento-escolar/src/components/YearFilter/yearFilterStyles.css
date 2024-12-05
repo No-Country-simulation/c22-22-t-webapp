@@ -1,0 +1,7 @@
+.dropdown-toggle__custom {
+  border-radius: 12px;
+}
+
+.dropdown-item__custom:active {
+  background-color: var(--primary-blue);
+}

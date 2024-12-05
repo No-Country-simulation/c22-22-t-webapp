@@ -66,8 +66,8 @@ function NavBar() {
                     </li>
                     <li className="nav-item">
                       <Link
-                        className={`nav-link mx-lg-2 ${location.pathname === '/estudiante/materias' ? 'active' : ''}`}
-                        to='/estudiante/materias'
+                        className={`nav-link mx-lg-2 ${location.pathname === '/estudiante/materias/2024' ? 'active' : ''}`}
+                        to='/estudiante/materias/2024'
                       >
                         Materias
                       </Link>

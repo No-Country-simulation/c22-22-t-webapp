@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import SubjectFeature from '../components/SubjectFeature/SubjectFeature'
 import Accordion from '../components/Accordion/Accordion';
+import BackButton from '../components/BackButton/BackButton';
 import { useParams } from 'react-router-dom';
 import { useAuth } from '../context/authContext';
 import { getOne } from '../services/subjects';
@@ -10,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function AnualSyllabus() {
   const [subject, setSubject] = useState([]);
-  let { idSubject } = useParams();
+  let { year, idSubject } = useParams();
   const { user } = useAuth();
   useEffect(() => {
     const fetchSubject = async () => {
@@ -30,7 +31,7 @@ function AnualSyllabus() {
 
   // Getting only the prop units from getOne_id.json
   const getSubjectUnitsByStudent = () => {
-    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid);
+    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
 
     if (loggedStudentSubjectData) {
       const units = loggedStudentSubjectData.units;
@@ -41,7 +42,7 @@ function AnualSyllabus() {
 
   // Getting only the prop name from getOne_id.json
   const getSubjectNameByStudent = () => {
-    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid);
+    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
 
     if (loggedStudentSubjectData) {
       const { subject: subjectName } = loggedStudentSubjectData;
@@ -54,6 +55,9 @@ function AnualSyllabus() {
 
   return (
     <div className="container-lg mt-4">
+      <BackButton
+        path={`../${idSubject}`}
+      />
       <h1 className='fw-bold mb-3' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
       <div className='mb-5'>
         <SubjectFeature

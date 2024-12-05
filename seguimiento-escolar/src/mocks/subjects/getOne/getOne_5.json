@@ -54,9 +54,117 @@
     ]
   },
   {
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2024",
+    "subject": "Arte II",
+    "subject_stats": {
+      "attendance": {
+        "present": 100,
+        "absent": 50,
+        "late": 30,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 6,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 3,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Pedro Fernández",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Las prácticas de las Artes Visuales en relación a su producción ",
+        "content": "La indagación de los distintos modos de organización espacial: bi y tridimensional, físico y/o virtual: dimensión, estructura, tensión, movimiento, volumen.  La organización de los elementos básicos de la imagen visual, relaciones y transiciones entre los planos, volúmenes, formas y punto de vista.   El tratamiento de la materia, la selección de herramientas y procedimientos en función de la organización en el espacio bi o tridimensional.  El tratamiento experimental del color como elemento compositivo y sus posibilidades expresivas, color-pigmento y color-luz, cualidades y posibilidades en el espacio real y virtual.  La incidencia de la luz (natural y/o artificial) como recurso plástico-expresivo y como generadora de espacio, profundidad y atmósfera."
+      },
+      {
+        "unit_number": 2,
+        "title": "Geometría",
+        "content": "La selección y uso deliberado de los elementos propios del lenguaje en la concreción de producciones y poéticas genuinas, personales y grupales.   Análisis y utilización de las operaciones creativas que posibilitan la transformación de materiales, formas y significados: ampliación, disminución, repetición, yuxtaposición, entrecruzamiento, superposición, sustitución, desplazamiento semántico, y otras.  La reflexión acerca del signo visual –imágenes que vemos, imágenes que creamos– en la construcción de metáforas y la adjudicación de sentido.  El uso individual y grupal de las tecnologías digitales a su alcance (software diverso, fotografía, telefonía móvil, Internet, otras) para la producción de imágenes visuales con intencionalidad estética. "
+      },
+      {
+        "unit_number": 3,
+        "title": "Las prácticas de las Artes Visuales en relación a su contexto",
+        "content": "La comprensión de la noción de mirada como construcción cultural.  El reconocimiento de las dimensiones espaciales como elementos primordiales donde significar y resignificar simbólicamente las formas, la luz, el color, la textura y el espacio.  Aproximación a las manifestaciones visuales contemporáneas, modos de producción y circulación de las obras, espacios y entornos de encuentro con el público, con una intención interpretativa.  Artistas, temáticas y manifestaciones representativos de la memoria social y cultural local, regional y latinoamericana.  El tratamiento de las estéticas actuales y su vinculación con referentes de la Historia del Arte.  La presencia objetiva y subjetiva del cuerpo en las artes contemporáneas, en los medios de comunicación masiva y en las producciones juveniles: resoluciones formales, intencionalidades y significados implícitos.  Interpretación crítica de la información visual y el sentido de las imágenes que pueblan el entorno cultural de los jóvenes, tendiente a la identificación y superación de estereotipos y convencionalismos.  Incidencia de las nuevas tecnologías en los procesos vinculados a las producciones visuales contemporáneas y en la construcción de criterios estéticos particulares.  Vinculaciones entre las artes visuales y otros lenguajes artísticos en sus diversos modos de incidencia y participación."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2023",
     "subject": "Arte III",
+    "subject_stats": {
+      "attendance": {
+        "present": 150,
+        "absent": 20,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 8,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 5,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Pedro Fernández",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Las prácticas de las Artes Visuales en relación a su producción ",
+        "content": "La indagación de los distintos modos de organización espacial: bi y tridimensional, físico y/o virtual: dimensión, estructura, tensión, movimiento, volumen.  La organización de los elementos básicos de la imagen visual, relaciones y transiciones entre los planos, volúmenes, formas y punto de vista.   El tratamiento de la materia, la selección de herramientas y procedimientos en función de la organización en el espacio bi o tridimensional.  El tratamiento experimental del color como elemento compositivo y sus posibilidades expresivas, color-pigmento y color-luz, cualidades y posibilidades en el espacio real y virtual.  La incidencia de la luz (natural y/o artificial) como recurso plástico-expresivo y como generadora de espacio, profundidad y atmósfera."
+      },
+      {
+        "unit_number": 2,
+        "title": "Geometría",
+        "content": "La selección y uso deliberado de los elementos propios del lenguaje en la concreción de producciones y poéticas genuinas, personales y grupales.   Análisis y utilización de las operaciones creativas que posibilitan la transformación de materiales, formas y significados: ampliación, disminución, repetición, yuxtaposición, entrecruzamiento, superposición, sustitución, desplazamiento semántico, y otras.  La reflexión acerca del signo visual –imágenes que vemos, imágenes que creamos– en la construcción de metáforas y la adjudicación de sentido.  El uso individual y grupal de las tecnologías digitales a su alcance (software diverso, fotografía, telefonía móvil, Internet, otras) para la producción de imágenes visuales con intencionalidad estética. "
+      },
+      {
+        "unit_number": 3,
+        "title": "Las prácticas de las Artes Visuales en relación a su contexto",
+        "content": "La comprensión de la noción de mirada como construcción cultural.  El reconocimiento de las dimensiones espaciales como elementos primordiales donde significar y resignificar simbólicamente las formas, la luz, el color, la textura y el espacio.  Aproximación a las manifestaciones visuales contemporáneas, modos de producción y circulación de las obras, espacios y entornos de encuentro con el público, con una intención interpretativa.  Artistas, temáticas y manifestaciones representativos de la memoria social y cultural local, regional y latinoamericana.  El tratamiento de las estéticas actuales y su vinculación con referentes de la Historia del Arte.  La presencia objetiva y subjetiva del cuerpo en las artes contemporáneas, en los medios de comunicación masiva y en las producciones juveniles: resoluciones formales, intencionalidades y significados implícitos.  Interpretación crítica de la información visual y el sentido de las imágenes que pueblan el entorno cultural de los jóvenes, tendiente a la identificación y superación de estereotipos y convencionalismos.  Incidencia de las nuevas tecnologías en los procesos vinculados a las producciones visuales contemporáneas y en la construcción de criterios estéticos particulares.  Vinculaciones entre las artes visuales y otros lenguajes artísticos en sus diversos modos de incidencia y participación."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2024",
+    "subject": "Arte IV",
     "subject_stats": {
       "attendance": {
         "present": 150,

@@ -1,0 +1,9 @@
+.btn_custom {
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+
+.btn_custom:hover {
+  background-color: var(--primary-blue);
+}
+

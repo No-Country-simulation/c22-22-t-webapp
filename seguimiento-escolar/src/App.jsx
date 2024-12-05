@@ -34,7 +34,7 @@ function App() {
         {/* Protected routes with layout*/}
         <Route path='/estudiante' element={<ProtectedRoute> <AppLayout /> </ProtectedRoute>}>
           <Route path='home' element={<Home />} />
-          <Route path='materias' >
+          <Route path='materias/:year' >
             <Route index element={<Subjects />} />
             <Route path=':idSubject' element={<SubjectDetails />} />
             <Route path=':idSubject/programa-anual' element={<AnualSyllabus />} />

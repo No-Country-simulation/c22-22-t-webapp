@@ -11,7 +11,7 @@ import SubjectFeature from '../components/SubjectFeature/SubjectFeature';
 
 function SubjectDetails() {
   const [subject, setSubject] = useState([]);
-  let { idSubject } = useParams();
+  let { year, idSubject } = useParams();
   const { user } = useAuth();
   useEffect(() => {
     const fetchSubject = async () => {
@@ -55,7 +55,7 @@ function SubjectDetails() {
 
   // Getting only the prop subject_stats from getOne_id.json
   const getSubjectStatsByStudent = () => {
-    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid);
+    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
 
     if (loggedStudentSubjectData) {
       const { attendance, deliveries, behavior } = loggedStudentSubjectData.subject_stats;
@@ -63,10 +63,10 @@ function SubjectDetails() {
     }
     return null;
   };
-  
+
   // Getting only the prop teacher from getOne_id.json
   const getSubjectTeacherByStudent = () => {
-    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid);
+    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
 
     if (loggedStudentSubjectData) {
       const { teacher } = loggedStudentSubjectData;
@@ -78,7 +78,7 @@ function SubjectDetails() {
 
   // Getting only the prop name from getOne_id.json
   const getSubjectNameByStudent = () => {
-    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid);
+    const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
 
     if (loggedStudentSubjectData) {
       const { subject: subjectName } = loggedStudentSubjectData;

@@ -54,9 +54,117 @@
     ]
   },
   {
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2024",
+    "subject": "Lengua y Literatura II",
+    "subject_stats": {
+      "attendance": {
+        "present": 110,
+        "absent": 40,
+        "late": 30,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 9,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 4,
+        "negative_points": 6,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Javier Silva",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "En relación con la comprensión y producción oral",
+        "content": "El lenguaje hablado y escrito. Expansión creativa de narraciones por inserción de descripciones de lugares, objetos y personas.  Especificidad gramatical, léxica y textual de las producciones orales. Desarrollo progresivo de estrategias de control y regulación de la interacción oral.  Competencias que intervienen en la comunicación oral directa y en diferido: papel que desempeñan los elementos paraverbales y no verbales en la comunicación. Componentes que intervienen en la comunicación. Competencias generales de la comunicación. Variedades lingüísticas (lectos y registros). Clases de enunciados según la actitud del hablante. La conversación: sus reglas y potencialidades. "
+      },
+      {
+        "unit_number": 2,
+        "title": "En relación con la lectura y comprensión escrita",
+        "content": "Las relaciones y diferencias entre oralidad y escritura. La existencia de textos híbridos. Conversaciones en redes sociales.  La comunicación escrita con distintos usos, tipos y géneros. Reflexión acerca del proceso de escritura, diseñando y gestionando estrategias cognitivas y lingüísticas propias del texto escrito. Reflexión de los hechos del lenguaje involucrados en el proceso de escritura. Construcción (a partir de la lectura asidua) de saberes específicos en relación con géneros discursivos propios del ámbito personal (cartas, mensajes en soporte papel y electrónico, notas personales, anécdotas, autobiografías) y social (crónicas de viajes, noticias, cartas de lectores, géneros publicitarios). Identificación de sucesos, participantes, marco espacio temporal y relaciones cronológicas en la narración  y los procedimientos de descripciones y diálogos."
+      },
+      {
+        "unit_number": 3,
+        "title": "En relación con la literatura.",
+        "content": "Literatura de tradición oral: Escucha atenta y lectura frecuente de textos literarios de la tradición oral y de autores regionales, nacionales y universales. Poesía precolombina. Romancero, canciones, mito, leyenda, parábola y cuento maravilloso tradicional.  Delimitación de las características fundamentales del lenguaje literario: ficcionalidad, goce estético y ruptura de las convenciones lingüísticas. Incorporación paulatina de procedimientos del discurso literario y convenciones de los distintos géneros como llaves para el enriquecimiento de las posibilidades interpretativas. Socialización y discusión de interpretaciones y juicios de apreciación y valoración.   Abordaje reflexivo de los textos literarios desde instancias críticas. Géneros literarios tradicionales: novela, cuento, poesía, teatro. Géneros literarios no tradicionales: la historieta, letras de canciones. Creación de textos literarios a través de estrategias  de escritura creativa.  "
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2023",
     "subject": "Lengua y Literatura III",
+    "subject_stats": {
+      "attendance": {
+        "present": 150,
+        "absent": 20,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 8,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 5,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Javier Silva",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "En relación con la comprensión y producción oral",
+        "content": "El lenguaje hablado y escrito. Expansión creativa de narraciones por inserción de descripciones de lugares, objetos y personas.  Especificidad gramatical, léxica y textual de las producciones orales. Desarrollo progresivo de estrategias de control y regulación de la interacción oral.  Competencias que intervienen en la comunicación oral directa y en diferido: papel que desempeñan los elementos paraverbales y no verbales en la comunicación. Componentes que intervienen en la comunicación. Competencias generales de la comunicación. Variedades lingüísticas (lectos y registros). Clases de enunciados según la actitud del hablante. La conversación: sus reglas y potencialidades. "
+      },
+      {
+        "unit_number": 2,
+        "title": "En relación con la lectura y comprensión escrita",
+        "content": "Las relaciones y diferencias entre oralidad y escritura. La existencia de textos híbridos. Conversaciones en redes sociales.  La comunicación escrita con distintos usos, tipos y géneros. Reflexión acerca del proceso de escritura, diseñando y gestionando estrategias cognitivas y lingüísticas propias del texto escrito. Reflexión de los hechos del lenguaje involucrados en el proceso de escritura. Construcción (a partir de la lectura asidua) de saberes específicos en relación con géneros discursivos propios del ámbito personal (cartas, mensajes en soporte papel y electrónico, notas personales, anécdotas, autobiografías) y social (crónicas de viajes, noticias, cartas de lectores, géneros publicitarios). Identificación de sucesos, participantes, marco espacio temporal y relaciones cronológicas en la narración  y los procedimientos de descripciones y diálogos."
+      },
+      {
+        "unit_number": 3,
+        "title": "En relación con la literatura.",
+        "content": "Literatura de tradición oral: Escucha atenta y lectura frecuente de textos literarios de la tradición oral y de autores regionales, nacionales y universales. Poesía precolombina. Romancero, canciones, mito, leyenda, parábola y cuento maravilloso tradicional.  Delimitación de las características fundamentales del lenguaje literario: ficcionalidad, goce estético y ruptura de las convenciones lingüísticas. Incorporación paulatina de procedimientos del discurso literario y convenciones de los distintos géneros como llaves para el enriquecimiento de las posibilidades interpretativas. Socialización y discusión de interpretaciones y juicios de apreciación y valoración.   Abordaje reflexivo de los textos literarios desde instancias críticas. Géneros literarios tradicionales: novela, cuento, poesía, teatro. Géneros literarios no tradicionales: la historieta, letras de canciones. Creación de textos literarios a través de estrategias  de escritura creativa.  "
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2024",
+    "subject": "Lengua y Literatura IV",
     "subject_stats": {
       "attendance": {
         "present": 150,

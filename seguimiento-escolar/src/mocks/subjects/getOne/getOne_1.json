@@ -62,11 +62,137 @@
         "homework": "B"
       }
     ]
+  },{
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2024",
+    "subject": "Historia II",
+    "subject_stats": {
+      "attendance": {
+        "present": 130,
+        "absent": 40,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 6,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 3,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Maria Lopez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Sociedades indígenas",
+        "content": "El análisis de las formas de organización de las sociedades indígenas americanas en relación con la organización de los trabajos, la distribución del excedente, la jerarquización social, la legitimación a través del culto y de los sistemas de creencias."
+      },
+      {
+        "unit_number": 2,
+        "title": "Mundo feudal a la modernidad",
+        "content": "La transición del mundo feudal a la Modernidad, enfatizando el carácter histórico del orden moderno que se conforma a partir del siglo XV y los elementos de continuidad y cambio entre el mundo medieval y el moderno."
+      },
+      {
+        "unit_number": 3,
+        "title": "Expansión ultramarina",
+        "content": "La comprensión de las causas múltiples e interrelacionadas de la expansión ultramarina europea, en relación con el proceso de concentración del poder monárquico, con el movimiento intelectual que constituyó el humanismo renacentista y con las condiciones materiales del comercio europeo."
+      },
+      {
+        "unit_number": 4,
+        "title": "Conquista europea en América",
+        "content": "La comprensión de los procesos de conquista europea en América desde interpretaciones múltiples, a partir del análisis comparativo del caso español y portugués y la posterior ocupación de América del Norte, poniendo énfasis en el impacto sobre las sociedades indígenas y el mundo europeo; en las variadas relaciones (resistencias, cooptaciones, alianzas) que aquellas establecieron con los conquistadores, y en las estrategias de dominación empleadas por estos últimos."
+      },
+      {
+        "unit_number": 5,
+        "title": "Colonización ",
+        "content": "El estudio analógico del proceso de colonización con particular referencia a Hispanoamérica, teniendo en cuenta el rol del Estado así como el de la Iglesia, instituciones que organizaron el orden colonial y la consiguiente incorporación de América Latina como periferia capitalista.  La comprensión de los cambios culturales que comprendió la colonización en Latinoamérica, problematizando en torno a las categorías de aculturación, deculturación, transculturación."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2023",
     "subject": "Historia III",
+    "subject_stats": {
+      "attendance": {
+        "present": 130,
+        "absent": 40,
+        "late": 30,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 6,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 2,
+        "negative_points": 5,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Maria Lopez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Sociedades indígenas",
+        "content": "El análisis de las formas de organización de las sociedades indígenas americanas en relación con la organización de los trabajos, la distribución del excedente, la jerarquización social, la legitimación a través del culto y de los sistemas de creencias."
+      },
+      {
+        "unit_number": 2,
+        "title": "Mundo feudal a la modernidad",
+        "content": "La transición del mundo feudal a la Modernidad, enfatizando el carácter histórico del orden moderno que se conforma a partir del siglo XV y los elementos de continuidad y cambio entre el mundo medieval y el moderno."
+      },
+      {
+        "unit_number": 3,
+        "title": "Expansión ultramarina",
+        "content": "La comprensión de las causas múltiples e interrelacionadas de la expansión ultramarina europea, en relación con el proceso de concentración del poder monárquico, con el movimiento intelectual que constituyó el humanismo renacentista y con las condiciones materiales del comercio europeo."
+      },
+      {
+        "unit_number": 4,
+        "title": "Conquista europea en América",
+        "content": "La comprensión de los procesos de conquista europea en América desde interpretaciones múltiples, a partir del análisis comparativo del caso español y portugués y la posterior ocupación de América del Norte, poniendo énfasis en el impacto sobre las sociedades indígenas y el mundo europeo; en las variadas relaciones (resistencias, cooptaciones, alianzas) que aquellas establecieron con los conquistadores, y en las estrategias de dominación empleadas por estos últimos."
+      },
+      {
+        "unit_number": 5,
+        "title": "Colonización ",
+        "content": "El estudio analógico del proceso de colonización con particular referencia a Hispanoamérica, teniendo en cuenta el rol del Estado así como el de la Iglesia, instituciones que organizaron el orden colonial y la consiguiente incorporación de América Latina como periferia capitalista.  La comprensión de los cambios culturales que comprendió la colonización en Latinoamérica, problematizando en torno a las categorías de aculturación, deculturación, transculturación."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },{
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2024",
+    "subject": "Historia IV",
     "subject_stats": {
       "attendance": {
         "present": 130,

@@ -54,9 +54,117 @@
     ]
   },
   {
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2024",
+    "subject": "Economía II",
+    "subject_stats": {
+      "attendance": {
+        "present": 120,
+        "absent": 40,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 4,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 3,
+        "negative_points": 5,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Luis Fernandez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Actividades económicas del entorno socio-productivo",
+        "content": "El reconocimiento de las necesidades individuales y sociales –como el motor de la actividad económica regional y nacional–, que generan un vínculo de interdependencia en la vida cotidiana de la comunidad y contribuyen al bienestar común supone la reflexión en torno a casos de la realidad local y regional que pongan de manifiesto la dimensión ética de las prácticas económicas, identificando la diversidad de intereses y racionalidades coexistentes.  El conocimiento de organizaciones socio-productivas de distinta naturaleza y la comprensión de su impacto económico, social y ambiental, en relación a las fuentes y 95 condiciones de empleo y la calidad de vida admite el análisis de la centralidad del trabajo y del conocimiento para la realización personal de los individuos, su integración social y su desempeño como ciudadano activo."
+      },
+      {
+        "unit_number": 2,
+        "title": "Problemáticas socioeconómicas del entorno comunitario",
+        "content": "La transición del mundo feudal a la Modernidad, enfatizando el carácter histórico del orden moderno que se conforma a partir del siglo XV y los elementos de continuidad y cambio entre el mundo medieval y el moderno."
+      },
+      {
+        "unit_number": 3,
+        "title": "Administración de las relaciones económicas cotidianas",
+        "content": "La identificación y experimentación de operaciones básicas de las organizaciones del medio. Esto implica la integración de saberes que le permitan resolver situaciones problemáticas, del ámbito familiar, comercial, financiero y tributario, reconociendo los derechos y obligaciones de los consumidores y contribuyentes como ciudadanos responsables.  La comprensión y la valoración de los comprobantes que respaldan las operaciones comerciales básicas presume la interpretación de los datos comerciales, jurídicos y tributarios que contienen y el impacto que generan para las partes intervinientes."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2023",
     "subject": "Economía III",
+    "subject_stats": {
+      "attendance": {
+        "present": 150,
+        "absent": 20,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 8,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 5,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Luis Fernandez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Actividades económicas del entorno socio-productivo",
+        "content": "El reconocimiento de las necesidades individuales y sociales –como el motor de la actividad económica regional y nacional–, que generan un vínculo de interdependencia en la vida cotidiana de la comunidad y contribuyen al bienestar común supone la reflexión en torno a casos de la realidad local y regional que pongan de manifiesto la dimensión ética de las prácticas económicas, identificando la diversidad de intereses y racionalidades coexistentes.  El conocimiento de organizaciones socio-productivas de distinta naturaleza y la comprensión de su impacto económico, social y ambiental, en relación a las fuentes y 95 condiciones de empleo y la calidad de vida admite el análisis de la centralidad del trabajo y del conocimiento para la realización personal de los individuos, su integración social y su desempeño como ciudadano activo."
+      },
+      {
+        "unit_number": 2,
+        "title": "Problemáticas socioeconómicas del entorno comunitario",
+        "content": "La transición del mundo feudal a la Modernidad, enfatizando el carácter histórico del orden moderno que se conforma a partir del siglo XV y los elementos de continuidad y cambio entre el mundo medieval y el moderno."
+      },
+      {
+        "unit_number": 3,
+        "title": "Administración de las relaciones económicas cotidianas",
+        "content": "La identificación y experimentación de operaciones básicas de las organizaciones del medio. Esto implica la integración de saberes que le permitan resolver situaciones problemáticas, del ámbito familiar, comercial, financiero y tributario, reconociendo los derechos y obligaciones de los consumidores y contribuyentes como ciudadanos responsables.  La comprensión y la valoración de los comprobantes que respaldan las operaciones comerciales básicas presume la interpretación de los datos comerciales, jurídicos y tributarios que contienen y el impacto que generan para las partes intervinientes."
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2024",
+    "subject": "Economía IV",
     "subject_stats": {
       "attendance": {
         "present": 150,

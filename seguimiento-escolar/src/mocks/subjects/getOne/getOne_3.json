@@ -49,9 +49,107 @@
     ]
   },
   {
+    "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
+    "year": "2024",
+    "subject": "Música II",
+    "subject_stats": {
+      "attendance": {
+        "present": 140,
+        "absent": 20,
+        "late": 20,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 7,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 0,
+        "negative_points": 1,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Carlos Rodríguez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Las prácticas musicales en relación a su producción",
+        "content": "La interpretación vocal colectiva, individual y coral tendiente a profundizar una relación natural con el uso de la voz. La ampliación de la capacidad de coordinación implicada en la interpretación musical al cantar y acompañarse ya sea con el uso de claves rítmicas y/o bases armónicas sencillas. El trabajo con los parámetros del sonido (duración-altura, timbre e intensidad), la forma y la textura en el desarrollo y realización de sus propias ideas musicales. El abordaje de los modos actuales de producción y circulación musicales, considerando las tecnologías de la información y la conectividad, así como el software de audio digital accesible"
+      },
+      {
+        "unit_number": 2,
+        "title": "Las prácticas musicales en relación a su contexto",
+        "content": "El análisis de los circuitos de divulgación de la obra (radio, TV, Internet, conciertos). La transmisión oral. La escritura. La grabación.El desarrollo de la capacidad de opinar en relación a lo visto y escuchado, fundamentado, enmarcado en el respeto e incorporando progresivamente criterios propios del lenguaje musical. La reflexión crítica sobre la música en la actualidad, sus prácticas y funciones sociales, tanto en sus manifestaciones autónomas como en su relación con otros lenguajes/disciplinas artísticas. El desarrollo del pensamiento divergente y el respeto por la diversidad estética a partir de prácticas grupales de composición, realización y análisis musical"
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
     "year": "2023",
     "subject": "Música III",
+    "subject_stats": {
+      "attendance": {
+        "present": 130,
+        "absent": 40,
+        "late": 10,
+        "total_classes": 180
+      },
+      "deliveries": {
+        "assignments_submitted": 3,
+        "total_assignments": 10
+      },
+      "behavior": {
+        "positive_points": 1,
+        "negative_points": 2,
+        "total_behavior": 10
+      }
+    },
+    "teacher": "Carlos Rodríguez",
+    "units": [
+      {
+        "unit_number": 1,
+        "title": "Las prácticas musicales en relación a su producción",
+        "content": "La interpretación vocal colectiva, individual y coral tendiente a profundizar una relación natural con el uso de la voz. La ampliación de la capacidad de coordinación implicada en la interpretación musical al cantar y acompañarse ya sea con el uso de claves rítmicas y/o bases armónicas sencillas. El trabajo con los parámetros del sonido (duración-altura, timbre e intensidad), la forma y la textura en el desarrollo y realización de sus propias ideas musicales. El abordaje de los modos actuales de producción y circulación musicales, considerando las tecnologías de la información y la conectividad, así como el software de audio digital accesible"
+      },
+      {
+        "unit_number": 2,
+        "title": "Las prácticas musicales en relación a su contexto",
+        "content": "El análisis de los circuitos de divulgación de la obra (radio, TV, Internet, conciertos). La transmisión oral. La escritura. La grabación.El desarrollo de la capacidad de opinar en relación a lo visto y escuchado, fundamentado, enmarcado en el respeto e incorporando progresivamente criterios propios del lenguaje musical. La reflexión crítica sobre la música en la actualidad, sus prácticas y funciones sociales, tanto en sus manifestaciones autónomas como en su relación con otros lenguajes/disciplinas artísticas. El desarrollo del pensamiento divergente y el respeto por la diversidad estética a partir de prácticas grupales de composición, realización y análisis musical"
+      }
+    ],
+    "grades": [
+      {
+        "date": "27-11-2024",
+        "test": 5,
+        "practical_assignment": "B+",
+        "homework": "MB"
+      },
+      {
+        "date": "03-12-2024",
+        "test": 7,
+        "practical_assignment": "A",
+        "homework": "B"
+      }
+    ]
+  },
+  {
+    "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
+    "year": "2024",
+    "subject": "Música IV",
     "subject_stats": {
       "attendance": {
         "present": 130,
