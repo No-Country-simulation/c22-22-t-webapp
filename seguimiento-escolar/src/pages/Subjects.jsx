@@ -42,30 +42,34 @@ function Subjects() {
           userId={user.uid}
         />
       </div>
-      <div className='row'>
-        <Suspense fallback={<SubjectCardSkeleton quantity={6} />}>
-          {
-            filteredSubjects
-              .filter((item) => item.id_student === user.uid) // Filter by authenticated user
-              .flatMap((item) => item.subjects) // Flatten subjects into a single array
-              .map((subject) => (
-                <>
-                  <SubjectCard
-                    idSubject={subject.id_subject}
-                    year={year}
-                    nameSubject={subject.name_subject}
-                    imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
-                    teacher={subject.teacher}
-                    workload={subject.workload}
-                    classroom={subject.classroom}
-                  />
-                </>
-              ))
-          }
-        </Suspense>
-      </div>
-
-
+      {!isLoaded ? (
+        <div className='row'>
+          <Suspense fallback={<SubjectCardSkeleton quantity={6} />}>
+            {
+              filteredSubjects
+                .filter((item) => item.id_student === user.uid) // Filter by authenticated user
+                .flatMap((item) => item.subjects) // Flatten subjects into a single array
+                .map((subject) => (
+                  <>
+                    <SubjectCard
+                      idSubject={subject.id_subject}
+                      year={year}
+                      nameSubject={subject.name_subject}
+                      imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
+                      teacher={subject.teacher}
+                      workload={subject.workload}
+                      classroom={subject.classroom}
+                    />
+                  </>
+                ))
+            }
+          </Suspense>
+        </div>
+      ) :
+        <div className='row'>
+          <SubjectCardSkeleton quantity={6} />
+        </div>
+      }
     </div>
   )
 }
