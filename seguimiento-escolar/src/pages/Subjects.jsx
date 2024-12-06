@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import SubjectCard from '../components/SubjectCard/SubjectCard'
+import React, { lazy, Suspense, useEffect, useState } from 'react'
+// import SubjectCard from '../components/SubjectCard/SubjectCard'
 import { getAll } from '../services/subjects';
 import { useAuth } from '../context/authContext'
 import YearFilter from '../components/YearFilter/YearFilter';
@@ -7,8 +7,10 @@ import Loader from '../components/Loader/Loader';
 import "bootstrap/dist/js/bootstrap.min.js"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { useNavigate, useParams } from 'react-router-dom';
+import SubjectCardSkeleton from '../components/Skeletons/SubjectCardSkeleton';
 
 function Subjects() {
+  const SubjectCard = lazy(() => import('../components/SubjectCard/SubjectCard'));
   const { year } = useParams();
   const { user } = useAuth();
   const [subjects, setSubjects] = useState([]);
@@ -28,6 +30,7 @@ function Subjects() {
     }
   }, [isLoaded])
 
+
   return (
     <div className='container mt-4' >
       <div className='d-flex justify-content-between align-items-center mb-5'>
@@ -39,30 +42,29 @@ function Subjects() {
           userId={user.uid}
         />
       </div>
-      {!isLoaded ?
-        // Subjects List
-        <div className='row'>
+      <div className='row'>
+        <Suspense fallback={<SubjectCardSkeleton quantity={6} />}>
           {
             filteredSubjects
               .filter((item) => item.id_student === user.uid) // Filter by authenticated user
               .flatMap((item) => item.subjects) // Flatten subjects into a single array
               .map((subject) => (
-                <SubjectCard
-                  idSubject={subject.id_subject}
-                  year={year}
-                  nameSubject={subject.name_subject}
-                  imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
-                  teacher={subject.teacher}
-                  workload={subject.workload}
-                  classroom={subject.classroom}
-                />
+                <>
+                  <SubjectCard
+                    idSubject={subject.id_subject}
+                    year={year}
+                    nameSubject={subject.name_subject}
+                    imageSubject={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
+                    teacher={subject.teacher}
+                    workload={subject.workload}
+                    classroom={subject.classroom}
+                  />
+                </>
               ))
           }
-        </div>
-        :
-        //Loader
-        <Loader />
-      }
+        </Suspense>
+      </div>
+
 
     </div>
   )

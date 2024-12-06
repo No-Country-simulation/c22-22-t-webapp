@@ -123,7 +123,7 @@ function NavBar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    {user.uid === 'YoG5WiZ9J5QvlscAfo7yS0F2Y7J3'? 'Mateo': 'Emilia'}
+                    {user.uid === 'YoG5WiZ9J5QvlscAfo7yS0F2Y7J3' ? 'Emilia Martínez' : user.uid === 'DiF1KBzKijPYbgkyqa94ahIPQtk1' ? 'Mateo González' : 'Perfil'}
                   </a>
                   <ul className="dropdown-menu">
                     {/* <li>

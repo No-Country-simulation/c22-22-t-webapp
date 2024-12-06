@@ -44,7 +44,7 @@ function SubjectStats({ stats, teacher }) {
             <p>{assignmentsPercentage >= 75 ? 'Muy bien!' : 'A mejorar!'}</p>
           </div>
         </div>
-        <i class="bi bi-easel2 special"></i>
+        <i className="bi bi-easel2 special"></i>
       </div>
 
       {/* Behavior */}

@@ -1,15 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { Suspense, lazy, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { getOne } from '../services/subjects';
-import SubjectStats from '../components/SubjectStats/SubjectStats';
+// import SubjectStats from '../components/SubjectStats/SubjectStats';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useAuth } from "../context/authContext";
+import SubjectStatsSkeleton from '../components/Skeletons/SubjectStatsSkeleton/SubjectStatsSkeleton';
 import SubjectFeature from '../components/SubjectFeature/SubjectFeature';
+import Skeleton from 'react-loading-skeleton';
 
 
 function SubjectDetails() {
+  const SubjectStats = lazy(() => import('../components/SubjectStats/SubjectStats'));
   const [subject, setSubject] = useState([]);
   let { year, idSubject } = useParams();
   const { user } = useAuth();
@@ -92,14 +95,21 @@ function SubjectDetails() {
   return (
     <div className='container-lg mt-4'>
       <h1 className='fw-bold' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
-      <SubjectStats
-        stats={getSubjectStatsByStudent()}
-        teacher={getSubjectTeacherByStudent()}
-      />
+      <Suspense fallback={
+        <>
+          <Skeleton style={{ width: '190px', height: '40px' }} />
+          <SubjectStatsSkeleton />
+        </>
+      }>
+        <SubjectStats
+          stats={getSubjectStatsByStudent()}
+          teacher={getSubjectTeacherByStudent()}
+        />
+      </Suspense>
       <div className='row'>
         {
           features.map((feature) => (
-            <Link key={feature.id} to={feature.path} className='col-12 col-md-6 col-lg-6 mb-4 d-flex justify-content-center align-items-center'>
+            <Link to={feature.path} key={feature.id} className='col-12 col-md-6 col-lg-6 mb-4 d-flex justify-content-center align-items-center'>
               <SubjectFeature
                 feature={feature.name}
                 icon={feature.icon}
