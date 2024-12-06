@@ -31,7 +31,7 @@ function SubjectStats({ stats, teacher }) {
             <p>{attendancePercentage >= 75 ? 'Muy bien!' : 'A mejorar!'}</p>
           </div>
         </div>
-        <i className="bi bi-backpack special" />
+        <i className="bi bi-calendar-event special" />
       </div>
 
       {/* Delivers */}
@@ -44,7 +44,7 @@ function SubjectStats({ stats, teacher }) {
             <p>{assignmentsPercentage >= 75 ? 'Muy bien!' : 'A mejorar!'}</p>
           </div>
         </div>
-        <i className="bi bi-easel2 special"></i>
+        <i className="bi bi-file-earmark-check special"></i>
       </div>
 
       {/* Behavior */}
@@ -66,8 +66,7 @@ function SubjectStats({ stats, teacher }) {
           <h3>{teacher}</h3>
           <p>Profesor</p>
           <div>
-            <i className={`icon ${teacherCommentPercentage >= 75 ? 'green up bi bi-arrow-up-circle' : 'orange down bi bi-arrow-down-left-circle'}`} />
-            <p>{teacherCommentPercentage >= 75 ? 'Muy bien!' : 'A mejorar!'}</p>
+            <i className="bi bi-mortarboard special"/>
           </div>
         </div>
       </div>

@@ -59,6 +59,7 @@ function SubjectStatsSkeleton() {
         <div>
           <h3><CustomSkeleton width={100} /></h3>
           <p><CustomSkeleton width={100} /></p>
+          <i><CustomSkeleton width="2rem" height="2rem" circle /></i>
         </div>
       </div>
     </div>

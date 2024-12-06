@@ -1,22 +1,22 @@
 import React, { Suspense, lazy, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { getOne } from '../services/subjects';
-// import SubjectStats from '../components/SubjectStats/SubjectStats';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useAuth } from "../context/authContext";
 import SubjectStatsSkeleton from '../components/Skeletons/SubjectStatsSkeleton/SubjectStatsSkeleton';
 import SubjectFeature from '../components/SubjectFeature/SubjectFeature';
 import Skeleton from 'react-loading-skeleton';
-
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function SubjectDetails() {
   const SubjectStats = lazy(() => import('../components/SubjectStats/SubjectStats'));
   const [subject, setSubject] = useState([]);
+  const [isLoading, setisLoading] = useState(true);
   let { year, idSubject } = useParams();
   const { user } = useAuth();
   useEffect(() => {
+
     const fetchSubject = async () => {
       try {
         const data = await getOne(idSubject);
@@ -28,8 +28,13 @@ function SubjectDetails() {
         console.error('Error obteniendo info de materia:', error);
       }
     };
-    fetchSubject();
-  }, [idSubject]);
+    if (isLoading) {
+      setTimeout(() => {
+        fetchSubject();
+        setisLoading(false);
+      }, 2000)
+    }
+  }, [idSubject, isLoading]);
 
   // Subject's features
   const features = [
@@ -97,15 +102,27 @@ function SubjectDetails() {
       <h1 className='fw-bold' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
       <Suspense fallback={
         <>
-          <Skeleton style={{ width: '190px', height: '40px' }} />
+          <Skeleton style={{ width: '190px', height: '42px' }} />
           <SubjectStatsSkeleton />
         </>
       }>
-        <SubjectStats
-          stats={getSubjectStatsByStudent()}
-          teacher={getSubjectTeacherByStudent()}
-        />
+        {!isLoading ?
+          (
+            <SubjectStats
+              stats={getSubjectStatsByStudent()}
+              teacher={getSubjectTeacherByStudent()}
+            />
+          )
+          :
+          (
+            <>
+              <Skeleton style={{ width: '190px', height: '42px' }} />
+              <SubjectStatsSkeleton />
+            </>
+          )
+        }
       </Suspense>
+
       <div className='row'>
         {
           features.map((feature) => (
