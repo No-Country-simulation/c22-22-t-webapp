@@ -51,7 +51,7 @@ function Subjects() {
             {
               getStudentSubjects().subjects
                 .map((subject) => (
-                  <>
+                  <div key={subject.subject.id_subject} className='col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center align-items-center'>
                     <SubjectCard
                       idSubject={subject.id_subject}
                       year={year}
@@ -61,7 +61,7 @@ function Subjects() {
                       workload={subject.workload}
                       classroom={subject.classroom}
                     />
-                  </>
+                  </div>
                 ))
             }
           </Suspense>
