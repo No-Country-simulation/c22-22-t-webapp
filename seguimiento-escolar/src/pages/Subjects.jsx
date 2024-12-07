@@ -15,22 +15,25 @@ function Subjects() {
   const { user } = useAuth();
   const [subjects, setSubjects] = useState([]);
   const [filteredSubjects, setFilteredSubjects] = useState([]);
-  const [isLoaded, setIsLoaded] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
   // We use import.meta.glob to load all images  
   const images = import.meta.glob('../assets/subjects/2024/*', { eager: true });
   useEffect(() => {
     navigate('/estudiante/materias/2024');
-    if (isLoaded) {
+    if (isLoading) {
       setTimeout(() => {
         setSubjects(getAll());
         setFilteredSubjects(getAll());
-        setIsLoaded(false);
+        setIsLoading(false);
       }, 2000);
     }
-  }, [isLoaded])
+  }, [isLoading])
 
 
+  const getStudentSubjects = () => {
+    return subjects.find(item => item.id_student === user.uid && item.year === year) || { subjects: [] };
+  };
   return (
     <div className='container mt-4' >
       <div className='d-flex justify-content-between align-items-center mb-5'>
@@ -42,13 +45,11 @@ function Subjects() {
           userId={user.uid}
         />
       </div>
-      {!isLoaded ? (
+      {!isLoading ? (
         <div className='row'>
           <Suspense fallback={<SubjectCardSkeleton quantity={6} />}>
             {
-              filteredSubjects
-                .filter((item) => item.id_student === user.uid) // Filter by authenticated user
-                .flatMap((item) => item.subjects) // Flatten subjects into a single array
+              getStudentSubjects().subjects
                 .map((subject) => (
                   <>
                     <SubjectCard
