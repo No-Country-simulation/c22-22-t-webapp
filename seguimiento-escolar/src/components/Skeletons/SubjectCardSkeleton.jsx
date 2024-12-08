@@ -6,9 +6,9 @@ import 'react-loading-skeleton/dist/skeleton.css'
 function SubjectCardSkeleton({ quantity }) {
 
   return (
-    Array(quantity).fill(0).map(item => (
-      <div className='col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center align-items-center'>
-        <div className="card card__custom">
+    <>
+      {Array(quantity).fill(0).map((_, index) => (
+        <div key={index} className="card card__custom">
           <Skeleton className='card-img-top' />
           <div className="card-body">
             <h4 className="card-title card-title__custom fw-bold"><Skeleton width={'150px'} duration={2} /></h4>
@@ -31,8 +31,8 @@ function SubjectCardSkeleton({ quantity }) {
             </ul>
           </div>
         </div>
-      </div>
-    ))
+      ))}
+    </>
   )
 }
 
