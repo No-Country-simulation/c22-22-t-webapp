@@ -2,7 +2,7 @@ import React, { Suspense, lazy, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { getOne } from '../services/subjects';
 import { useAuth } from "../context/authContext";
-import SubjectStatsSkeleton from '../components/Skeletons/SubjectStatsSkeleton/SubjectStatsSkeleton';
+import SubjectStatsSkeleton from '../components/Skeletons/SubjectStatsSkeleton';
 import SubjectFeature from '../components/SubjectFeature/SubjectFeature';
 import Skeleton from 'react-loading-skeleton';
 import 'bootstrap-icons/font/bootstrap-icons.css';

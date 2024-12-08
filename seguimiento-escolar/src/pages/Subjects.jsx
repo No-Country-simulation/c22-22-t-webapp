@@ -23,7 +23,6 @@ function Subjects() {
     if (isLoading) {
       setTimeout(() => {
         setSubjects(getAll());
-        setFilteredSubjects(getAll());
         setIsLoading(false);
       }, 1000);
     }

@@ -8,6 +8,7 @@ import { getOne } from '../services/subjects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import SubjectYearFilter from '../components/YearFilter/SubjectYearFilter';
 
 function AnualSyllabus() {
   const [subject, setSubject] = useState([]);
@@ -52,12 +53,31 @@ function AnualSyllabus() {
     return null;
   };
 
+  // Get available years by student
+  const getYearsByStudent = () => {
+    const loggedStudentSubjectData = subject.filter((data) => data.id_student === user.uid);
+    if (loggedStudentSubjectData) {
+      const years = [...new Set(loggedStudentSubjectData.map((subject) => subject.year))];
+      const sortedYears = years.sort((a, b) => b - a); // Sort years in descending order
+
+      return sortedYears;
+    }
+    return null;
+  }
+
 
   return (
     <div className="container-lg mt-4">
-      <BackButton
-        path={`../${idSubject}`}
-      />
+      <div className='d-flex justify-content-between align-items-center mb-4' style={{ width: '100%' }}>
+        <BackButton
+          path={`../${idSubject}`}
+        />
+        <SubjectYearFilter
+          idSubject={idSubject}
+          year={year}
+          availableYears={getYearsByStudent()}
+        />
+      </div>
       <h1 className='fw-bold mb-3' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
       <div className='mb-5'>
         <SubjectFeature

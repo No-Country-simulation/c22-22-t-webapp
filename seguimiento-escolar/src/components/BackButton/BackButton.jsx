@@ -12,7 +12,7 @@ function BackButton({ path }) {
   }
   return (
     <button
-      className='btn btn-outline-dark btn_custom mb-5'
+      className='btn btn-outline-dark btn_custom'
       onClick={() => handleClick()}
     >
       <div className='d-flex gap-1'>

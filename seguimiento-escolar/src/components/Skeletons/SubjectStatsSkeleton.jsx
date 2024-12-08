@@ -1,7 +1,7 @@
 import React from 'react'
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
-import '../../SubjectStats/subjectStatsStyles.css'
+import '../SubjectStats/subjectStatsStyles.css'
 
 function SubjectStatsSkeleton() {
   const CustomSkeleton = ({ width, height, circle, ...rest }) => (
