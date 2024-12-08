@@ -32,7 +32,7 @@ function SubjectDetails() {
       setTimeout(() => {
         fetchSubject();
         setisLoading(false);
-      }, 2000)
+      }, 1000)
     }
   }, [idSubject, isLoading]);
 

@@ -7,11 +7,11 @@ const SubjectCard = lazy(() => import('./SubjectCard'));
 function LazySubjectCard({ subject, year, image }) {
   const { ref: myRef, inView } = useInView({
     triggerOnce: true, // Renderizar una sola vez
-    threshold: 0.20,    // Activar cuando esté el 20% visible
+    threshold: 0.30,    // Activar cuando esté el 30% visible
   });
 
   return (
-    <div ref={myRef} className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center align-items-center">
+    <div ref={myRef}>
       {inView ? (
         <Suspense fallback={<SubjectCardSkeleton quantity={1} />}>
           <SubjectCard

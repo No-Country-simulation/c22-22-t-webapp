@@ -25,7 +25,7 @@ function Subjects() {
         setSubjects(getAll());
         setFilteredSubjects(getAll());
         setIsLoading(false);
-      }, 2000);
+      }, 1000);
     }
   }, [isLoading])
 
@@ -47,19 +47,16 @@ function Subjects() {
       </div>
       <div className='row'>
         {isLoading ? (
-          Array(10).fill(0).map((_, index) => (
-            <div key={index} className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center align-items-center">
-              <SubjectCardSkeleton quantity={1} />
-            </div>
-          ))
+          <SubjectCardSkeleton quantity={10} />
         ) : (
           getStudentSubjects().subjects.map((subject) => (
-            <LazySubjectCard
-              key={subject.id_subject}
-              subject={subject}
-              year={year}
-              image={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
-            />
+            <div key={subject.id_subject} className="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center align-items-center">
+              <LazySubjectCard
+                subject={subject}
+                year={year}
+                image={images[`../assets/subjects/2024/${subject.image_subject}`]?.default}
+              />
+            </div>
           ))
         )}
       </div>
