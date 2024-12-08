@@ -7,7 +7,7 @@ const SubjectCard = lazy(() => import('./SubjectCard'));
 function LazySubjectCard({ subject, year, image }) {
   const { ref: myRef, inView } = useInView({
     triggerOnce: true, // Renderizar una sola vez
-    threshold: 0.1,    // Activar cuando esté el 10% visible
+    threshold: 0.20,    // Activar cuando esté el 20% visible
   });
 
   return (
