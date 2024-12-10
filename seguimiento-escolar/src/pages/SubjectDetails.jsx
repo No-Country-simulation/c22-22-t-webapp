@@ -43,22 +43,22 @@ function SubjectDetails() {
       name: "Programa anual",
       icon: <i className="bi bi-list-check" />,
       path: "programa-anual"
-    }, /* {
+    }, {
       id: 2,
       name: "Calificaciones",
-      icon: <i className="bi bi-book" />,
-      path: "examenes"
-    }, */ {
+      icon: <i className="bi bi-123" />,
+      path: "calificaciones"
+    }, {
       id: 3,
       name: "Rendimiento académico",
       icon: <i className="bi bi-graph-up-arrow" />,
       path: "rendimiento-academico"
-    }/* , {
+    }, {
       id: 4,
       name: "Comunidad",
       icon: <i className="bi bi-globe2" />,
       path: "comunidad"
-    } */
+    }
   ]
 
   // Getting only the prop subject_stats from getOne_id.json

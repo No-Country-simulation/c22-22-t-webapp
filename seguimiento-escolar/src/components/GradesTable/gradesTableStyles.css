@@ -1,0 +1,82 @@
+.table {
+  text-align: center;
+  width: 100%;
+}
+
+.text-color__finished {
+  color: #4caf50;
+}
+
+.text-color__to-do {
+  color: gray;
+}
+
+.text-color__test {
+  color: #43A0C5;
+}
+
+.text-color__date {
+  color: #B5B5C3;
+}
+
+.table__grades th {
+  background-color: #E6EDF8 !important;
+}
+
+
+/* .table-hover tbody tr:hover td {
+  background: rgb(254, 255, 255);
+} */
+
+
+.badge {
+  color: #000;
+}
+
+.badge.good {
+  background-color: #CADD79;
+}
+
+.badge.more-less {
+  background-color: #FCC43E85;
+}
+
+.badge.bad {
+  background-color: #F06C5DC4;
+}
+
+.page-link:active {
+  background-color: #4caf50 !important;
+}
+
+
+/* Paginacion */
+.pagination .page-link:focus {
+  outline: none; 
+  box-shadow: none;
+}
+
+.pagination .page-link {
+  background-color: #f8f9fa; 
+  color: #007bff; 
+  transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: #064A9D; 
+  color: white; 
+}
+
+
+.pagination .page-item.active .page-link {
+  background-color: var(--primary-blue); 
+  color: white; 
+}
+
+
+.pagination .page-item.disabled .page-link {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+

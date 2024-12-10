@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './yearFilterStyles.css'
-function SubjectYearFilter({ idSubject, year, availableYears }) {
+function SubjectYearFilter({ idSubject, year, availableYears, subjectFeaturePath }) {
   const [selectedYear, setSelectedYear] = useState(year);
   const navigate = useNavigate();
 
   const handleYearFilter = (year) => {
-    navigate(`/estudiante/materias/${year}/${idSubject}/programa-anual`);
+    navigate(`/estudiante/materias/${year}/${idSubject}/${subjectFeaturePath}`);
     setSelectedYear(year);
   };
 

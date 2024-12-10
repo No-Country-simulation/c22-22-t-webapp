@@ -76,6 +76,7 @@ function AnualSyllabus() {
           idSubject={idSubject}
           year={year}
           availableYears={getYearsByStudent()}
+          subjectFeaturePath={'programa-anual'}
         />
       </div>
       <h1 className='fw-bold mb-3' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>

@@ -43,7 +43,10 @@ function NavBar() {
               >
                 <div className="offcanvas-header">
                   <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                    Logo Mobile
+                    <div className='logo-nav-container'>
+                      <h2>Conexión</h2>
+                      <h1>Académica</h1>
+                    </div>
                   </h5>
                   <button
                     type="button"
@@ -83,7 +86,7 @@ function NavBar() {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        Perfil
+                        {user.uid === 'YoG5WiZ9J5QvlscAfo7yS0F2Y7J3' ? 'Emilia Martínez' : user.uid === 'DiF1KBzKijPYbgkyqa94ahIPQtk1' ? 'Mateo González' : 'Perfil'}
                       </a>
                       <ul className="dropdown-menu">
                         {/* <li>

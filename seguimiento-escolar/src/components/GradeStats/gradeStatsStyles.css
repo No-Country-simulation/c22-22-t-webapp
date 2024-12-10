@@ -1,0 +1,5 @@
+.table__grade-stats th {
+  background-color: #E6EDF8 !important;
+  color: var(--primary-blue);
+  font-weight: bold;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./subjectStatsStyles.css";
 function SubjectStats({ stats, teacher }) {
   const { present: present_attendance, total_classes } = stats?.attendance || {};
@@ -66,8 +67,11 @@ function SubjectStats({ stats, teacher }) {
           <h3>{teacher}</h3>
           <p>Profesor</p>
           <div>
-            <i className="bi bi-mortarboard special"/>
+            <i className="bi bi-mortarboard special" />
           </div>
+          <Link>
+            <button className='btn btn-link'>Ver Perfil</button>
+          </Link>
         </div>
       </div>
     </div>
