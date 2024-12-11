@@ -1,6 +1,6 @@
 import React from 'react';
 import './Performance.css';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
 
 
 const Theme = ({ themeData }) => {
@@ -16,7 +16,6 @@ const Theme = ({ themeData }) => {
     return (
         <div className="theme-container">
             <h3>Rendimiento por temas</h3>
-            <ResponsiveContainer>
             <BarChart width={600} height={300} data={data} margin={0} >
                 <XAxis dataKey="name" stroke="#3e75c9cb" />
                 <YAxis />
@@ -25,7 +24,6 @@ const Theme = ({ themeData }) => {
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                 <Bar dataKey="unidad" fill="#3e75c9cb" barSize={20} />
             </BarChart>
-            </ResponsiveContainer>
         </div>
     );
 };
