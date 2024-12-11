@@ -17,6 +17,7 @@ function LoginForm({ handleSubmit, handleChange, step, user, error, inputRef, ha
               name={step == 1 ? 'dni' : 'password'}
               id={step == 1 ? 'dni' : 'password'}
               value={step == 1 ? user.dni : user.password}
+              inputMode={step == 1 ? 'numeric' : 'text'}
               className="form-control"
               placeholder=' '
               onChange={handleChange}
