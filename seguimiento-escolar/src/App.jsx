@@ -39,7 +39,7 @@ function App() {
             <Route path=':idSubject' element={<SubjectDetails />} />
             <Route path=':idSubject/programa-anual' element={<AnualSyllabus />} />
             <Route path=':idSubject/rendimiento-academico' element={<AcademicPerformance />} />
-            <Route path=':idSubject/comunidad' element={<Community />} />
+            <Route path='comunidad' element={<Community />} />
             <Route path=':idSubject/calificaciones' element={<Grades />} />
           </Route>
         </Route>

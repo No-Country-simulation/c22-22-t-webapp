@@ -1,0 +1,432 @@
+.community-section {
+    width: 90dvw;
+}
+
+.big-calendar-section {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* CALENDAR STYLE */
+.big-calendar-section .calendar-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-bg);
+    border: 1px solid #e6eaf3;
+    border-radius: 12px;
+    padding: 1em;
+}
+
+.big-calendar-section .react-calendar * {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.big-calendar-section .react-calendar {
+    border: none !important;
+}
+
+.big-calendar-section .react-calendar__navigation {
+    display: flex;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 0 1em 1em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.big-calendar-section .react-calendar__month-view__days {
+    display: flex;
+    justify-content: center;
+}
+
+.big-calendar-section .react-calendar__navigation__label__labelText {
+    font-size: 1.8em;
+    color: var(--primary-blue);
+    font-weight: 600;
+}
+
+.big-calendar-section .react-calendar__month-view__weekdays__weekday {
+    background-color: rgba(0, 86, 156, 0.699);
+    outline: 1px solid #cfcfcf;
+    color: var(--primary-bg);
+    text-align: center;
+    padding: 6px;
+}
+
+.big-calendar-section .react-calendar__navigation__arrow {
+    font-size: 2em;
+}
+
+.big-calendar-section .react-calendar__month-view__weekdays__weekday:first-child,
+.big-calendar-section .react-calendar__month-view__weekdays__weekday:last-child {
+    background-color: rgba(0, 86, 156, 0.527);
+}
+
+.big-calendar-section .react-calendar__month-view__weekdays__weekday abbr[title] {
+    cursor: auto;
+    text-decoration: none;
+}
+
+.big-calendar-section .react-calendar__month-view__days>button {
+    padding: 6px;
+    outline: 1px solid #cfcfcf;
+    min-height: 100px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.1s ease;
+    cursor: auto;
+}
+
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(16),
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(21),
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(26) {
+    position: relative;
+    z-index: 9;
+}
+
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(16)::after,
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(21)::after,
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(26)::after {
+    background: rgba(255, 121, 139, 0.322);
+    color: rgba(148, 2, 22, 0.712);
+    content: 'Día del deporte';
+    position: absolute;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    bottom: 8%;
+    right: 5%;
+    width: 90%;
+    min-height: 60%;
+    z-index: 999;
+}
+
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(21)::after {
+    content: 'Evento de graduación';
+}
+
+.big-calendar-section .react-calendar__month-view__days>button:nth-child(26)::after {
+    content: 'Muestra anual';
+}
+
+/* ____________AllAverages____________ */
+
+.all-averages-container {
+    background-color: var(--primary-bg);
+    border: 1px solid #e6eaf3;
+    border-radius: 12px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-averages-container h2 {
+    font-size: 1.4em;
+    color: var(--primary-blue);
+}
+
+.all-averages-container p {
+    color: #818181;
+    font-weight: 100;
+}
+
+.all-averages-container .table-container thead {
+    color: #818181;
+    border-bottom: 2px solid #cfcfcf;
+}
+
+.all-averages-container .table-container th {
+    padding: 4px 3em;
+    text-align: center;
+}
+
+.all-averages-container .table-container td {
+    text-align: center;
+}
+
+.all-averages-container .table-container th:first-child {
+    padding: 0 1em;
+}
+
+.all-averages-container .table-container tbody tr:first-child,
+.all-averages-container .table-container tbody tr:nth-child(3) {
+    background: var(--secondary-bg);
+}
+
+.all-averages-container .table-container .student-img-container {
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.4em 0;
+}
+
+.all-averages-container .table-container .student-img-container img {
+    max-width: 100%;
+}
+
+/* ____________BestAverage____________ */
+.best-average-container {
+    background-color: var(--primary-bg);
+    border: 1px solid #e6eaf3;
+    border-radius: 12px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.best-average-container header, 
+.best-average-container header h3{
+    color: rgba(28, 91, 143, 0.425);
+}
+
+.best-average-container header h3{
+    margin-bottom: 0;
+}
+.best-average-container header i{
+    font-size: 1.4em;
+}
+
+.best-average-container h2{
+    color: var(--primary-blue);
+} 
+.best-average-container p{
+    padding: 0.4em 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.best-average-container .image-container{
+    z-index: 99;
+    position: relative;
+    padding: 0.4em;
+}
+.best-average-container .image-container img{
+    border-radius: 50%;
+    width: 100px;
+}
+.best-average-container .image-container i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 0.3em 0.6em;
+    border-radius: 50%;
+    background-color: var(--primary-blue);
+    color: var(--primary-bg);
+}
+
+.positions-container {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 2em;
+    background: var(--secondary-bg);
+    border-radius: 50px;
+    margin: 1em 0;
+}
+
+.position-rank {
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--primary-blue);
+}
+
+.student-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.student-img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.student-name {
+    font-weight: bold;
+    color: #444;
+}
+
+.student-score {
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+
+
+/* ____________DigitalTools____________ */
+.digital-tools-container {
+    background-color: var(--primary-bg);
+    border: 1px solid #e6eaf3;
+    border-radius: 12px;
+    padding: 1em;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.digital-tools-container .tools-title {
+    font-size: 1.6em;
+    color: var(--primary-blue);
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.digital-tools-container .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.digital-tools-container .tool-card {
+    background: #fff;
+    border: 1px solid #e6eaf3;
+    border-radius: 8px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.2s;
+}
+
+.digital-tools-container .tool-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.digital-tools-container .tool-card-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.digital-tools-container .tool-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.digital-tools-container .tool-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.digital-tools-container .tool-card-body {
+    text-align: center;
+}
+
+.digital-tools-container .tool-name {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.digital-tools-container .tool-url {
+    font-size: 0.9em;
+    color: #818181;
+}
+
+.digital-tools-container .tool-card-footer {
+    margin-top: 1em;
+}
+
+.digital-tools-container .tool-icon {
+    font-size: 1.2em;
+    color: var(--primary-blue);
+    cursor: pointer;
+}
+
+
+@media (width < 768px) and (height < 860px) {
+    .big-calendar-section .react-calendar__month-view__days>button {
+        max-width: 70px;
+    }
+    
+    .big-calendar-section .react-calendar__month-view__days>button:nth-child(16)::after,
+    .big-calendar-section .react-calendar__month-view__days>button:nth-child(21)::after,
+    .big-calendar-section .react-calendar__month-view__days>button:nth-child(26)::after {
+        border-radius: 8px;
+        bottom: 2%;
+        right: 5%;
+        width: 90%;
+        max-height: 60%;
+        z-index: 999;
+    }
+}
+
+@media (height < 860px) {
+    .big-calendar-section .react-calendar__month-view__days>button {
+        min-height: 60px;
+        max-height: 100px;
+    }
+}
+
+@media (width < 768px) {
+    .big-calendar-section .react-calendar__navigation {
+        padding: 0;
+        width: 100%;
+    }
+
+    .all-averages-container .table-container {
+        padding: 4px 2em;
+        font-size: 0.8em;
+    }
+}
+
+@media (width < 644px) {
+    .all-averages-container .table-container th {
+        padding: 4px 2em;
+    }
+}
+
+@media (width < 560px) {
+    .all-averages-container .table-container th {
+        padding: 4px 1.2em;
+    }
+}
+
+@media (width < 480px) {
+    .all-averages-container .table-container th {
+        padding: 4px 0.8em;
+    }
+
+    .all-averages-container .table-container {
+        font-size: 0.6em;
+    }
+}
