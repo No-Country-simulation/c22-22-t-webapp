@@ -38,18 +38,67 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Exploración de la Interpretación Vocal y Coral.",
+        "test_grade": 6
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Parámetros del Sonido y la Textura",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Tecnología y Música",
+        "test_grade": 9
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Bases Armónicas y Rítmicas",
+        "test_grade": 4
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Desarrollo de Creaciones Musicales Propias",
+        "test_grade": 3
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "24/11/2024",
+        "test_name": "Música como Lenguaje Artístico y Social",
+        "test_grade": "-"
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Tecnología y Música Contemporánea",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 5,
+      "second_quarter": 6,
+      "third_quarter": 7
+    }
   },
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
@@ -90,18 +139,67 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Exploración de la Interpretación Vocal y Coral.",
+        "test_grade": 4
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Parámetros del Sonido y la Textura",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Tecnología y Música",
+        "test_grade": 5
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Bases Armónicas y Rítmicas",
+        "test_grade": 6
+      },
+      {
+        "id": 5,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Desarrollo de Creaciones Musicales Propias",
+        "test_grade": "-"
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "24/11/2024",
+        "test_name": "Música como Lenguaje Artístico y Social",
+        "test_grade": "-"
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Tecnología y Música Contemporánea",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 6,
+      "second_quarter": 7,
+      "third_quarter": 8
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -142,18 +240,67 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Exploración de la Interpretación Vocal y Coral.",
+        "test_grade": 3
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Parámetros del Sonido y la Textura",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Tecnología y Música",
+        "test_grade": 6
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Bases Armónicas y Rítmicas",
+        "test_grade": 8
+      },
+      {
+        "id": 5,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Desarrollo de Creaciones Musicales Propias",
+        "test_grade": "-"
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "24/11/2024",
+        "test_name": "Música como Lenguaje Artístico y Social",
+        "test_grade": "-"
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Tecnología y Música Contemporánea",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 8,
+      "second_quarter": 5,
+      "third_quarter": 7
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -194,17 +341,66 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Exploración de la Interpretación Vocal y Coral.",
+        "test_grade": 5
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Parámetros del Sonido y la Textura",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Tecnología y Música",
+        "test_grade": 10
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Bases Armónicas y Rítmicas",
+        "test_grade": 9
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Desarrollo de Creaciones Musicales Propias",
+        "test_grade": 4
+      },
+      {
+        "id": 6,
+        "state": "Finalizado",
+        "date": "24/11/2024",
+        "test_name": "Música como Lenguaje Artístico y Social",
+        "test_grade": 6
+      },
+      {
+        "id": 7,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Tecnología y Música Contemporánea",
+        "test_grade": 8
+      },
+      {
+        "id": 8,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": 5
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 5,
+      "second_quarter": 5,
+      "third_quarter": 7
+    }
   }
 ]

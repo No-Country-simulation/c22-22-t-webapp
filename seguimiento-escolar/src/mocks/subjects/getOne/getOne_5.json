@@ -43,18 +43,46 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Test de Resistencia y Fondo",
+        "test_grade": 8
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Prueba de Velocidad Explosiva",
+        "test_grade": 6
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Evaluación de Técnica en Saltos",
+        "test_grade": 9
+      },
+      {
+        "id": 4,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Desempeño en Lanzamientos",
+        "test_grade": "-"
+      },
+      {
+        "id": 5,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Circuito de Habilidades Atléticas",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 8,
+      "second_quarter": 5,
+      "third_quarter": 7
+    }
   },
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
@@ -100,18 +128,46 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Test de Resistencia y Fondo",
+        "test_grade": 3
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Prueba de Velocidad Explosiva",
+        "test_grade": 8
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Evaluación de Técnica en Saltos",
+        "test_grade": 9
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Desempeño en Lanzamientos",
+        "test_grade": 5
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Circuito de Habilidades Atléticas",
+        "test_grade": 8
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 3,
+      "second_quarter": 6,
+      "third_quarter": 8
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -157,18 +213,46 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Test de Resistencia y Fondo",
+        "test_grade": 4
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Prueba de Velocidad Explosiva",
+        "test_grade": 7
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Evaluación de Técnica en Saltos",
+        "test_grade": 9
+      },
+      {
+        "id": 4,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Desempeño en Lanzamientos",
+        "test_grade": "-"
+      },
+      {
+        "id": 5,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Circuito de Habilidades Atléticas",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 5,
+      "second_quarter": 5,
+      "third_quarter": 6
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -214,17 +298,45 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Test de Resistencia y Fondo",
+        "test_grade": 3
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Prueba de Velocidad Explosiva",
+        "test_grade": 6
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Evaluación de Técnica en Saltos",
+        "test_grade": 5
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Desempeño en Lanzamientos",
+        "test_grade": 5
+      },
+      {
+        "id": 5,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Circuito de Habilidades Atléticas",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 4,
+      "second_quarter": 5,
+      "third_quarter": 10
+    }
   }
 ]

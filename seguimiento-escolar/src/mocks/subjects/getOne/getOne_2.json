@@ -43,18 +43,74 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Impacto de las Actividades Regionales en la Comunidad",
+        "test_grade": 3
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Necesidades y Prácticas Económicas",
+        "test_grade": 4
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Factores Productivos y Desarrollo Regional",
+        "test_grade": 5
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Problemáticas Socioeconómicas Locales",
+        "test_grade": 5
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": 7
+      },
+      {
+        "id": 6,
+        "state": "Finalizado",
+        "date": "24/11/2024",
+        "test_name": "Interpretación de Comprobantes Comerciales y su Impacto",
+        "test_grade": 9
+      },
+      {
+        "id": 7,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Operaciones Básicas en la Economía Familiar y Comercia",
+        "test_grade": 10
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": "-"
+      },
+      {
+        "id": 9,
+        "state": "Pendiente",
+        "date": "26/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 5,
+      "second_quarter": 6,
+      "third_quarter": 7
+    }
   },
   {
     "id_student": "DiF1KBzKijPYbgkyqa94ahIPQtk1",
@@ -100,18 +156,74 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Impacto de las Actividades Regionales en la Comunidad",
+        "test_grade": 5
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Necesidades y Prácticas Económicas",
+        "test_grade": 6
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Factores Productivos y Desarrollo Regional",
+        "test_grade": 7
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Problemáticas Socioeconómicas Locales",
+        "test_grade": 5
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": 4
+      },
+      {
+        "id": 6,
+        "state": "Finalizado",
+        "date": "24/11/2024",
+        "test_name": "Interpretación de Comprobantes Comerciales y su Impacto",
+        "test_grade": 9
+      },
+      {
+        "id": 7,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Operaciones Básicas en la Economía Familiar y Comercia",
+        "test_grade": 10
+      },
+      {
+        "id": 8,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": 7
+      },
+      {
+        "id": 9,
+        "state": "Finalizado",
+        "date": "26/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": 9
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 7,
+      "second_quarter": 7,
+      "third_quarter": 7
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -157,18 +269,74 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Impacto de las Actividades Regionales en la Comunidad",
+        "test_grade": 9
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Necesidades y Prácticas Económicas",
+        "test_grade": 7
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Factores Productivos y Desarrollo Regional",
+        "test_grade": 7
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Problemáticas Socioeconómicas Locales",
+        "test_grade": 3
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": 4
+      },
+      {
+        "id": 6,
+        "state": "Finalizado",
+        "date": "24/11/2024",
+        "test_name": "Interpretación de Comprobantes Comerciales y su Impacto",
+        "test_grade": 9
+      },
+      {
+        "id": 7,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Operaciones Básicas en la Economía Familiar y Comercia",
+        "test_grade": 7
+      },
+      {
+        "id": 8,
+        "state": "Finalizado",
+        "date": "25/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": 3
+      },
+      {
+        "id": 9,
+        "state": "Pendiente",
+        "date": "26/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 8,
+      "second_quarter": 8,
+      "third_quarter": 8
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -214,17 +382,73 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Impacto de las Actividades Regionales en la Comunidad",
+        "test_grade": 6
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Necesidades y Prácticas Económicas",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Factores Productivos y Desarrollo Regional",
+        "test_grade": 9
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Problemáticas Socioeconómicas Locales",
+        "test_grade": 4
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": 3
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "24/11/2024",
+        "test_name": "Interpretación de Comprobantes Comerciales y su Impacto",
+        "test_grade": "-"
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Operaciones Básicas en la Economía Familiar y Comercia",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Resolviendo Problemas Financieros",
+        "test_grade": "-"
+      },
+      {
+        "id": 9,
+        "state": "Pendiente",
+        "date": "26/11/2024",
+        "test_name": "Recuperatorio",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 5,
+      "second_quarter": 6,
+      "third_quarter": 7
+    }
   }
 ]

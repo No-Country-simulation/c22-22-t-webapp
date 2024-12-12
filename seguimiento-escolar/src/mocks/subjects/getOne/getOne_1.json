@@ -99,14 +99,14 @@
         "state": "Finalizado",
         "date": "25/11/2024",
         "test_name": "Teorema de pitagoras",
-        "test_grade": 6
+        "test_grade": 5
       },
       {
         "id": 8,
         "state": "Finalizado",
         "date": "25/11/2024",
         "test_name": "Teorema de pitagoras",
-        "test_grade": 4
+        "test_grade": 9
       },
       {
         "id": 9,
@@ -254,18 +254,88 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Resolución de problemas",
+        "test_grade": 7
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Números enteros",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Operaciones algebráicas",
+        "test_grade": 6
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 4
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 4
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "24/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 9,
+        "state": "Pendiente",
+        "date": "26/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 10,
+        "state": "Pendiente",
+        "date": "27/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 11,
+        "state": "Pendiente",
+        "date": "28/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 6,
+      "second_quarter": 6,
+      "third_quarter": 6
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -321,18 +391,88 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Resolución de problemas",
+        "test_grade": 7
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Números enteros",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Operaciones algebráicas",
+        "test_grade": 6
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 4
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 4
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "24/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 9,
+        "state": "Pendiente",
+        "date": "26/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 10,
+        "state": "Pendiente",
+        "date": "27/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 11,
+        "state": "Pendiente",
+        "date": "28/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 6,
+      "second_quarter": 6,
+      "third_quarter": 6
+    }
   },
   {
     "id_student": "YoG5WiZ9J5QvlscAfo7yS0F2Y7J3",
@@ -388,17 +528,87 @@
     ],
     "grades": [
       {
-        "date": "27-11-2024",
-        "test": 5,
-        "practical_assignment": "B+",
-        "homework": "MB"
+        "id": 1,
+        "state": "Finalizado",
+        "date": "20/11/2024",
+        "test_name": "Resolución de problemas",
+        "test_grade": 7
       },
       {
-        "date": "03-12-2024",
-        "test": 7,
-        "practical_assignment": "A",
-        "homework": "B"
+        "id": 2,
+        "state": "Finalizado",
+        "date": "21/11/2024",
+        "test_name": "Números enteros",
+        "test_grade": 9
+      },
+      {
+        "id": 3,
+        "state": "Finalizado",
+        "date": "22/11/2024",
+        "test_name": "Operaciones algebráicas",
+        "test_grade": 6
+      },
+      {
+        "id": 4,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 4
+      },
+      {
+        "id": 5,
+        "state": "Finalizado",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 4
+      },
+      {
+        "id": 6,
+        "state": "Finalizado",
+        "date": "24/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": 9
+      },
+      {
+        "id": 7,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 8,
+        "state": "Pendiente",
+        "date": "25/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 9,
+        "state": "Pendiente",
+        "date": "26/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 10,
+        "state": "Pendiente",
+        "date": "27/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
+      },
+      {
+        "id": 11,
+        "state": "Pendiente",
+        "date": "28/11/2024",
+        "test_name": "Teorema de pitagoras",
+        "test_grade": "-"
       }
-    ]
+    ],
+    "grades_average": {
+      "first_quarter": 6,
+      "second_quarter": 7,
+      "third_quarter": 7
+    }
   }
 ]

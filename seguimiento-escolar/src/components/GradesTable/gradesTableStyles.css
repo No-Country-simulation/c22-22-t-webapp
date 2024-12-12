@@ -45,12 +45,13 @@
   background-color: #F06C5DC4;
 }
 
-.page-link:active {
-  background-color: #4caf50 !important;
-}
 
 
 /* Paginacion */
+.pagination .page-link:active {
+  background-color: #064A9D !important;
+}
+
 .pagination .page-link:focus {
   outline: none; 
   box-shadow: none;

@@ -57,82 +57,68 @@
         "state": "Finalizado",
         "date": "20/11/2024",
         "test_name": "Resolución de problemas",
-        "test_grade": 7
+        "test_grade": 8
       },
       {
         "id": 2,
         "state": "Finalizado",
         "date": "21/11/2024",
-        "test_name": "Números enteros",
-        "test_grade": 9
+        "test_name": "Números Enteros",
+        "test_grade": 6
       },
       {
         "id": 3,
         "state": "Finalizado",
         "date": "22/11/2024",
         "test_name": "Operaciones algebraicas",
-        "test_grade": 6
-      },
-      {
-        "id": 4,
-        "state": "Finalizado",
-        "date": "23/11/2024",
-        "test_name": "Teorema de pitagoras",
-        "test_grade": 4
-      },
-      {
-        "id": 5,
-        "state": "Finalizado",
-        "date": "23/11/2024",
-        "test_name": "Problemas geometricos",
-        "test_grade": 4
-      },
-      {
-        "id": 6,
-        "state": "Finalizado",
-        "date": "24/11/2024",
-        "test_name": "Números racionales",
         "test_grade": 9
       },
       {
+        "id": 4,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Teorema de pitagoras ",
+        "test_grade": "-"
+      },
+      {
+        "id": 5,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Problemas geometricos",
+        "test_grade": "-"
+      },
+      {
+        "id": 6,
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Numero irracionales",
+        "test_grade": "-"
+      },
+      {
         "id": 7,
-        "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Representación en el plano",
-        "test_grade": 6
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Notación cientifica",
+        "test_grade": "-"
       },
       {
         "id": 8,
-        "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Recuperatorio",
-        "test_grade": 4
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Representación en el plano",
+        "test_grade": "-"
       },
       {
         "id": 9,
         "state": "Pendiente",
-        "date": "26/11/2024",
-        "test_name": "Leccion",
-        "test_grade": "-"
-      },
-      {
-        "id": 10,
-        "state": "Pendiente",
-        "date": "27/11/2024",
-        "test_name": "Integradora",
-        "test_grade": "-"
-      },
-      {
-        "id": 11,
-        "state": "Pendiente",
-        "date": "28/11/2024",
-        "test_name": "Segundo Recuperatorio",
+        "date": "23/11/2024",
+        "test_name": "Recuperatorio",
         "test_grade": "-"
       }
     ],
     "grades_average": {
-      "first_quarter": 6,
-      "second_quarter": 7,
+      "first_quarter": 8,
+      "second_quarter": 5,
       "third_quarter": 7
     }
   },
@@ -194,27 +180,27 @@
         "state": "Finalizado",
         "date": "20/11/2024",
         "test_name": "Resolución de problemas",
-        "test_grade": 4
+        "test_grade": 2
       },
       {
         "id": 2,
         "state": "Finalizado",
         "date": "21/11/2024",
-        "test_name": "Números enteros",
-        "test_grade": 6
+        "test_name": "Números Enteros",
+        "test_grade": 8
       },
       {
         "id": 3,
         "state": "Finalizado",
         "date": "22/11/2024",
         "test_name": "Operaciones algebraicas",
-        "test_grade": 2
+        "test_grade": 9
       },
       {
         "id": 4,
         "state": "Finalizado",
         "date": "23/11/2024",
-        "test_name": "Teorema de pitagoras",
+        "test_name": "Teorema de pitagoras ",
         "test_grade": 7
       },
       {
@@ -222,55 +208,41 @@
         "state": "Finalizado",
         "date": "23/11/2024",
         "test_name": "Problemas geometricos",
-        "test_grade": 2
+        "test_grade": 7
       },
       {
         "id": 6,
         "state": "Finalizado",
-        "date": "24/11/2024",
-        "test_name": "Números racionales",
+        "date": "23/11/2024",
+        "test_name": "Numero irracionales",
         "test_grade": 8
       },
       {
         "id": 7,
         "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Representación en el plano",
-        "test_grade": 5
-      },
-      {
-        "id": 8,
-        "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Recuperatorio",
-        "test_grade": 7
-      },
-      {
-        "id": 9,
-        "state": "Finalizado",
-        "date": "26/11/2024",
-        "test_name": "Leccion",
+        "date": "23/11/2024",
+        "test_name": "Notación cientifica",
         "test_grade": 4
       },
       {
-        "id": 10,
+        "id": 8,
         "state": "Pendiente",
-        "date": "27/11/2024",
-        "test_name": "Integradora",
+        "date": "23/11/2024",
+        "test_name": "Representación en el plano",
         "test_grade": "-"
       },
       {
-        "id": 11,
+        "id": 9,
         "state": "Pendiente",
-        "date": "28/11/2024",
-        "test_name": "Segundo Recuperatorio",
+        "date": "23/11/2024",
+        "test_name": "Recuperatorio",
         "test_grade": "-"
       }
     ],
     "grades_average": {
-      "first_quarter": 5,
-      "second_quarter": 3,
-      "third_quarter": 8
+      "first_quarter": 4,
+      "second_quarter": 6,
+      "third_quarter": 9
     }
   },
   {
@@ -331,13 +303,13 @@
         "state": "Finalizado",
         "date": "20/11/2024",
         "test_name": "Resolución de problemas",
-        "test_grade": 5
+        "test_grade": 6
       },
       {
         "id": 2,
         "state": "Finalizado",
         "date": "21/11/2024",
-        "test_name": "Números enteros",
+        "test_name": "Números Enteros",
         "test_grade": 8
       },
       {
@@ -345,69 +317,55 @@
         "state": "Finalizado",
         "date": "22/11/2024",
         "test_name": "Operaciones algebraicas",
-        "test_grade": 10
+        "test_grade": 5
       },
       {
         "id": 4,
         "state": "Finalizado",
         "date": "23/11/2024",
-        "test_name": "Teorema de pitagoras",
-        "test_grade": 3
+        "test_name": "Teorema de pitagoras ",
+        "test_grade": 8
       },
       {
         "id": 5,
         "state": "Finalizado",
         "date": "23/11/2024",
         "test_name": "Problemas geometricos",
-        "test_grade": 2
+        "test_grade": 6
       },
       {
         "id": 6,
         "state": "Finalizado",
-        "date": "24/11/2024",
-        "test_name": "Números racionales",
-        "test_grade": 9
+        "date": "23/11/2024",
+        "test_name": "Numero irracionales",
+        "test_grade": 3
       },
       {
         "id": 7,
         "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Representación en el plano",
+        "date": "23/11/2024",
+        "test_name": "Notación cientifica",
         "test_grade": 7
       },
       {
         "id": 8,
-        "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Recuperatorio",
-        "test_grade": 2
+        "state": "Pendiente",
+        "date": "23/11/2024",
+        "test_name": "Representación en el plano",
+        "test_grade": "-"
       },
       {
         "id": 9,
         "state": "Pendiente",
-        "date": "26/11/2024",
-        "test_name": "Leccion",
-        "test_grade": 6
-      },
-      {
-        "id": 10,
-        "state": "Pendiente",
-        "date": "27/11/2024",
-        "test_name": "Integradora",
-        "test_grade": "-"
-      },
-      {
-        "id": 11,
-        "state": "Pendiente",
-        "date": "28/11/2024",
-        "test_name": "Segundo Recuperatorio",
+        "date": "23/11/2024",
+        "test_name": "Recuperatorio",
         "test_grade": "-"
       }
     ],
     "grades_average": {
-      "first_quarter": 3,
-      "second_quarter": 8,
-      "third_quarter": 5
+      "first_quarter": 6,
+      "second_quarter": 6,
+      "third_quarter": 7
     }
   },
   {
@@ -468,83 +426,69 @@
         "state": "Finalizado",
         "date": "20/11/2024",
         "test_name": "Resolución de problemas",
-        "test_grade": 8
+        "test_grade": 6
       },
       {
         "id": 2,
         "state": "Finalizado",
         "date": "21/11/2024",
-        "test_name": "Números enteros",
-        "test_grade": 1
+        "test_name": "Números Enteros",
+        "test_grade": 7
       },
       {
         "id": 3,
         "state": "Finalizado",
         "date": "22/11/2024",
         "test_name": "Operaciones algebraicas",
-        "test_grade": 3
+        "test_grade": 8
       },
       {
         "id": 4,
         "state": "Finalizado",
         "date": "23/11/2024",
-        "test_name": "Teorema de pitagoras",
-        "test_grade": 4
+        "test_name": "Teorema de pitagoras ",
+        "test_grade": 9
       },
       {
         "id": 5,
         "state": "Finalizado",
         "date": "23/11/2024",
         "test_name": "Problemas geometricos",
-        "test_grade": 8
+        "test_grade": 9
       },
       {
         "id": 6,
         "state": "Finalizado",
-        "date": "24/11/2024",
-        "test_name": "Números racionales",
-        "test_grade": 9
+        "date": "23/11/2024",
+        "test_name": "Numero irracionales",
+        "test_grade": 5
       },
       {
         "id": 7,
         "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Representación en el plano",
-        "test_grade": 4
+        "date": "23/11/2024",
+        "test_name": "Notación cientifica",
+        "test_grade": 7
       },
       {
         "id": 8,
         "state": "Finalizado",
-        "date": "25/11/2024",
-        "test_name": "Recuperatorio",
+        "date": "23/11/2024",
+        "test_name": "Representación en el plano",
         "test_grade": 9
       },
       {
         "id": 9,
         "state": "Pendiente",
-        "date": "26/11/2024",
-        "test_name": "Leccion",
-        "test_grade": "-"
-      },
-      {
-        "id": 10,
-        "state": "Pendiente",
-        "date": "27/11/2024",
-        "test_name": "Integradora",
-        "test_grade": "-"
-      },
-      {
-        "id": 11,
-        "state": "Pendiente",
-        "date": "28/11/2024",
-        "test_name": "Segundo Recuperatorio",
+        "date": "23/11/2024",
+        "test_name": "Recuperatorio",
         "test_grade": "-"
       }
     ],
     "grades_average": {
-      "first_quarter": 9,
-      "second_quarter": 3,
-      "third_quarter": 9
+      "first_quarter": 5,
+      "second_quarter": 7,
+      "third_quarter": 8
     }
   }
 ]
