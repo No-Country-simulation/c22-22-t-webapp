@@ -17,9 +17,6 @@ function SubjectStats({ stats, teacherInfo, idSubject, year }) {
   const teacherCommentPercentage = Math.round((attendancePercentage + assignmentsPercentage + behaviorPercentage) / 3);
 
 
-  console.log(attendancePercentage, assignmentsPercentage, behaviorPercentage, teacherCommentPercentage);
-
-
   return (
     <div className="student-stats-container mb-5">
       {/* Attendance */}
@@ -64,7 +61,7 @@ function SubjectStats({ stats, teacherInfo, idSubject, year }) {
       {/* Professor */}
       <div className="stat-container">
         <div>
-          <h3>{teacherInfo && teacherInfo.name}</h3>
+          <h3>{teacherInfo != null && teacherInfo.name}</h3>
           <p>Profesor</p>
           <div>
             <i className="bi bi-mortarboard special" />
