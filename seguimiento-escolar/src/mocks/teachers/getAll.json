@@ -11,26 +11,19 @@
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
     "email": "marialopez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "professional_profile": "Licenciada en Historia por la Universidad Nacional de Córdoba, especializado en historia argentina y latinoamericana. Con experiencia en proyectos de investigación y enseñanza, busca transmitir la relevancia del pasado para entender el presente.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Historia",
-        "academic_place": "Academica de Historia de Irlanda",
-        "start_date": "2017",
-        "end_date": "2020"
-      },
-      {
-        "academic_title": "Licenciatura en Historia II",
-        "academic_place": "Academica de Historia de Irlanda",
-        "start_date": "2020",
-        "end_date": "2023"
+        "academic_title": "Posgrado en Historia Latinoamericana",
+        "academic_place": "Universidad de Buenos Aires",
+        "start_date": "2010",
+        "end_date": "2014"
       }
     ],
     "experiences": [
-      "Historia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "12 años de experiencia en la enseñanza secundaria y universitaria",
+      "Coordinador de proyectos de investigación histórica",
+      "Autor de artículos académicos sobre historia argentina o regional."
     ],
     "schedules": [
       {
@@ -75,26 +68,29 @@
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
     "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "professional_profile": "Licenciado en Economía por la Universidad Nacional de Buenos Aires, con especialización en microeconomía y desarrollo económico. Busca que los estudiantes comprendan los principios económicos y su impacto en la sociedad.",
     "educations": [
       {
         "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_place": "Universidad Nacional de Buenos Aires",
+        "start_date": "2005",
+        "end_date": "2009"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Posgrado en Economía del Desarrollo en la Universidad Nacional de La Plata",
+        "academic_place": "Universidad Nacional de Buenos Aires",
+        "start_date": "2010",
+        "end_date": "2013"
+      },
+      {
+        "academic_title": "Maestría en Finanzas",
+        "academic_place": "Universidad Nacional del Litoral",
+        "start_date": "2015",
+        "end_date": "2018"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Experiencia en instituciones financieras como analista o capacitador"
     ],
     "schedules": [
       {
@@ -138,8 +134,8 @@
     "photo": "carlos-rodriguez.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "carlosrodriguez@gmail.com",
+    "professional_profile": "Profesor de Música por el Conservatorio Provincial de Música Félix T. Garzón en Córdoba. Enfocado en el desarrollo de habilidades musicales y la apreciación de la diversidad cultural a través de la música.",
     "educations": [
       {
         "academic_title": "Licenciatura en Economia",
@@ -202,27 +198,25 @@
     "photo": "laura-martinez.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "lauramartinez@gmail.com",
+    "professional_profile": "Profesora de Educación Física egresada del Instituto Superior de Educación Física de Santa Fe, con formación en entrenamiento deportivo. Comprometido en desarrollar el potencial físico y mental de cada estudiante.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura en Educación Fisica",
+        "academic_place": "Instituto Superior de Educación Física de Santa Fe",
+        "start_date": "2010",
+        "end_date": "2013"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Certificación en Psicología Deportiva",
+        "academic_place": "Universidad Nacional de Mar del Plata",
+        "start_date": "2018",
+        "end_date": "2019"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Entrenador personal para atletas",
+      "Coordinador de programas de integración social a través del deporte"
     ],
     "schedules": [
       {
@@ -266,27 +260,30 @@
     "photo": "pedro-fernandez.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "pedrofernandez@gmail.com",
+    "professional_profile": "Licenciado en Artes Visuales por la Universidad Nacional de Tucumán, con especialización en pintura y escultura. Busca inspirar la creatividad de los estudiantes mediante proyectos innovadores y experimentación artística.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura en Arte",
+        "academic_place": "Universidad Nacional de Tucumán",
+        "start_date": "2008",
+        "end_date": "2012"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Posgrado en Restauración Artística",
+        "academic_place": "Universidad Nacional de La Plata",
+        "start_date": "2013",
+        "end_date": "2015"
+      },
+      {
+        "academic_title": "Máster en Diseño Gráfico",
+        "academic_place": "Universidad de Buenos Aires",
+        "start_date": "2017",
+        "end_date": "2020"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Diseñador gráfico freelance con proyectos nacionales e internacionales"
     ],
     "schedules": [
       {
@@ -330,27 +327,31 @@
     "photo": "ana-lopez.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "analopez@gmail.com",
+    "professional_profile": "Graduada en Matemática Aplicada por la Universidad Nacional de Rosario, con especialización en análisis y estadística. Apasionado por despertar el interés de los estudiantes en las ciencias exactas a través de métodos prácticos e innovadores.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura en Matematica",
+        "academic_place": "Universidad Nacional de Rosario",
+        "start_date": "2008",
+        "end_date": "2012"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Maestría en Estadística",
+        "academic_place": "Universidad de Buenos Aires",
+        "start_date": "2013",
+        "end_date": "2016"
+      },
+      {
+        "academic_title": "Posgrado en Didáctica de la Matemática",
+        "academic_place": "Universidad Nacional de San Luis",
+        "start_date": "2017",
+        "end_date": "2019"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Participación en olimpiadas de matemáticas como entrenador o jurado",
+      "Experiencia en la aplicación de matemáticas en la industria, como análisis de datos o modelado financiero"
     ],
     "schedules": [
       {
@@ -394,27 +395,31 @@
     "photo": "javier-silva.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "javiersilva@gmail.com",
+    "professional_profile": "Profesor de Letras por la Universidad Nacional de La Plata, con formación en literatura argentina y teoría literaria. Enfocada en fomentar la lectura crítica y el desarrollo de la escritura creativa.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura en Literatura",
+        "academic_place": "Universidad Nacional de La Plata",
+        "start_date": "2006",
+        "end_date": "2010"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Posgrado en Literatura Comparada",
+        "academic_place": "Universidad Nacional de Córdoba",
+        "start_date": "2011",
+        "end_date": "2014"
+      },
+      {
+        "academic_title": "Máster en Lingüística",
+        "academic_place": "Universidad de Salamanca, España",
+        "start_date": "2015",
+        "end_date": "2018"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Coordinador de clubes de lectura y escritura creativa en escuelas o bibliotecas",
+      "Experiencia en adaptación de programas de enseñanza para estudiantes con necesidades educativas especiales"
     ],
     "schedules": [
       {
@@ -458,27 +463,25 @@
     "photo": "sofia-torres.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "sofiatorres@gmail.com",
+    "professional_profile": "Licenciada en Geografía por la Universidad Nacional del Sur, con especialización en cartografía y geografía económica. Promueve una visión global del mundo a través del análisis del entorno natural y humano.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura Geografía",
+        "academic_place": "Universidad Nacional del Sur",
+        "start_date": "2007",
+        "end_date": "2011"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Posgrado en Geografía Urbana",
+        "academic_place": "Universidad Nacional de Tucumán",
+        "start_date": "2012",
+        "end_date": "2015"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Coordinadora de clubes de lectura y escritura creativa en escuelas o bibliotecas.",
+      "Experiencia en adaptación de programas de enseñanza para estudiantes con necesidades educativas especiales."
     ],
     "schedules": [
       {
@@ -522,27 +525,31 @@
     "photo": "diego-castro.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "diegocastro@gmail.com",
+    "professional_profile": "Licenciado en Ciencias Químicas por la Universidad Nacional de Cuyo, con especialización en química orgánica. Apasionado por relacionar los fenómenos científicos con la vida cotidiana de los estudiantes.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura en Ciencias Químicas",
+        "academic_place": "Universidad Nacional de Cuyo",
+        "start_date": "2006",
+        "end_date": "2010"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Posgrado en Química Ambiental",
+        "academic_place": "Universidad Nacional de Tucumán",
+        "start_date": "2011",
+        "end_date": "2014"
+      },
+      {
+        "academic_title": "Especialización en Física Moderna",
+        "academic_place": "Universidad Nacional del Litoral",
+        "start_date": "2015",
+        "end_date": "2020"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Investigador en proyectos relacionados con energías renovables o nanotecnología",
+      "Consultor para empresas en procesos químicos industriales"
     ],
     "schedules": [
       {
@@ -586,27 +593,31 @@
     "photo": "claudia-ramirez.webp",
     "nationality": "Argentina",
     "phone_number": "+12 345 6789 0",
-    "email": "luisFernandez@gmail.com",
-    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "claudiaramirez@gmail.com",
+    "professional_profile": "Profesora de Idiomas certificada por la Universidad Nacional de Mar del Plata. Con experiencia en educación bilingüe, trabaja en desarrollar las habilidades comunicativas y culturales de sus estudiantes.",
     "educations": [
       {
-        "academic_title": "Licenciatura en Economia",
-        "academic_place": "Academica de Economia de Irlanda",
-        "start_date": "2016",
-        "end_date": "2019"
+        "academic_title": "Licenciatura en Idiomas",
+        "academic_place": "Universidad Nacional de Mar del Plata",
+        "start_date": "2007",
+        "end_date": "2011"
       },
       {
-        "academic_title": "Licenciatura en Economia II",
-        "academic_place": "Academica de Ecomia de Argentina",
-        "start_date": "2019",
-        "end_date": "2022"
+        "academic_title": "Posgrado en Traducción e Interpretación",
+        "academic_place": "Universidad Nacional de Córdoba",
+        "start_date": "2012",
+        "end_date": "2016"
+      },
+      {
+        "academic_title": "Maestría en Enseñanza de Lenguas Extranjeras",
+        "academic_place": "Universidad de Edimburgo",
+        "start_date": "2016",
+        "end_date": "2020"
       }
     ],
     "experiences": [
-      "Economia",
-      "Filosofia",
-      "Prehistoria",
-      "Cultura"
+      "Traductora profesional para empresas multinacionales",
+      "Participación en intercambios culturales con escuelas en el extranjero"
     ],
     "schedules": [
       {

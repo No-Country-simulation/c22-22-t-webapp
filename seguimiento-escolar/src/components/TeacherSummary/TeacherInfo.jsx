@@ -55,7 +55,7 @@ function TeacherInfo({ photo, name, subject, nationality, phoneNumber, email, pr
             <h6>
               <strong>Educación:</strong>
             </h6>
-            <ul>
+            <ul className='text-width'>
               {
                 educations?.map((education) => (
                   <li>

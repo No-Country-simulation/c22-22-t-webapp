@@ -56,6 +56,10 @@
   color: #fff;
 }
 
+.text-width {
+  width: 50%;
+}
+
 /* Teacher Schedule */
 
 .btn-schedule_custom {
@@ -83,6 +87,9 @@
 
   .teacher-photo {
     left: 17%;
+  }
+  .text-width {
+    width: 100%;
   }
 }
 

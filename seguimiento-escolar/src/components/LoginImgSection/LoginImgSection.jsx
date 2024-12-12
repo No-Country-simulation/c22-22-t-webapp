@@ -13,7 +13,7 @@ function LoginImgSection() {
           <div></div>
           <div>
             {/* <h1 class="display-4 fw-bold">Bienvenido a Conexión Académica</h1> */}
-            <p className='lead fw-bold'>"Somos Conexión Académica, un equipo dedicado a revolucionar la forma en la que los estudiantes se conectan para potenciar el aprendizaje"</p>
+            <p className='lead fw-bold'>"Somos Conexión Académica, un equipo dedicado a revolucionar la forma de interacturar entre padres o estudiantes y el colegio para potenciar la comunicación y aprendizaje"</p>
             {/* <p class="lead">"Somos Conexión Académica, un equipo dedicado a revolucionar la forma en la que los estudiantes se conectan para potenciar el aprendizaje"</p> */}
           </div>
           <Link to="/" className="btn btn-light btn-sm mt-3 btn-about-us__custom">Ir al sitio &gt;</Link>
