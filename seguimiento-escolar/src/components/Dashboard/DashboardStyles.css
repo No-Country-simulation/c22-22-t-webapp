@@ -180,23 +180,23 @@
 }
 
 /* CALENDAR STYLE */
-.calendar-wrapper {
+.calendar-container .calendar-wrapper {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.react-calendar * {
+.calendar-container .react-calendar * {
     border: none;
     outline: none;
     background: none;
 }
 
-.react-calendar {
+.calendar-container .react-calendar {
     border: none !important;
 }
 
-.react-calendar__navigation {
+.calendar-container .react-calendar__navigation {
     display: flex;
     border-bottom: 1px solid #cfcfcf;
     padding: 1em;
@@ -204,16 +204,16 @@
     margin: 0 auto;
 }
 
-.react-calendar__month-view * {
+.calendar-container .react-calendar__month-view * {
     padding: 6px;
 }
 
-.react-calendar__month-view__days {
+.calendar-container .react-calendar__month-view__days {
     display: flex;
     justify-content: center;
 }
 
-.react-calendar__month-view__days>button {
+.calendar-container .react-calendar__month-view__days>button {
     border-radius: 50%;
     margin: 2px;
     min-width: 40px;
@@ -223,7 +223,7 @@
     transition: background-color 0.1s ease;
 }
 
-.react-calendar__month-view__days>button:hover {
+.calendar-container .react-calendar__month-view__days>button:hover {
     background-color: rgba(0, 187, 212, 0.219);
     color: var(--primary-blue);
 }
