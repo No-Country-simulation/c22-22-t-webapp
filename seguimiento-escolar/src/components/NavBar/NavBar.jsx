@@ -75,6 +75,14 @@ function NavBar() {
                         Materias
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link
+                        className={`nav-link mx-lg-2 ${location.pathname === '/estudiante/materias/2024/comunidad' ? 'active' : ''}`}
+                        to='/estudiante/materias/2024/comunidad'
+                      >
+                        Comunidad
+                      </Link>
+                    </li>
                     {/* We need to use nav-item__desktop to show in mobile navbar, but hiden it while we're in desktop. 
                           This is because bootstrap needs declare here the items that will be in both navbars (mob and desk)
                       */}
