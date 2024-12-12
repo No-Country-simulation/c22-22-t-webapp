@@ -114,13 +114,9 @@
       {
         "subject_name": "Cultura",
         "classroom": "6B",
-        "days": [
-          {
-            "day": "Miércoles",
-            "start_time": "10:00",
-            "end_time": "11:00"
-          }
-        ]
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
       },
       {
         "subject_name": "Historia Moderna",
