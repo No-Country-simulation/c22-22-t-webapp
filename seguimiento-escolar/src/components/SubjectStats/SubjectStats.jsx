@@ -64,7 +64,7 @@ function SubjectStats({ stats, teacherInfo, idSubject, year }) {
       {/* Professor */}
       <div className="stat-container">
         <div>
-          <h3>{teacherInfo.name}</h3>
+          <h3>{teacherInfo?.name}</h3>
           <p>Profesor</p>
           <div>
             <i className="bi bi-mortarboard special" />
