@@ -50,37 +50,19 @@
 /* Theme Component Styles */
 .academic-performance-container .theme-container {
     background: var(--primary-bg);
-    padding: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 0;
     border-radius: 0.5rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     min-width: 30%;
-}
-
-.academic-performance-container .u-performance-theme {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 200px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.academic-performance-container .u-performance-bar {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 0 4px;
-    height: 100%;
-    justify-content: flex-end;
 }
 
-.academic-performance-container .progress-bar {
-    width: 30px;
-    background-color: var(--primary-blue);
-    border-radius: 4px 4px 0 0;
-    transition: height 0.3s ease;
+.academic-performance-container .theme-container h3 {
+    align-self: self-start;
 }
 
 /* Improvements Component Styles */
@@ -97,23 +79,57 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 1rem;
-}
-.academic-performance-container .improvements-container .status p {
-    margin-bottom: 8px;
-    padding: 0.4em 0.8em;
-    background: rgba(104, 167, 11, 0.603);
-    border-radius: 50px;
-    color: var(--primary-bg);
+    margin: 2em 0;
 }
 
-.academic-performance-container .improvements-container .comments {
-    margin-bottom: 1rem;
+.academic-performance-container .improvements-container .status h2 {
+    font-weight: 600;
+}
+
+.academic-performance-container .improvements-container .status > div {
+    margin-bottom: 8px;
+    padding: 0.3em 0.4em;
+    background: rgba(157, 204, 70, 0.719);
+    border-radius: 24px;
+    color: var(--primary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.academic-performance-container .improvements-container .status > div p{
+    margin: 0 10px;
+    font-size: 22px;
+    color: var(--primary-bg);
+}
+.academic-performance-container .improvements-container .status > div i{
+    font-size: 34px;
+    display: grid;
+    place-items: center;
+}
+
+.academic-performance-container .improvements-container .comments-a h2,
+.academic-performance-container .improvements-container .comments-b h2 {
+    font-size: 1.2em;
 }
 
 .academic-performance-container .improvements-container ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
+    list-style: none;
+    padding: 0.4rem 1rem 0;
+    color: #5f5f5f;
+}
+.academic-performance-container .improvements-container ul li{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.academic-performance-container .improvements-container ul li p{
+    font-size: 15px;
+}
+
+.academic-performance-container .improvements-container ul li i{
+    color: rgb(157, 204, 70);
+    font-size: 24px;
+    display: grid;
 }
 
 /* Quarterly Component Styles */
@@ -124,22 +140,6 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     margin-top: 1.5rem;
     width: 70%;
-}
-
-.academic-performance-container .monthly-performance-list {
-    display: flex;
-    list-style: none;
-    padding: 1rem;
-    height: 200px;
-    align-items: flex-end;
-}
-
-.academic-performance-container .monthly-performance-item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
 }
 
 /* Folder Component Styles */
@@ -187,10 +187,18 @@
 }
 
 @media (width < 1120px) {
+
     .academic-performance-container .theme-container,
     .academic-performance-container .improvements-container,
     .academic-performance-container .annual-stats-container,
     .academic-performance-container .student-stats-container {
         min-width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media (width < 768px) {
+    .academic-performance-container .theme-container .recharts-wrapper {
+        max-width: 100%;
     }
 }
