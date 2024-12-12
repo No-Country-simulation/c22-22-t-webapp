@@ -1,0 +1,30 @@
+.color-bar {
+  width: 15px;
+  border-radius: 15px 0 0 15px;
+}
+
+.schedule-card-container__custom {
+  border-radius: 15px;
+}
+
+.schedule-card__custom {
+  border-radius: 0 15px 15px 0;
+}
+
+.days-container>i {
+  color: #4A90E2;
+}
+
+.time-container>i {
+  color: #27AE60;
+}
+
+.schedule-title {
+  width: 100%;
+  height: 100px;
+}
+
+.schedule-title>i {
+  font-size: 4rem;
+  color: #7F8C8D;
+}

@@ -8,6 +8,7 @@ import Skeleton from 'react-loading-skeleton';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { getAll } from '../services/teachers';
 
 function SubjectDetails() {
   const SubjectStats = lazy(() => import('../components/SubjectStats/SubjectStats'));
@@ -34,7 +35,9 @@ function SubjectDetails() {
         setisLoading(false);
       }, 1000)
     }
+
   }, [idSubject, isLoading]);
+
 
   // Subject's features
   const features = [
@@ -61,6 +64,8 @@ function SubjectDetails() {
     }
   ]
 
+
+
   // Getting only the prop subject_stats from getOne_id.json
   const getSubjectStatsByStudent = () => {
     const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
@@ -73,7 +78,7 @@ function SubjectDetails() {
   };
 
   // Getting only the prop teacher from getOne_id.json
-  const getSubjectTeacherByStudent = () => {
+  const getTeacherInfoByStudent = () => {
     const loggedStudentSubjectData = subject.find((data) => data.id_student === user.uid && data.year === year);
 
     if (loggedStudentSubjectData) {
@@ -96,7 +101,6 @@ function SubjectDetails() {
     return null;
   };
 
-
   return (
     <div className='container-lg mt-4'>
       <h1 className='fw-bold' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
@@ -110,7 +114,9 @@ function SubjectDetails() {
           (
             <SubjectStats
               stats={getSubjectStatsByStudent()}
-              teacher={getSubjectTeacherByStudent()}
+              teacherInfo={getTeacherInfoByStudent()}
+              idSubject={idSubject}
+              year={year}
             />
           )
           :

@@ -20,7 +20,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Laura Martínez",
+    "teacher": {
+      "id_teacher": 4,
+      "name": "Laura Martínez"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -74,7 +77,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Laura Martínez",
+    "teacher": {
+      "id_teacher": 4,
+      "name": "Laura Martínez"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -128,7 +134,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Laura Martínez",
+    "teacher": {
+      "id_teacher": 4,
+      "name": "Laura Martínez"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -182,7 +191,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Laura Martínez",
+    "teacher": {
+      "id_teacher": 4,
+      "name": "Laura Martínez"
+    },
     "units": [
       {
         "unit_number": 1,

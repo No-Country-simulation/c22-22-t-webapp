@@ -21,85 +21,8 @@
       }
     },
     "teacher": {
-      "id": 1,
-      "name": "Maria Lopez",
-      "nationality": "Argentina",
-      "phone_number": "+12 345 6789 0",
-      "email": "marialopez@gmail.com",
-      "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "education": {
-        "academic_title": "Licenciatura en Historia",
-        "academic_place": "Academica de Historia de Irlanda",
-        "start_date": "2017",
-        "end_date": "2020"
-      },
-      "experience": [
-        "Historia",
-        "Filosofia",
-        "Prehistoria",
-        "Cultura"
-      ],
-      "schedule": [
-        {
-          "subject_name": "Historia Mundial",
-          "classroom": "5B",
-          "days": [
-            {
-              "day": "Lunes",
-              "start_time": "09:00",
-              "end_time": "10:00"
-            },
-            {
-              "day": "Jueves",
-              "start_time": "09:00",
-              "end_time": "10:00"
-            }
-          ]
-        },
-        {
-          "subject_name": "Historia Antigua",
-          "classroom": "3B",
-          "schedule": [
-            {
-              "day": "Martes",
-              "start_time": "09:00",
-              "end_time": "10:00"
-            },
-            {
-              "day": "Viernes",
-              "start_time": "09:00",
-              "end_time": "10:00"
-            }
-          ]
-        },
-        {
-          "subject_name": "Cultura",
-          "classroom": "6B",
-          "schedule": [
-            {
-              "day": "Miércoles",
-              "start_time": "10:00",
-              "end_time": "11:00"
-            }
-          ]
-        },
-        {
-          "subject_name": "Historia Moderna",
-          "classroom": "2B",
-          "schedule": [
-            {
-              "day": "Miércoles",
-              "start_time": "10:00",
-              "end_time": "11:00"
-            },
-            {
-              "day": "Viernes",
-              "start_time": "11:00",
-              "end_time": "12:00"
-            }
-          ]
-        }
-      ]
+      "id_teacher": 1,
+      "name": "Maria Lopez"
     },
     "units": [
       {
@@ -298,7 +221,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Maria Lopez",
+    "teacher": {
+      "id_teacher": 1,
+      "name": "Maria Lopez"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -362,7 +288,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Maria Lopez",
+    "teacher": {
+      "id_teacher": 1,
+      "name": "Maria Lopez"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -426,7 +355,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Maria Lopez",
+    "teacher": {
+      "id_teacher": 1,
+      "name": "Maria Lopez"
+    },
     "units": [
       {
         "unit_number": 1,

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./subjectStatsStyles.css";
-function SubjectStats({ stats, teacher }) {
+function SubjectStats({ stats, teacherInfo, idSubject, year }) {
   const { present: present_attendance, total_classes } = stats?.attendance || {};
   const { assignments_submitted, total_assignments } = stats?.deliveries || {};
   const { positive_points, negative_points, total_behavior } = stats?.behavior || {};
@@ -64,12 +64,12 @@ function SubjectStats({ stats, teacher }) {
       {/* Professor */}
       <div className="stat-container">
         <div>
-          <h3>{teacher}</h3>
+          <h3>{teacherInfo.name}</h3>
           <p>Profesor</p>
           <div>
             <i className="bi bi-mortarboard special" />
           </div>
-          <Link>
+          <Link to={`/estudiante/materias/${year}/${idSubject}/profesor/${teacherInfo.id_teacher}`}>
             <button className='btn btn-link'>Ver Perfil</button>
           </Link>
         </div>

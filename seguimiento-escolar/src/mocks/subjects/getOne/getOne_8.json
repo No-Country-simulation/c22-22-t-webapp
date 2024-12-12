@@ -20,7 +20,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Sofia Torres",
+    "teacher": {
+      "id_teacher": 8,
+      "name": "Sofia Torres"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -84,7 +87,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Sofia Torres",
+    "teacher": {
+      "id_teacher": 8,
+      "name": "Sofia Torres"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -148,7 +154,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Sofia Torres",
+    "teacher": {
+      "id_teacher": 8,
+      "name": "Sofia Torres"
+    },
     "units": [
       {
         "unit_number": 1,
@@ -212,7 +221,10 @@
         "total_behavior": 10
       }
     },
-    "teacher": "Sofia Torres",
+    "teacher": {
+      "id_teacher": 8,
+      "name": "Sofia Torres"
+    },
     "units": [
       {
         "unit_number": 1,

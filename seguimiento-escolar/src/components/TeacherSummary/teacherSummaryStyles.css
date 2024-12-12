@@ -1,0 +1,97 @@
+/* Teacher Info */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+  height: 120px;
+  background: url('https://img.freepik.com/fotos-premium/vista-superior-escritorio-oficina-portatil-documentos-representacion-3d_1007521-9894.jpg?w=900');
+  border: none;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+
+.teacher-photo {
+  width: 115px;
+  height: 115px;
+  top: 100%;
+  left: 90px;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.text-color {
+  color: var(--primary-blue) !important;
+  text-align: justify;
+}
+
+.contacts-container {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.i-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4A258;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.i-container>i {
+  color: #fff;
+}
+
+/* Teacher Schedule */
+
+.btn-schedule_custom {
+  background-color: var(--primary-blue) !important;
+  border-radius: 30px !important;
+  font-size: 0.9rem !important;
+}
+
+.btn-schedule_custom:hover {
+  background-color: #084A9E !important;
+}
+
+@media (width <=992px) {
+  .contacts-container {
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: aqua; */
+  }
+
+  .contact {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .teacher-photo {
+    left: 17%;
+  }
+}
+
+@media (width <=576px) {
+  .teacher-photo {
+    left: 50%;
+  }
+
+  .name-subject-container {
+    text-align: center;
+  }
+}

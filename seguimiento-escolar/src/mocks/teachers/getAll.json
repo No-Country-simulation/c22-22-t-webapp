@@ -1,0 +1,646 @@
+[
+  {
+    "id": 1,
+    "subject": {
+      "id_subject": 1,
+      "name": "Historia",
+      "subject_year": 2023
+    },
+    "name": "Maria Lopez",
+    "photo": "maria-lopez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "marialopez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Historia",
+        "academic_place": "Academica de Historia de Irlanda",
+        "start_date": "2017",
+        "end_date": "2020"
+      },
+      {
+        "academic_title": "Licenciatura en Historia II",
+        "academic_place": "Academica de Historia de Irlanda",
+        "start_date": "2020",
+        "end_date": "2023"
+      }
+    ],
+    "experiences": [
+      "Historia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "subject": {
+      "id_subject": 2,
+      "name": "Economía",
+      "subject_year": 2023
+    },
+    "name": "Luis Fernandez",
+    "photo": "luis-fernandez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": [
+          {
+            "day": "Miércoles",
+            "start_time": "10:00",
+            "end_time": "11:00"
+          }
+        ]
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "subject": {
+      "id_subject": 3,
+      "name": "Música",
+      "subject_year": 2023
+    },
+    "name": "Carlos Rodríguez",
+    "photo": "carlos-rodriguez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "subject": {
+      "id_subject": 4,
+      "name": "Atletismo",
+      "subject_year": 2023
+    },
+    "name": "Laura Martínez",
+    "photo": "laura-martinez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "subject": {
+      "id_subject": 5,
+      "name": "Arte",
+      "subject_year": 2023
+    },
+    "name": "Pedro Fernández",
+    "photo": "pedro-fernandez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "subject": {
+      "id_subject": 6,
+      "name": "Matemática",
+      "subject_year": 2023
+    },
+    "name": "Ana López",
+    "photo": "ana-lopez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "subject": {
+      "id_subject": 7,
+      "name": "Lengua y Literatura",
+      "subject_year": 2023
+    },
+    "name": "Javier Silva",
+    "photo": "javier-silva.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "subject": {
+      "id_subject": 8,
+      "name": "Geografía",
+      "subject_year": 2023
+    },
+    "name": "Sofia Torres",
+    "photo": "sofia-torres.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "subject": {
+      "id_subject": 9,
+      "name": "Fisico Química",
+      "subject_year": 2023
+    },
+    "name": "Diego Castro",
+    "photo": "diego-castro.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "subject": {
+      "id_subject": 10,
+      "name": "Inglés",
+      "subject_year": 2023
+    },
+    "name": "Claudia Ramírez",
+    "photo": "claudia-ramirez.webp",
+    "nationality": "Argentina",
+    "phone_number": "+12 345 6789 0",
+    "email": "luisFernandez@gmail.com",
+    "professional_profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "educations": [
+      {
+        "academic_title": "Licenciatura en Economia",
+        "academic_place": "Academica de Economia de Irlanda",
+        "start_date": "2016",
+        "end_date": "2019"
+      },
+      {
+        "academic_title": "Licenciatura en Economia II",
+        "academic_place": "Academica de Ecomia de Argentina",
+        "start_date": "2019",
+        "end_date": "2022"
+      }
+    ],
+    "experiences": [
+      "Economia",
+      "Filosofia",
+      "Prehistoria",
+      "Cultura"
+    ],
+    "schedules": [
+      {
+        "subject_name": "Historia Mundial",
+        "classroom": "5B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Antigua",
+        "classroom": "3B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Cultura",
+        "classroom": "6B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "subject_name": "Historia Moderna",
+        "classroom": "2B",
+        "days": "Lunes y Jueves",
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ]
+  }
+]

@@ -13,6 +13,7 @@ import AcademicPerformance from './pages/AcademicPerformance';
 import Community from './pages/Community';
 import Grades from './pages/Grades';
 import './App.css'
+import TeacherProfile from './pages/TeacherProfile';
 
 
 function App() {
@@ -41,9 +42,9 @@ function App() {
             <Route path=':idSubject/rendimiento-academico' element={<AcademicPerformance />} />
             <Route path=':idSubject/comunidad' element={<Community />} />
             <Route path=':idSubject/calificaciones' element={<Grades />} />
+            <Route path=':idSubject/profesor/:idTeacher' element={<TeacherProfile />} />
           </Route>
         </Route>
-
       </Routes>
     </AuthProvider>
   )
