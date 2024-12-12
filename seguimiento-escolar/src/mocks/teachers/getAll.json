@@ -35,24 +35,24 @@
       },
       {
         "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "classroom": "4B",
+        "days": "Miercoles",
+        "start_time": "11:00",
+        "end_time": "12:00"
       },
       {
         "subject_name": "Cultura",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Viernes",
+        "start_time": "15:00",
+        "end_time": "16:00"
       },
       {
         "subject_name": "Historia Moderna",
         "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Martes y Miércoles",
+        "start_time": "08:00",
+        "end_time": "09:00"
       }
     ]
   },
@@ -94,32 +94,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
+        "subject_name": "Economía y Sociedad",
         "classroom": "5B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Miercoles",
+        "start_time": "13:00",
+        "end_time": "14:00"
       },
       {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Educación Financiera",
+        "classroom": "3C",
+        "days": "Jueves",
+        "start_time": "08:00",
+        "end_time": "09:00"
       },
       {
-        "subject_name": "Cultura",
+        "subject_name": "Microeconomía",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Lunes",
+        "start_time": "10:00",
+        "end_time": "11:00"
       },
       {
-        "subject_name": "Historia Moderna",
-        "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Macroeconomía",
+        "classroom": "2D",
+        "days": "Miércoles y Jueves",
+        "start_time": "16:00",
+        "end_time": "17:00"
       }
     ]
   },
@@ -158,32 +158,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
-        "classroom": "5B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Historia Antigua",
+        "subject_name": "Instrumentos Básicos",
         "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Lunes",
+        "start_time": "08:00",
+        "end_time": "09:00"
       },
       {
-        "subject_name": "Cultura",
+        "subject_name": "Historia de la Música",
+        "classroom": "3B",
+        "days": "Jueves",
+        "start_time": "12:00",
+        "end_time": "13:00"
+      },
+      {
+        "subject_name": "Apreciación Musical",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Martes",
+        "start_time": "10:00",
+        "end_time": "11:00"
       },
       {
-        "subject_name": "Historia Moderna",
+        "subject_name": "Música alrededor del Mundo",
         "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Miercoles y Viernes",
+        "start_time": "14:00",
+        "end_time": "15:00"
       }
     ]
   },
@@ -220,32 +220,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
-        "classroom": "5B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Carreras de Velocidad",
+        "classroom": "Cancha B",
+        "days": "Miercoles",
+        "start_time": "10:00",
+        "end_time": "11:00"
       },
       {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
+        "subject_name": "Carreras de Medio Fondo y Fondo",
+        "classroom": "Cancha A",
         "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "start_time": "08:00",
+        "end_time": "09:00"
       },
       {
-        "subject_name": "Cultura",
-        "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Relevos",
+        "classroom": "Cancha F",
+        "days": "Lunes y Viernes",
+        "start_time": "14:00",
+        "end_time": "15:00"
       },
       {
-        "subject_name": "Historia Moderna",
-        "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Lanzamientos",
+        "classroom": "Cancha C",
+        "days": "Martes",
+        "start_time": "13:00",
+        "end_time": "14:00"
       }
     ]
   },
@@ -287,32 +287,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
-        "classroom": "5B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Cultura",
-        "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Historia Moderna",
+        "subject_name": "Dibujo y Pintura",
         "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Lunes",
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "subject_name": "Arte Contemporáneo",
+        "classroom": "3D",
+        "days": "Jueves",
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "subject_name": "Arte Digital",
+        "classroom": "6B",
+        "days": "Lunes y Miércoles",
+        "start_time": "10:00",
+        "end_time": "11:00"
+      },
+      {
+        "subject_name": "Escultura y Modelado",
+        "classroom": "2C",
+        "days": "Viernes",
+        "start_time": "08:00",
+        "end_time": "09:00"
       }
     ]
   },
@@ -355,32 +355,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
-        "classroom": "5B",
-        "days": "Lunes y Jueves",
+        "subject_name": "Álgebra",
+        "classroom": "5C",
+        "days": "Viernes",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Geometría",
+        "classroom": "1C",
+        "days": "Martes y Jueves",
+        "start_time": "08:00",
+        "end_time": "09:00"
       },
       {
-        "subject_name": "Cultura",
+        "subject_name": "Cálculo Básico",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Miercoles",
+        "start_time": "10:00",
+        "end_time": "11:00"
       },
       {
-        "subject_name": "Historia Moderna",
+        "subject_name": "Estadística",
         "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Lunes",
+        "start_time": "10:00",
+        "end_time": "11:00"
       }
     ]
   },
@@ -423,32 +423,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
+        "subject_name": "Gramática y Redacción",
+        "classroom": "7B",
+        "days": "Martes",
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "subject_name": "Literatura Clásica y Contemporánea",
         "classroom": "5B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Miércoles y Jueves",
+        "start_time": "16:00",
+        "end_time": "17:00"
       },
       {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Cultura",
+        "subject_name": "Análisis Literario",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
+        "days": "Viernes",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Historia Moderna",
-        "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Comunicación Oral y Escrita",
+        "classroom": "4B",
+        "days": "Lunes",
+        "start_time": "10:00",
+        "end_time": "11:00"
       }
     ]
   },
@@ -485,32 +485,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
+        "subject_name": "Cartografía",
         "classroom": "5B",
-        "days": "Lunes y Jueves",
+        "days": "Viernes",
+        "start_time": "10:00",
+        "end_time": "11:00"
+      },
+      {
+        "subject_name": "Geopolítica",
+        "classroom": "3C",
+        "days": "Lunes y Miércoles",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Cultura",
+        "subject_name": "Climatología",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
+        "days": "Martes",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Historia Moderna",
-        "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Biogeografía",
+        "classroom": "2F",
+        "days": "Jueves",
+        "start_time": "14:00",
+        "end_time": "15:00"
       }
     ]
   },
@@ -553,32 +553,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
-        "classroom": "5B",
-        "days": "Lunes y Jueves",
+        "subject_name": "Física Básica",
+        "classroom": "1B",
+        "days": "Lunes y Miércoles",
+        "start_time": "15:00",
+        "end_time": "16:00"
+      },
+      {
+        "subject_name": "Química Aplicada",
+        "classroom": "3F",
+        "days": "Jueves",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Historia Antigua",
-        "classroom": "3B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
-      },
-      {
-        "subject_name": "Cultura",
+        "subject_name": "Termodinámica",
         "classroom": "6B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "days": "Miercoles y Viernes",
+        "start_time": "10:00",
+        "end_time": "11:00"
       },
       {
-        "subject_name": "Historia Moderna",
-        "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Física de los Materiales",
+        "classroom": "5B",
+        "days": "Jueves",
+        "start_time": "13:00",
+        "end_time": "14:00"
       }
     ]
   },
@@ -621,32 +621,32 @@
     ],
     "schedules": [
       {
-        "subject_name": "Historia Mundial",
-        "classroom": "5B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Inglés Básico",
+        "classroom": "7B",
+        "days": "Miercoles",
+        "start_time": "08:00",
+        "end_time": "09:00"
       },
       {
-        "subject_name": "Historia Antigua",
+        "subject_name": "Inglés Conversacional",
         "classroom": "3B",
-        "days": "Lunes y Jueves",
+        "days": "Martes y Jueves",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Cultura",
-        "classroom": "6B",
-        "days": "Lunes y Jueves",
+        "subject_name": "Inglés técnico",
+        "classroom": "3B",
+        "days": "Lunes",
         "start_time": "09:00",
         "end_time": "10:00"
       },
       {
-        "subject_name": "Historia Moderna",
-        "classroom": "2B",
-        "days": "Lunes y Jueves",
-        "start_time": "09:00",
-        "end_time": "10:00"
+        "subject_name": "Inglés intermedio",
+        "classroom": "1B",
+        "days": "Viernes",
+        "start_time": "14:00",
+        "end_time": "15:00"
       }
     ]
   }
