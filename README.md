@@ -29,6 +29,8 @@ Conexión Académica es una aplicación web diseñada para conectar estudiantes 
 **Figma**  
 [https://www.figma.com/design/svkofHQcdejpKMtGpCQXMs/NoCountry?node-id=0-1\&t=KkRd3rFULeHyJoPe-1](https://www.figma.com/design/svkofHQcdejpKMtGpCQXMs/NoCountry?node-id=0-1&t=KkRd3rFULeHyJoPe-1)  
 
+**QA:** [https://drive.google.com/drive/folders/1--RcWsXft-J7dZ7tnq6ePXjSTyBAKHfl](https://drive.google.com/drive/folders/1--RcWsXft-J7dZ7tnq6ePXjSTyBAKHfl)
+
 **Funcionalidades**
 
 * Visualizar información básica sobre el proyecto, a quien está dirigido.  
