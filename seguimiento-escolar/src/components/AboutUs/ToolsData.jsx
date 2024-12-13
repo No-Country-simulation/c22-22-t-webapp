@@ -4,7 +4,7 @@ import './AboutUs.css'
 const ToolsData = () => {
     return (
         <section className="third-about-section">
-            <h2>Con conexión academica, podrás:</h2>
+            <h2>Con Conexión Académica, podrás:</h2>
             <ul>
                 <li>
                     <i class="bi bi-bullseye"></i>

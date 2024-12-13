@@ -3,6 +3,7 @@ import StudentStats from "../components/Dashboard/StudentStats.jsx";
 import PieChart from "../components/Dashboard/PieChart.jsx";
 import Calendar from "../components/Dashboard/Calendar.jsx";
 import AnnualStats from "../components/Dashboard/AnnualStats.jsx";
+import MyClass from "../components/Dashboard/MyClass.jsx";
 import UpcomingEventsCard from "../components/UpcomingEventsCard/UpcomingEventsCard.jsx";
 
 import students from "../mocks/students.json";
@@ -48,6 +49,7 @@ function Home() {
         <PieChart attendance={student.attendance} />
         <Calendar assignments={filteredAssignments} />
       </main>
+      <MyClass />
       <AnnualStats performance={student.annual_performance} />
       <section className="events-section">
         <h2>Próximos eventos</h2>

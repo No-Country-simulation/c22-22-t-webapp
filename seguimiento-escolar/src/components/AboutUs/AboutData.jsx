@@ -6,7 +6,7 @@ const AboutData = () => {
         <section className="second-about-section">
             <article>
                 <div className="text-container">
-                    <h1>Conexión académica</h1>
+                    <h1>Conexión Académica</h1>
                     <p>
                         Fue creado como una herramienta que conecta a estudiantes,
                         padres y docentes para potenciar el aprendizaje y el desarrollo académico.
