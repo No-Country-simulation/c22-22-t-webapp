@@ -63,11 +63,8 @@ function SubjectStats({ stats, teacherInfo, idSubject, year }) {
         <div>
           <h3>{teacherInfo && teacherInfo?.name}</h3>
           <p>Profesor</p>
-          <div>
-            <i className="bi bi-mortarboard special" />
-          </div>
           <Link to={`/estudiante/materias/${year}/${idSubject}/profesor/${teacherInfo && teacherInfo?.id_teacher}`}>
-            <button className='btn btn-link'>Ver Perfil</button>
+            <button className='btn btn-see-t-profile btn-primary'> Ver Perfil</button>
           </Link>
         </div>
       </div>

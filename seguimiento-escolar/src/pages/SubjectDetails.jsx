@@ -56,11 +56,6 @@ function SubjectDetails() {
       name: "Rendimiento académico",
       icon: <i className="bi bi-graph-up-arrow" />,
       path: "rendimiento-academico"
-    }, {
-      id: 4,
-      name: "Comunidad",
-      icon: <i className="bi bi-globe2" />,
-      path: "comunidad"
     }
   ]
 

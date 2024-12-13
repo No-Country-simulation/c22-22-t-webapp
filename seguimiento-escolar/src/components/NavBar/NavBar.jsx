@@ -78,7 +78,7 @@ function NavBar() {
                     <li className="nav-item">
                       <Link
                         className={`nav-link mx-lg-2 ${location.pathname === '/estudiante/materias/2024/comunidad' ? 'active' : ''}`}
-                        to='/estudiante/materias/2024/comunidad'
+                        to='/estudiante/comunidad'
                       >
                         Comunidad
                       </Link>

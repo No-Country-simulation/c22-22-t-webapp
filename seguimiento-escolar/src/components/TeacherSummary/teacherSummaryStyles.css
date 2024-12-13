@@ -3,6 +3,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 
 .banner {
@@ -61,6 +62,10 @@
 }
 
 /* Teacher Schedule */
+.bg-card__custom {
+  background: #f5f5fa;
+  box-shadow: none;
+}
 
 .btn-schedule_custom {
   background-color: var(--primary-blue) !important;
@@ -88,9 +93,11 @@
   .teacher-photo {
     left: 17%;
   }
+
   .text-width {
     width: 100%;
   }
+
 }
 
 @media (width <=576px) {

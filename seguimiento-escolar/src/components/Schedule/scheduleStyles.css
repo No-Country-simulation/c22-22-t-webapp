@@ -5,10 +5,19 @@
 
 .schedule-card-container__custom {
   border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.schedule-card-container__custom:last-child {
+  margin-bottom: 0;
 }
 
 .schedule-card__custom {
   border-radius: 0 15px 15px 0;
+}
+
+.card-schedule-title__custom {
+  color: var(--primary-blue);
 }
 
 .days-container>i {
@@ -20,11 +29,18 @@
 }
 
 .schedule-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100px;
+  height: 48px;
+  border-radius: 15px;
+  gap: 10px;
+  background-color: var(--primary-bg);
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
 }
 
 .schedule-title>i {
-  font-size: 4rem;
-  color: #7F8C8D;
+  font-size: 1.5rem;
 }

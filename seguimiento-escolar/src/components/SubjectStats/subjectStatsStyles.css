@@ -87,90 +87,102 @@
   display: flex;
 }
 
+
+.btn-see-t-profile {
+  border-radius: 30px;
+  border-color: var(--primary-blue);
+  /* color: var(--primary-blue); */
+  background-color: var(--primary-blue) !important;
+  padding: 3px 15px;
+}
+
+.btn-see-t-profile:hover {
+  background-color: #084A9E !important;
+}
+
 /* _______________________________ */
 
 @media (width < 940px) {
   .stat-container {
-      padding: 2em;
-      margin: 0.4em 1em;
+    padding: 2em;
+    margin: 0.4em 1em;
   }
 
   .stat-container:last-child {
-      padding-top: 2em;
-      padding: 2em;
-      justify-content: center;
-      text-align: center;
+    padding-top: 2em;
+    padding: 2em;
+    justify-content: center;
+    text-align: center;
   }
 
   .main-stats-section {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
 @media (width < 800px) {
   .stat-container {
-      padding: 1.4em;
-      margin: 0;
+    padding: 1.4em;
+    margin: 0;
   }
 
   .stat-container:last-child {
-      padding: 1em;
-      padding-top: 2em;
+    padding: 1em;
+    padding-top: 2em;
   }
 
   .stat-container i.special {
-      width: 38px;
-      height: 38px;
-      font-size: 1.4rem;
-      margin: auto 0;
+    width: 38px;
+    height: 38px;
+    font-size: 1.4rem;
+    margin: auto 0;
   }
 }
 
 @media (width < 768px) {
   .stat-container {
-      padding: 1.2em;
+    padding: 1.2em;
   }
 
   .stat-container:last-child {
-      padding: 1em 0;
+    padding: 1em 0;
   }
 
   .stat-container h3 {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .stat-container p {
-      margin: 4px 0;
+    margin: 4px 0;
   }
 
   .stat-container .icon {
-      margin-top: 0;
-      font-size: 1.2rem;
+    margin-top: 0;
+    font-size: 1.2rem;
   }
 }
 
 @media (width < 632px) {
   .student-stats-container {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .stat-container {
-      border-bottom: 1px solid #cfcfcf;
-      padding: 1.4em 2em;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 1.4em 2em;
   }
 
   .stat-container:nth-child(2) {
-      border-left: 1px solid transparent;
-      border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
   }
 
   .stat-container i.special {
-      width: 44px;
-      height: 44px;
-      font-size: 1.4rem;
-      margin: auto 1em;
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+    margin: auto 1em;
   }
 }
-

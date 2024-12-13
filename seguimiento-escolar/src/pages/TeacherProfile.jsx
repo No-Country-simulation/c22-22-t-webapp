@@ -54,7 +54,7 @@ function TeacherProfile() {
         isLoading ? (
           <Loader />
         ) : (
-          <div className="row">
+          <div className="row g-4">
             <TeacherInfo
               photo={images[`../assets/teachers/${teacher.photo}`]?.default}
               name={teacher?.name}
@@ -66,8 +66,7 @@ function TeacherProfile() {
               educations={teacher?.educations}
               experiences={teacher?.experiences}
             />
-
-            <TeacherSchedule 
+            <TeacherSchedule
               schedules={teacher.schedules}
               colors={colors}
             />

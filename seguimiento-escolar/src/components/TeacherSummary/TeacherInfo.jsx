@@ -7,7 +7,7 @@ function TeacherInfo({ photo, name, subject, nationality, phoneNumber, email, pr
   return (
     <>
       {/* Columna izquierda: Perfil */}
-      <div className="col-md-8 mb-4">
+      <div className="col-md-8">
         <div className="card position-relative">
           {/* Fondo decorativo */}
           <div className="banner card-header bg-light position-relative m-0">

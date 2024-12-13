@@ -35,12 +35,12 @@ function App() {
         {/* Protected routes with layout*/}
         <Route path='/estudiante' element={<ProtectedRoute> <AppLayout /> </ProtectedRoute>}>
           <Route path='home' element={<Home />} />
+          <Route path='comunidad' element={<Community />} />
           <Route path='materias/:year' >
             <Route index element={<Subjects />} />
             <Route path=':idSubject' element={<SubjectDetails />} />
             <Route path=':idSubject/programa-anual' element={<AnualSyllabus />} />
             <Route path=':idSubject/rendimiento-academico' element={<AcademicPerformance />} />
-            <Route path='comunidad' element={<Community />} />
             <Route path=':idSubject/calificaciones' element={<Grades />} />
             <Route path=':idSubject/profesor/:idTeacher' element={<TeacherProfile />} />
           </Route>

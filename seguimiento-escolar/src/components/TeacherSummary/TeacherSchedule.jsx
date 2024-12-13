@@ -4,24 +4,24 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './teacherSummaryStyles.css'
 import Schedule from '../Schedule/Schedule';
 function TeacherSchedule({ schedules, colors }) {
-  const [visibleCount, setVisibleCount] = useState(3); 
+  const [visibleCount, setVisibleCount] = useState(3);
 
 
   // Incrementa la cantidad visible
   const handleShowMore = () => {
-    setVisibleCount((prevCount) => prevCount + 3); 
+    setVisibleCount((prevCount) => prevCount + 3);
   };
 
   return (
     <>
       {/* Columna derecha: Horarios */}
       <div className="col-md-4">
-        <div className="card shadow-sm">
-          <div className="card-body">
-            <div className='schedule-title d-flex flex-column justify-content-center align-items-center'>
+        <div className="card bg-card__custom">
+          <div className="card-body p-0">
+            <div className='schedule-title'>
               <i className="bi bi-calendar-week" />
+              <h4 className='m-0 p-0 fw-bold'>Horario de Clases</h4>
             </div>
-            
             {/* Mostrar solo los horarios visibles */}
             {schedules.slice(0, visibleCount).map((schedule, index) => (
               <Schedule
@@ -37,10 +37,7 @@ function TeacherSchedule({ schedules, colors }) {
 
             {/* Botón para cargar más horarios */}
             {visibleCount < schedules.length && ( // Mostrar botón solo si hay más horarios
-              <button
-                className="btn btn-secondary btn-schedule_custom w-100"
-                onClick={handleShowMore}
-              >
+              <button className="btn btn-secondary btn-schedule_custom w-100 mt-2" onClick={handleShowMore}>
                 Ver más
               </button>
             )}
