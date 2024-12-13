@@ -35,6 +35,28 @@
   color: inherit;
 }
 
+.t-footer-color__custom {
+  color: var(--primary-blue);
+}
+
+.btn-team {
+  color: #00aaff; /* Azul claro */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 90%;
+  vertical-align: baseline !important;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  color: #007acc;
+}
+
+.no-bullets {
+  list-style-type: none; 
+}
+
+
 
 @media (320px <=width <=480px) {
   .footer-container {
