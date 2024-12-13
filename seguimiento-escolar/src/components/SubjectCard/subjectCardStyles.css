@@ -1,6 +1,6 @@
 .card__custom {
-  width: 360px;
-  height: 450px;
+  width: 360px !important;
+  height: 450px !important;
   padding: 25px;
   border: none !important;
   border-radius: 12px;
