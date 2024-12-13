@@ -6,6 +6,7 @@ import TeacherSchedule from '../components/TeacherSummary/TeacherSchedule';
 import Loader from '../components/Loader/Loader'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import BackButton from '../components/BackButton/BackButton';
 
 function TeacherProfile() {
   const [teacher, setTeacher] = useState([]);
@@ -49,6 +50,11 @@ function TeacherProfile() {
 
   return (
     <div className="container py-4">
+      <div className='mb-2'>
+        <BackButton
+          path={`../${idSubject}`}
+        />
+      </div>
       <h1 className="text-center fw-bold mb-4">Detalle del profesor</h1>
       {
         isLoading ? (

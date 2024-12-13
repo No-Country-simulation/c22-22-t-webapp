@@ -68,16 +68,16 @@ function AnualSyllabus() {
 
   return (
     <div className="container-lg mt-4">
-      <div className='d-flex justify-content-between align-items-center mb-4' style={{ width: '100%' }}>
+      <div className='mb-3' style={{ width: '100%' }}>
         <BackButton
           path={`../${idSubject}`}
         />
-        <SubjectYearFilter
+        {/* <SubjectYearFilter
           idSubject={idSubject}
           year={year}
           availableYears={getYearsByStudent()}
           subjectFeaturePath={'programa-anual'}
-        />
+        /> */}
       </div>
       <h1 className='fw-bold mb-3' style={{ color: "#032D6C" }}>{getSubjectNameByStudent()}</h1>
       <div className='mb-5'>
