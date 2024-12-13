@@ -358,7 +358,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     margin: auto;
-    overflow-x: auto;
 }
 
 .my-class-container h3 {
@@ -372,10 +371,26 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    /* background-color: #fff; */
     border-radius: 8px;
-    overflow: hidden;
+    overflow-x: scroll;
+    padding: 1em;
 }
+
+/* ________ */
+.schedule-table::-webkit-scrollbar {
+    height: var(--sb-size-x);
+}
+
+.schedule-table::-webkit-scrollbar-track {
+    background: var(--sb-track-color-x);
+    border-radius: 2px;
+}
+
+.schedule-table::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color-x);
+    border-radius: 2px;
+}
+/* ________ */
 
 .schedule-row {
     display: contents;
