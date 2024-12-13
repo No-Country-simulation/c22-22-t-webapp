@@ -40,7 +40,7 @@ Visualizar …
 ![Landing](./assets/conexion-academica-preview/landing.webp)  
 ![Login](./assets/conexion-academica-preview/login.webp)  
 ![Mi escritorio](./assets/conexion-academica-preview/mi-escritorio.webp)
-![Materias](./conexion-academica-preview/materias.webp)
+![Materias](./assets/conexion-academica-preview/materias.webp)
 ![Detalle de materia](./assets/conexion-academica-preview/detalle-materia.webp)
 ![Programa anual](./assets/conexion-academica-preview/programa-anual.webp)
 ![Calificaciones](./assets/conexion-academica-preview/landing.webp)
