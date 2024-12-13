@@ -350,6 +350,73 @@
 
 /* _______________________________ */
 
+
+.my-class-container {
+    padding: 20px;
+    background-color: var(--primary-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.my-class-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.schedule-table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.schedule-row {
+    display: contents;
+}
+
+.schedule-header {
+    background-color: #dceafe;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #fff;
+    border-radius: 12px;
+}
+
+.schedule-header:last-child {
+    border-right: none;
+}
+
+.schedule-cell {
+    background-color: #e8f3fd;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #333;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-radius: 12px;
+}
+
+.schedule-cell:last-child {
+    border-right: none;
+}
+
+.schedule-cell:hover {
+    background-color: #cbe2f8;
+    transition: background-color 0.2s ease;
+}
+
+
+/* _______________________________ */
 @media (width < 940px) {
     .stat-container {
         padding: 2em;
