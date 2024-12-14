@@ -20,7 +20,7 @@ function Footer() {
         <img src={logo} alt="logo" />
       </div>
       <small>Copyright &copy; {new Date().getFullYear()}
-        <button className='btn btn-team btn-link m-0 p-0 pe-1 ps-1' onClick={handleClick}><i className="bi bi-people-fill me-2"></i> Equipo-c22-22-t-webapp. </button>
+        <button className='btn btn-team btn-link m-0 p-0 pe-1 ps-1' onClick={handleClick}><i className="bi bi-people-fill"></i> Equipo-c22-22-t-webapp. </button>
         Todos los derechos reservados.
       </small>
       <Modal show={showModal} onClose={handleClose} title="Información">
